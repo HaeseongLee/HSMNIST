@@ -1,0 +1,1000 @@
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000001.jpg 295,347,309,361,4 210,310,266,366,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000002.jpg 23,304,37,318,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000003.jpg 350,224,372,246,1 117,21,131,35,2 168,39,182,53,2 260,216,302,258,0 240,96,282,138,6 112,220,140,248,0 76,163,132,219,6 157,221,199,263,2 151,121,235,205,1 14,43,126,155,1 181,15,265,99,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000004.jpg 101,159,115,173,7 7,289,35,317,9 197,272,225,300,0 34,303,62,331,5 182,51,238,107,8 165,372,207,414,0 296,165,380,249,5 244,89,328,173,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000005.jpg 35,315,57,337,2 94,223,116,245,8 371,105,393,127,4 257,85,313,141,4 5,13,33,41,4 274,315,330,371,8 273,197,301,225,4 21,83,63,125,0 223,84,251,112,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000006.jpg 275,132,297,154,1 77,314,99,336,9 174,136,258,220,7 207,258,319,370,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000007.jpg 249,293,271,315,9 20,260,34,274,3 101,40,157,96,9 260,357,288,385,2 245,127,287,169,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000008.jpg 121,105,143,127,2 354,223,376,245,2 96,26,110,40,1 249,160,277,188,3 9,161,93,245,2 263,56,375,168,6 185,214,269,298,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000009.jpg 387,125,409,147,3 242,39,256,53,7 377,303,391,317,4 36,88,92,144,8 249,197,291,239,0 83,312,111,340,3 137,343,179,385,5 34,27,76,69,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000010.jpg 24,163,80,219,1 235,197,263,225,9 293,80,349,136,2 276,343,304,371,3 36,287,148,399,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000011.jpg 135,289,157,311,5 35,64,49,78,1 130,190,158,218,6 104,27,146,69,4 232,30,288,86,5 33,330,89,386,0 11,167,39,195,8 288,179,330,221,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000012.jpg 220,27,262,69,0 329,249,371,291,4 236,321,264,349,4 328,336,370,378,6 120,145,176,201,8 9,44,51,86,4 114,16,226,128,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000013.jpg 286,216,300,230,7 262,344,284,366,3 142,72,156,86,6 50,33,162,145,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000014.jpg 351,150,379,178,7 128,223,156,251,4 284,7,368,91,1 214,217,326,329,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000015.jpg 264,201,292,229,1 253,382,281,410,0 123,61,179,117,5 200,267,242,309,4 91,220,119,248,8 37,272,93,328,4 114,188,198,272,9 287,145,371,229,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000016.jpg 48,135,62,149,9 385,238,413,266,1 124,235,152,263,7 114,281,226,393,2 80,140,164,224,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000017.jpg 301,354,323,376,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000018.jpg 370,84,392,106,1 12,211,26,225,4 42,46,70,74,0 68,311,124,367,7 136,167,164,195,1 189,139,273,223,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000019.jpg 80,254,102,276,7 279,219,301,241,2 307,24,349,66,4 268,286,310,328,5 328,351,384,407,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000020.jpg 83,62,97,76,5 128,324,170,366,5 64,76,106,118,6 253,252,309,308,7 143,7,199,63,8 197,291,253,347,0 146,89,230,173,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000021.jpg 396,151,410,165,4 63,144,105,186,1 249,269,333,353,4 290,111,402,223,5 99,126,211,238,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000022.jpg 262,184,276,198,0 203,164,259,220,7 36,19,78,61,3 24,89,80,145,4 160,47,216,103,0 232,278,274,320,2 255,26,367,138,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000023.jpg 139,75,195,131,2 81,23,109,51,0 9,199,51,241,1 259,174,315,230,2 140,187,252,299,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000024.jpg 184,208,198,222,5 274,122,316,164,9 140,373,168,401,6 123,63,179,119,1 4,50,60,106,2 132,250,188,306,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000025.jpg 277,363,291,377,1 181,103,237,159,0 262,41,318,97,0 236,293,292,349,2 193,62,235,104,1 179,6,221,48,8 292,326,376,410,8 38,107,122,191,3 99,309,183,393,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000026.jpg 360,348,374,362,6 211,3,239,31,3 265,98,321,154,4 165,101,221,157,7 66,6,150,90,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000027.jpg 263,304,277,318,6 3,131,17,145,7 93,3,107,17,0 129,33,157,61,8 306,134,334,162,5 352,22,408,78,2 192,366,220,394,4 36,197,120,281,2 268,179,352,263,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000028.jpg 53,23,109,79,1 304,252,346,294,6 146,133,174,161,5 361,174,403,216,5 192,44,304,156,7 330,50,414,134,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000029.jpg 378,267,400,289,1 59,210,81,232,5 281,373,309,401,5 154,211,182,239,8 237,12,321,96,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000030.jpg 204,353,218,367,8 78,229,100,251,1 234,301,262,329,0 94,272,150,328,4 336,363,364,391,8 187,112,215,140,6 241,143,297,199,6 78,99,190,211,1 246,12,358,124,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000031.jpg 96,190,110,204,8 47,313,75,341,2 299,383,327,411,1 168,25,196,53,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000032.jpg 338,97,352,111,0 328,13,350,35,0 194,126,250,182,4 119,189,175,245,1 8,217,36,245,9 291,225,333,267,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000033.jpg 113,186,197,270,2 294,32,378,116,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000034.jpg 34,32,48,46,6 215,85,229,99,4 129,192,241,304,7 292,127,376,211,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000035.jpg 185,1,213,29,4 65,99,107,141,8 246,99,274,127,3 299,3,327,31,1 115,355,171,411,9 340,182,396,238,0 246,300,358,412,7 162,137,274,249,5 43,160,155,272,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000036.jpg 40,238,62,260,2 240,326,254,340,9 34,366,56,388,8 355,226,411,282,3 164,122,192,150,5 99,181,141,223,2 128,311,156,339,0 348,113,404,169,8 91,224,133,266,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000037.jpg 10,177,32,199,0 131,214,145,228,4 123,227,151,255,4 357,320,413,376,0 176,31,260,115,8 177,272,289,384,2 317,72,401,156,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000038.jpg 325,262,339,276,3 325,315,381,371,3 184,228,240,284,4 252,333,294,375,1 119,289,175,345,2 90,217,146,273,9 364,73,392,101,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000039.jpg 310,328,332,350,5 244,315,266,337,1 339,384,361,406,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000040.jpg 370,357,384,371,7 82,229,104,251,0 51,330,79,358,4 70,47,126,103,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000041.jpg 64,251,86,273,4 82,149,110,177,1 12,284,68,340,6 284,198,340,254,9 158,124,200,166,4 127,324,183,380,0 13,55,55,97,5 111,190,223,302,0 179,23,291,135,1 312,29,396,113,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000042.jpg 27,358,41,372,7 119,117,133,131,5 203,145,217,159,5 352,173,394,215,3 65,119,177,231,3 202,36,314,148,1 231,215,343,327,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000043.jpg 368,392,390,414,5 197,112,239,154,0 41,69,153,181,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000044.jpg 192,303,206,317,4 85,289,107,311,8 58,107,114,163,5 170,334,212,376,6 329,285,371,327,3 365,257,393,285,1 115,74,171,130,4 238,235,322,319,7 164,165,248,249,9 272,42,356,126,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000045.jpg 229,208,341,320,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000046.jpg 347,248,361,262,0 72,276,114,318,1 172,201,214,243,7 85,221,127,263,8 178,80,262,164,6 269,270,353,354,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000047.jpg 19,176,41,198,2 165,129,179,143,0 176,322,198,344,7 19,29,61,71,2 351,176,393,218,1 237,70,293,126,0 85,71,127,113,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000048.jpg 293,156,315,178,4 237,372,251,386,5 304,243,326,265,5 131,318,173,360,7 70,192,126,248,1 149,376,177,404,0 159,100,243,184,8 168,219,280,331,0 274,9,386,121,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000049.jpg 216,116,230,130,4 112,303,154,345,0 250,133,292,175,7 328,276,384,332,1 154,143,196,185,8 52,220,108,276,7 226,182,338,294,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000050.jpg 69,1,91,23,9 103,59,117,73,2 345,169,401,225,0 68,294,152,378,2 110,185,222,297,0 155,9,267,121,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000051.jpg 244,77,258,91,9 60,69,74,83,6 285,48,307,70,2 132,346,174,388,2 213,351,269,407,6 77,311,133,367,9 289,277,345,333,6 104,131,216,243,7 198,270,282,354,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000052.jpg 169,82,211,124,3 341,172,397,228,3 340,308,396,364,1 82,65,110,93,7 203,109,315,221,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000053.jpg 183,17,225,59,1 348,261,390,303,8 82,178,124,220,6 240,269,282,311,5 283,195,325,237,1 31,1,115,85,1 126,71,238,183,1 150,293,234,377,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000054.jpg 48,32,70,54,6 275,118,297,140,3 179,315,201,337,6 167,67,209,109,8 63,341,91,369,7 246,5,330,89,1 77,169,189,281,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000055.jpg 80,209,102,231,5 224,349,246,371,5 7,36,49,78,8 73,103,101,131,4 263,172,305,214,6 331,18,373,60,7 179,287,207,315,0 350,307,392,349,0 169,27,281,139,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000056.jpg 56,359,112,415,2 312,50,340,78,8 225,174,281,230,5 18,197,130,309,1 143,319,227,403,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000057.jpg 43,81,99,137,1 296,143,324,171,5 128,219,170,261,4 191,200,247,256,4 61,324,145,408,9 121,34,233,146,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000058.jpg 64,362,78,376,6 294,229,308,243,6 151,325,173,347,5 80,359,136,415,2 331,219,359,247,6 136,48,220,132,3 222,39,334,151,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000059.jpg 225,305,239,319,4 167,139,189,161,6 155,211,183,239,2 278,17,320,59,0 126,351,182,407,6 46,359,74,387,2 318,346,360,388,2 331,118,359,146,8 14,174,126,286,3 205,129,317,241,7 2,30,114,142,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000060.jpg 227,83,249,105,2 356,101,378,123,4 35,361,49,375,1 29,104,71,146,9 201,178,243,220,1 290,283,346,339,6 49,184,91,226,6 152,236,194,278,6 101,276,213,388,5 12,257,96,341,7 97,22,181,106,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000061.jpg 163,340,185,362,3 156,368,170,382,9 10,167,38,195,2 29,278,71,320,0 322,45,378,101,9 84,95,168,179,2 303,138,415,250,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000062.jpg 242,79,284,121,4 65,369,107,411,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000063.jpg 220,147,234,161,9 3,181,45,223,2 387,354,415,382,0 28,86,70,128,9 41,225,97,281,7 253,154,281,182,4 256,279,298,321,6 198,37,310,149,3 136,246,248,358,5 323,166,407,250,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000064.jpg 20,139,34,153,4 349,153,363,167,2 279,220,321,262,9 140,155,168,183,7 142,30,198,86,1 130,290,214,374,2 250,53,362,165,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000065.jpg 231,20,253,42,2 291,139,313,161,3 302,370,316,384,6 170,57,212,99,7 19,82,47,110,0 215,307,243,335,7 129,132,241,244,8 86,277,198,389,8 265,2,377,114,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000066.jpg 294,320,322,348,2 211,277,239,305,8 214,32,256,74,5 370,96,412,138,4 333,302,389,358,9 21,18,63,60,1 268,180,352,264,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000067.jpg 117,265,139,287,9 19,22,41,44,7 366,239,388,261,7 367,377,395,405,5 30,57,86,113,2 230,123,342,235,6 116,163,200,247,0 14,227,98,311,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000068.jpg 340,225,354,239,6 41,105,125,189,7 303,214,415,326,3 185,179,269,263,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000069.jpg 162,373,184,395,8 197,172,253,228,0 283,263,339,319,1 123,20,151,48,7 294,347,322,375,4 350,118,378,146,2 87,91,199,203,1 247,106,359,218,8 126,291,210,375,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000070.jpg 150,7,206,63,9 306,295,362,351,2 58,386,86,414,5 40,165,68,193,7 217,4,245,32,2 150,94,262,206,0 13,11,97,95,7 285,132,369,216,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000071.jpg 256,27,270,41,9 177,245,219,287,4 325,50,367,92,4 166,288,208,330,5 69,87,125,143,9 266,308,322,364,3 34,340,76,382,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000072.jpg 160,349,174,363,0 136,359,158,381,2 315,240,329,254,9 58,14,170,126,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000073.jpg 168,268,190,290,5 209,67,265,123,8 294,288,350,344,8 356,13,398,55,3 249,320,277,348,9 196,222,252,278,9 135,371,177,413,1 290,141,402,253,3 102,120,214,232,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000074.jpg 105,70,127,92,5 308,364,330,386,1 326,166,382,222,5 260,246,288,274,7 180,231,208,259,1 264,289,320,345,6 161,82,273,194,6 70,256,154,340,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000075.jpg 250,349,272,371,5 370,321,392,343,5 193,43,207,57,8 160,54,216,110,8 117,221,229,333,2 271,139,355,223,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000076.jpg 361,62,383,84,1 42,48,56,62,4 207,5,221,19,3 40,260,96,316,4 193,30,249,86,5 11,147,67,203,3 345,190,387,232,3 153,244,237,328,8 267,251,379,363,8 88,134,200,246,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000077.jpg 68,350,96,378,3 197,90,225,118,1 111,169,223,281,1 293,272,405,384,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000078.jpg 63,34,175,146,5 45,307,129,391,2 231,264,315,348,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000079.jpg 314,287,328,301,6 256,114,298,156,2 147,29,231,113,8 12,103,124,215,3 254,156,338,240,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000080.jpg 216,247,244,275,4 189,314,245,370,2 271,149,299,177,0 80,208,192,320,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000081.jpg 302,120,316,134,6 236,152,250,166,8 316,186,372,242,9 39,242,81,284,2 265,56,321,112,1 196,34,238,76,0 128,107,184,163,3 324,40,408,124,6 220,219,304,303,1 305,280,389,364,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000082.jpg 104,213,118,227,7 79,373,121,415,7 169,97,225,153,9 48,176,104,232,0 234,161,262,189,3 276,188,360,272,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000083.jpg 182,85,196,99,8 69,96,83,110,5 246,255,358,367,7 11,189,95,273,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000084.jpg 240,210,254,224,4 364,288,386,310,8 215,192,229,206,7 161,187,189,215,9 115,241,143,269,1 30,230,114,314,2 197,264,309,376,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000085.jpg 56,173,98,215,9 357,136,399,178,5 377,38,405,66,5 321,119,349,147,5 122,329,150,357,6 69,63,153,147,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000086.jpg 84,295,126,337,1 305,305,361,361,9 339,53,395,109,2 144,1,200,57,2 168,193,224,249,7 106,124,148,166,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000087.jpg 24,226,38,240,5 202,103,224,125,9 239,180,267,208,5 224,349,252,377,1 105,208,133,236,2 273,20,357,104,3 113,86,197,170,7 247,322,331,406,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000088.jpg 122,260,136,274,5 243,131,257,145,7 10,285,66,341,8 262,94,346,178,3 8,168,92,252,7 295,294,379,378,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000089.jpg 105,158,127,180,4 196,145,252,201,0 243,97,271,125,5 302,212,386,296,9 129,282,213,366,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000090.jpg 51,55,65,69,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000091.jpg 281,6,295,20,9 36,41,50,55,7 143,290,199,346,6 275,109,303,137,9 127,133,155,161,9 170,197,198,225,2 309,33,365,89,8 322,263,406,347,4 211,191,295,275,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000092.jpg 12,33,124,145,2 196,199,308,311,0 277,325,361,409,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000093.jpg 307,246,329,268,5 10,133,24,147,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000094.jpg 344,138,358,152,2 305,87,319,101,4 263,48,277,62,7 348,313,390,355,1 304,162,360,218,0 209,218,265,274,4 162,45,218,101,8 7,191,35,219,9 78,326,162,410,5 26,138,138,250,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000095.jpg 184,280,198,294,1 332,370,374,412,6 198,230,240,272,2 224,104,252,132,3 6,42,118,154,5 253,81,337,165,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000096.jpg 186,168,228,210,9 308,17,350,59,1 21,258,49,286,8 373,197,401,225,6 352,95,380,123,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000097.jpg 286,82,314,110,7 293,158,335,200,8 66,280,178,392,5 52,4,164,116,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000098.jpg 329,185,351,207,0 142,330,164,352,3 122,41,178,97,1 295,255,323,283,7 323,315,351,343,7 312,81,368,137,6 34,124,146,236,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000099.jpg 251,232,265,246,2 56,347,78,369,8 112,16,140,44,3 385,358,413,386,1 43,81,71,109,6 296,358,324,386,9 268,38,352,122,0 148,302,260,414,4 262,207,346,291,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000100.jpg 306,168,328,190,4 182,46,196,60,6 310,50,352,92,6 238,183,266,211,8 258,302,370,414,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000101.jpg 155,211,211,267,6 192,155,234,197,3 328,179,384,235,2 153,348,181,376,3 26,224,54,252,3 222,358,278,414,6 210,53,294,137,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000102.jpg 163,121,185,143,4 169,157,191,179,1 122,182,178,238,9 239,279,281,321,9 139,262,181,304,3 175,27,287,139,1 298,16,410,128,3 41,0,153,112,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000103.jpg 213,225,227,239,5 335,15,357,37,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000104.jpg 273,85,329,141,2 129,17,241,129,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000105.jpg 52,300,66,314,0 319,8,333,22,7 3,318,17,332,3 122,59,178,115,7 137,202,179,244,5 319,94,403,178,1 100,291,212,403,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000106.jpg 63,243,85,265,0 239,36,261,58,9 67,156,81,170,1 17,167,45,195,8 120,372,148,400,2 271,46,383,158,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000107.jpg 54,46,110,102,3 284,126,312,154,7 217,88,245,116,1 82,152,138,208,6 135,277,177,319,2 41,262,83,304,7 267,246,379,358,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000108.jpg 97,257,139,299,4 223,172,279,228,5 231,316,287,372,3 244,256,286,298,7 153,59,181,87,4 283,214,325,256,8 229,0,341,112,8 33,174,117,258,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000109.jpg 216,270,238,292,0 240,60,262,82,3 203,360,245,402,0 287,28,329,70,6 202,216,258,272,1 94,108,150,164,7 3,292,115,404,4 200,85,312,197,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000110.jpg 230,121,244,135,7 183,221,225,263,8 296,56,338,98,2 312,155,396,239,1 85,56,197,168,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000111.jpg 31,227,73,269,8 261,229,289,257,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000112.jpg 291,338,305,352,6 194,374,208,388,2 92,263,134,305,1 70,323,98,351,8 246,183,288,225,4 128,308,184,364,4 154,361,196,403,2 312,329,368,385,1 104,130,216,242,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000113.jpg 343,40,357,54,0 253,165,267,179,1 80,103,122,145,1 256,251,298,293,0 190,21,246,77,4 92,24,134,66,1 144,202,228,286,9 99,327,183,411,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000114.jpg 103,99,125,121,2 307,249,335,277,0 323,38,351,66,4 212,78,254,120,2 209,192,293,276,1 290,146,374,230,4 2,76,86,160,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000115.jpg 120,170,142,192,0 164,272,186,294,2 74,373,88,387,0 266,273,294,301,9 249,74,277,102,0 196,168,280,252,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000116.jpg 361,76,375,90,8 286,271,308,293,3 190,132,246,188,9 164,271,206,313,7 87,368,129,410,8 227,359,269,401,8 104,128,160,184,0 259,4,371,116,8 285,146,369,230,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000117.jpg 173,53,195,75,5 305,233,319,247,1 30,114,58,142,0 1,149,113,261,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000118.jpg 375,214,389,228,9 64,10,78,24,2 355,222,369,236,6 188,340,244,396,4 143,222,199,278,6 102,6,186,90,9 9,246,93,330,7 169,138,253,222,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000119.jpg 171,380,185,394,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000120.jpg 268,39,282,53,8 85,31,99,45,0 292,132,334,174,3 41,188,97,244,6 22,103,78,159,0 182,209,210,237,0 126,315,182,371,6 296,22,408,134,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000121.jpg 310,283,338,311,8 136,97,248,209,9 179,256,291,368,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000122.jpg 125,19,147,41,1 186,41,208,63,0 33,162,47,176,8 242,239,284,281,8 32,215,74,257,3 42,179,70,207,4 338,204,394,260,4 88,273,172,357,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000123.jpg 310,194,332,216,6 80,383,108,411,5 211,277,239,305,8 314,286,342,314,3 198,60,254,116,8 377,149,405,177,0 82,175,138,231,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000124.jpg 25,304,53,332,1 84,28,112,56,1 220,23,332,135,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000125.jpg 269,341,325,397,3 297,249,381,333,3 214,41,298,125,6 85,224,169,308,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000126.jpg 322,196,344,218,0 123,320,145,342,8 277,264,299,286,6 15,317,43,345,6 283,331,325,373,0 269,73,311,115,5 211,295,267,351,9 192,130,276,214,1 40,215,152,327,2 53,9,165,121,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000127.jpg 174,366,196,388,0 188,143,216,171,6 4,59,32,87,2 186,293,228,335,2 307,158,335,186,9 302,78,386,162,3 51,243,163,355,8 233,281,317,365,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000128.jpg 251,219,265,233,2 273,62,315,104,3 187,112,271,196,9 181,270,265,354,7 52,218,164,330,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000129.jpg 350,50,372,72,3 386,64,414,92,7 357,177,399,219,0 104,7,132,35,3 178,26,262,110,9 25,259,109,343,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000130.jpg 258,83,314,139,1 5,124,61,180,9 263,205,319,261,8 358,46,414,102,1 170,254,282,366,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000131.jpg 263,81,285,103,2 77,2,91,16,3 309,360,331,382,8 328,171,384,227,8 207,169,235,197,2 61,126,103,168,7 218,313,246,341,8 44,260,156,372,0 151,206,263,318,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000132.jpg 110,205,124,219,7 363,277,377,291,5 214,180,236,202,6 133,68,189,124,9 343,207,371,235,7 302,337,330,365,3 313,84,355,126,9 186,43,228,85,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000133.jpg 378,199,392,213,8 266,226,288,248,6 59,327,87,355,5 143,329,199,385,0 99,202,211,314,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000134.jpg 51,275,65,289,7 183,396,197,410,5 48,137,90,179,4 170,193,226,249,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000135.jpg 234,173,256,195,3 116,379,130,393,8 46,383,68,405,5 41,276,83,318,4 200,198,284,282,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000136.jpg 259,192,301,234,0 57,318,85,346,2 243,296,271,324,8 145,65,229,149,2 253,71,365,183,5 49,33,133,117,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000137.jpg 74,254,88,268,2 290,336,312,358,2 299,275,341,317,5 187,84,243,140,9 341,233,397,289,8 26,196,68,238,2 353,155,409,211,3 157,114,185,142,7 242,193,326,277,7 9,311,93,395,5 87,210,199,322,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000138.jpg 366,20,388,42,6 71,274,85,288,4 153,235,265,347,9 229,38,313,122,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000139.jpg 2,230,24,252,1 223,368,237,382,1 13,253,27,267,0 356,360,398,402,9 177,260,261,344,6 269,27,381,139,9 40,235,152,347,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000140.jpg 223,235,265,277,8 37,17,93,73,6 57,168,169,280,5 271,201,355,285,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000141.jpg 295,61,317,83,7 140,158,168,186,8 24,283,80,339,6 105,213,161,269,7 348,213,404,269,5 326,19,382,75,7 262,333,318,389,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000142.jpg 223,304,245,326,5 184,310,206,332,3 67,195,109,237,7 2,249,86,333,0 201,47,313,159,4 129,177,241,289,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000143.jpg 324,51,352,79,0 92,58,120,86,3 364,89,392,117,8 138,40,166,68,4 192,71,276,155,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000144.jpg 127,266,149,288,4 265,231,349,315,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000145.jpg 43,132,99,188,4 132,62,188,118,7 6,31,90,115,4 110,231,222,343,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000146.jpg 47,259,61,273,1 134,90,176,132,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000147.jpg 304,354,318,368,4 376,292,390,306,4 139,238,153,252,4 190,313,274,397,2 172,113,284,225,3 321,14,405,98,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000148.jpg 289,289,311,311,0 15,82,71,138,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000149.jpg 331,278,353,300,2 192,0,214,22,8 82,134,96,148,9 68,134,180,246,4 308,15,392,99,2 146,25,258,137,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000150.jpg 77,147,99,169,0 347,63,403,119,8 307,141,363,197,0 173,35,201,63,6 1,227,29,255,3 158,235,242,319,7 41,293,153,405,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000151.jpg 80,32,94,46,1 139,141,153,155,8 224,221,252,249,5 226,280,282,336,1 301,292,357,348,2 72,95,184,207,3 269,65,381,177,4 115,230,227,342,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000152.jpg 208,206,230,228,4 31,262,45,276,4 65,4,107,46,7 370,149,412,191,8 0,302,56,358,7 155,54,267,166,5 64,138,148,222,9 98,289,210,401,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000153.jpg 102,381,124,403,8 17,271,59,313,7 4,113,46,155,8 45,34,87,76,1 354,151,382,179,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000154.jpg 167,186,189,208,0 137,61,193,117,9 271,58,327,114,0 89,108,117,136,3 158,349,200,391,1 283,286,325,328,1 108,218,136,246,3 61,253,173,365,7 298,141,410,253,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000155.jpg 237,255,259,277,5 348,227,362,241,6 281,212,323,254,1 150,262,178,290,7 364,221,392,249,9 19,153,131,265,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000156.jpg 343,341,365,363,7 256,123,312,179,5 9,321,51,363,0 174,351,202,379,7 253,293,337,377,5 119,64,203,148,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000157.jpg 85,362,107,384,0 265,96,307,138,3 108,243,220,355,1 220,294,332,406,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000158.jpg 319,175,333,189,1 346,322,368,344,8 142,99,198,155,1 327,351,383,407,3 330,227,358,255,7 235,56,263,84,0 146,256,188,298,7 10,268,94,352,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000159.jpg 2,269,16,283,3 74,180,102,208,3 338,214,394,270,4 202,299,230,327,2 30,221,142,333,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000160.jpg 356,272,378,294,6 39,281,61,303,9 87,154,143,210,6 50,309,106,365,6 222,12,250,40,7 269,29,311,71,1 276,118,332,174,1 214,258,270,314,0 7,26,119,138,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000161.jpg 292,280,314,302,2 316,263,372,319,0 156,351,184,379,6 337,358,379,400,2 77,77,161,161,3 278,77,362,161,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000162.jpg 104,109,126,131,5 168,247,182,261,7 252,73,266,87,4 106,163,148,205,2 182,336,210,364,3 152,80,264,192,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000163.jpg 348,28,370,50,1 281,392,295,406,8 106,46,128,68,0 39,45,81,87,3 0,274,42,316,4 328,206,384,262,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000164.jpg 349,225,371,247,0 382,91,396,105,6 330,120,352,142,0 156,249,184,277,7 80,184,136,240,9 153,352,209,408,1 208,210,236,238,0 197,41,309,153,0 242,206,326,290,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000165.jpg 200,349,256,405,0 203,83,259,139,1 267,75,379,187,5 24,108,108,192,0 18,270,130,382,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000166.jpg 306,337,362,393,2 276,177,304,205,9 195,72,307,184,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000167.jpg 259,334,281,356,4 27,0,49,22,7 190,3,212,25,9 255,24,297,66,0 63,60,91,88,8 0,216,42,258,2 360,153,402,195,1 288,269,372,353,9 228,90,312,174,0 84,132,196,244,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000168.jpg 396,398,410,412,7 96,340,152,396,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000169.jpg 48,299,62,313,3 160,89,216,145,6 96,163,124,191,3 118,211,146,239,6 290,69,318,97,6 189,297,273,381,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000170.jpg 43,295,65,317,9 126,273,140,287,6 199,321,255,377,1 302,138,330,166,2 1,158,57,214,6 355,194,383,222,7 196,199,224,227,3 137,4,193,60,2 81,74,165,158,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000171.jpg 307,182,329,204,1 196,287,218,309,5 230,360,258,388,6 260,148,302,190,7 276,12,304,40,2 127,101,239,213,7 225,212,309,296,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000172.jpg 314,162,336,184,1 26,75,40,89,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000173.jpg 166,305,188,327,3 370,265,398,293,7 51,259,107,315,6 74,151,116,193,4 168,339,210,381,7 56,345,98,387,2 274,211,302,239,7 33,24,117,108,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000174.jpg 249,380,263,394,9 70,58,84,72,4 266,242,322,298,9 62,79,90,107,3 85,173,113,201,6 179,331,207,359,3 280,30,322,72,7 28,217,112,301,6 210,161,294,245,6 331,282,415,366,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000175.jpg 251,3,279,31,4 289,71,331,113,6 271,281,299,309,4 190,229,246,285,1 126,275,182,331,9 304,3,360,59,8 34,186,118,270,2 155,117,267,229,6 4,276,116,388,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000176.jpg 372,120,400,148,1 268,157,296,185,3 254,87,282,115,2 12,288,96,372,5 219,230,303,314,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000177.jpg 54,264,76,286,2 216,276,258,318,8 148,204,204,260,6 187,120,229,162,6 324,104,408,188,0 272,291,384,403,9 9,126,93,210,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000178.jpg 178,31,192,45,4 348,374,362,388,6 264,290,320,346,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000179.jpg 65,165,121,221,2 129,181,171,223,0 207,339,263,395,0 291,215,347,271,1 374,94,402,122,2 9,127,51,169,1 232,67,344,179,8 31,18,143,130,8 54,278,166,390,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000180.jpg 77,190,133,246,9 311,16,339,44,3 177,348,233,404,3 368,249,410,291,4 218,227,274,283,8 76,0,160,84,9 259,114,371,226,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000181.jpg 114,221,128,235,2 203,108,217,122,4 121,332,149,360,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000182.jpg 380,202,394,216,1 49,302,71,324,3 245,378,273,406,5 286,26,314,54,1 181,79,209,107,5 319,37,403,121,3 106,128,218,240,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000183.jpg 210,149,238,177,4 189,268,301,380,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000184.jpg 163,56,185,78,7 340,72,354,86,6 181,303,223,345,8 178,353,220,395,8 321,276,349,304,5 347,198,403,254,8 104,227,160,283,7 94,36,150,92,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000185.jpg 329,12,343,26,5 149,151,163,165,1 396,47,410,61,8 320,306,376,362,7 116,114,144,142,8 131,256,187,312,7 189,67,245,123,3 70,90,98,118,1 9,286,121,398,6 257,198,369,310,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000186.jpg 333,296,355,318,0 78,59,100,81,5 12,287,68,343,5 234,222,290,278,7 223,15,307,99,7 22,201,106,285,5 219,288,331,400,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000187.jpg 231,232,315,316,2 313,201,397,285,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000188.jpg 354,180,396,222,8 191,170,219,198,7 357,34,385,62,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000189.jpg 178,355,200,377,6 79,214,93,228,5 225,359,267,401,7 135,260,219,344,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000190.jpg 271,341,285,355,7 133,344,147,358,7 103,48,117,62,8 73,169,115,211,5 143,111,199,167,3 104,371,146,413,5 73,56,101,84,9 27,2,83,58,5 260,33,344,117,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000191.jpg 173,171,201,199,2 236,180,278,222,1 31,18,87,74,3 278,87,334,143,4 199,284,255,340,6 260,332,316,388,4 14,302,98,386,1 82,229,166,313,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000192.jpg 267,249,295,277,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000193.jpg 359,335,381,357,9 98,103,112,117,9 28,16,42,30,5 4,249,32,277,4 219,185,261,227,7 284,134,312,162,8 171,369,199,397,0 151,138,207,194,1 271,8,299,36,7 283,183,395,295,5 30,173,142,285,1 63,6,175,118,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000194.jpg 252,75,274,97,5 257,200,299,242,8 296,66,338,108,8 77,78,105,106,2 48,201,104,257,4 204,196,232,224,1 217,354,273,410,3 132,80,216,164,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000195.jpg 319,45,375,101,4 134,368,162,396,4 362,161,404,203,1 121,183,177,239,2 135,39,191,95,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000196.jpg 325,27,339,41,8 33,149,75,191,9 335,295,363,323,9 86,160,142,216,2 235,51,291,107,3 37,23,65,51,9 140,150,252,262,0 308,109,392,193,0 230,306,314,390,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000197.jpg 373,110,395,132,1 55,82,69,96,0 296,58,310,72,8 147,29,203,85,1 189,104,273,188,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000198.jpg 358,142,372,156,4 37,115,59,137,9 279,13,307,41,9 168,192,196,220,3 100,139,128,167,8 1,50,29,78,0 310,15,366,71,9 314,150,398,234,2 76,279,160,363,4 142,22,254,134,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000199.jpg 95,262,117,284,0 69,85,91,107,0 130,67,172,109,2 9,270,51,312,6 263,349,291,377,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000200.jpg 267,185,295,213,2 279,225,321,267,7 111,226,167,282,0 141,355,197,411,8 186,33,228,75,9 297,29,381,113,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000201.jpg 300,151,314,165,6 38,296,52,310,3 263,343,319,399,4 69,327,125,383,8 5,30,33,58,4 368,44,410,86,7 226,110,254,138,7 321,179,405,263,0 14,176,126,288,4 51,52,163,164,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000202.jpg 302,174,316,188,5 371,192,399,220,3 341,290,383,332,5 58,100,86,128,3 348,387,376,415,4 189,276,217,304,1 158,87,214,143,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000203.jpg 83,94,97,108,6 385,179,407,201,2 170,158,184,172,4 5,224,47,266,2 83,161,125,203,1 167,223,195,251,9 256,154,298,196,1 54,319,138,403,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000204.jpg 156,273,170,287,4 20,208,62,250,3 379,92,407,120,7 195,110,279,194,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000205.jpg 262,150,276,164,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000206.jpg 43,97,65,119,5 260,221,282,243,2 359,29,373,43,2 132,167,188,223,6 243,304,271,332,8 242,75,326,159,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000207.jpg 231,134,245,148,8 275,172,359,256,5 95,23,207,135,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000208.jpg 322,184,364,226,5 32,9,74,51,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000209.jpg 43,127,57,141,4 144,155,186,197,9 93,38,121,66,0 47,330,89,372,3 206,84,234,112,2 276,9,318,51,5 282,229,366,313,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000210.jpg 370,228,384,242,8 351,361,393,403,0 51,142,107,198,4 170,55,212,97,1 33,278,145,390,6 186,115,298,227,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000211.jpg 80,3,94,17,3 313,269,327,283,5 287,175,343,231,9 47,57,89,99,3 40,98,82,140,7 157,126,269,238,0 278,53,362,137,6 112,38,196,122,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000212.jpg 129,228,151,250,2 372,312,386,326,5 221,141,263,183,3 118,10,174,66,2 250,246,362,358,4 117,278,201,362,5 27,189,111,273,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000213.jpg 75,104,97,126,6 210,370,224,384,8 31,287,53,309,0 354,50,410,106,5 210,126,252,168,0 54,258,96,300,2 128,186,156,214,7 261,263,373,375,3 118,28,202,112,9 255,101,367,213,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000214.jpg 215,73,237,95,6 264,10,286,32,9 6,139,20,153,1 302,74,330,102,6 52,4,94,46,0 225,136,267,178,1 157,299,185,327,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000215.jpg 202,278,224,300,1 393,302,415,324,7 190,94,218,122,3 211,304,253,346,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000216.jpg 141,204,169,232,0 185,144,269,228,7 97,102,181,186,5 283,219,395,331,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000217.jpg 95,131,117,153,7 212,362,226,376,3 259,342,281,364,9 338,124,394,180,0 174,102,216,144,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000218.jpg 41,172,63,194,1 142,270,156,284,8 113,219,225,331,1 2,41,114,153,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000219.jpg 98,282,126,310,0 113,122,155,164,9 9,15,65,71,2 323,103,407,187,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000220.jpg 109,34,123,48,9 268,109,290,131,9 125,347,139,361,6 28,156,84,212,9 387,249,415,277,7 304,55,332,83,5 340,175,382,217,2 244,179,286,221,7 227,34,283,90,7 128,226,240,338,1 296,80,380,164,2 20,37,104,121,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000221.jpg 181,77,293,189,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000222.jpg 118,311,146,339,1 197,83,225,111,2 211,369,253,411,4 106,147,162,203,8 243,103,285,145,2 9,242,93,326,4 171,285,255,369,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000223.jpg 59,133,81,155,6 163,58,185,80,5 92,247,134,289,8 383,178,411,206,2 153,101,237,185,6 236,258,348,370,0 305,114,389,198,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000224.jpg 41,12,63,34,4 263,302,285,324,8 311,291,353,333,1 130,338,172,380,2 291,339,333,381,7 26,124,82,180,1 324,148,408,232,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000225.jpg 354,360,376,382,3 169,207,183,221,5 167,311,195,339,3 122,208,150,236,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000226.jpg 301,17,343,59,8 102,30,130,58,2 85,257,113,285,5 262,143,346,227,6 102,58,214,170,5 298,276,410,388,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000227.jpg 0,356,56,412,1 178,12,220,54,9 281,97,337,153,3 250,274,292,316,3 169,368,211,410,2 24,135,136,247,1 58,12,170,124,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000228.jpg 368,184,382,198,9 115,389,129,403,5 97,39,119,61,8 117,285,145,313,7 21,85,63,127,0 151,129,235,213,7 133,5,217,89,6 325,41,409,125,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000229.jpg 290,155,332,197,8 118,359,146,387,1 191,83,247,139,3 57,123,113,179,0 77,75,105,103,6 192,279,304,391,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000230.jpg 243,391,265,413,5 50,110,72,132,2 41,218,55,232,6 266,31,322,87,6 229,229,271,271,0 142,246,184,288,2 186,128,242,184,1 316,314,372,370,4 37,292,149,404,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000231.jpg 296,88,352,144,4 97,177,139,219,3 106,0,148,42,4 261,55,303,97,2 298,256,410,368,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000232.jpg 296,321,352,377,4 209,1,265,57,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000233.jpg 260,343,274,357,4 139,385,161,407,1 99,349,127,377,5 93,103,149,159,6 351,197,407,253,1 237,74,279,116,8 204,102,232,130,1 150,127,262,239,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000234.jpg 126,84,148,106,2 260,148,316,204,5 309,313,393,397,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000235.jpg 234,10,256,32,4 281,282,303,304,8 142,123,184,165,0 55,329,97,371,0 120,189,232,301,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000236.jpg 146,17,168,39,5 339,83,361,105,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000237.jpg 104,213,216,325,5 254,160,338,244,5 226,34,338,146,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000238.jpg 330,296,372,338,7 77,291,133,347,0 99,229,141,271,3 121,7,149,35,6 313,9,369,65,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000239.jpg 380,9,402,31,7 119,123,133,137,3 193,347,207,361,5 75,69,117,111,0 250,268,362,380,7 269,85,353,169,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000240.jpg 352,34,366,48,2 343,258,365,280,4 99,240,155,296,9 128,361,170,403,5 350,127,406,183,1 167,35,195,63,3 361,197,389,225,9 234,169,290,225,7 262,30,346,114,4 223,260,335,372,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000241.jpg 306,228,320,242,7 346,5,402,61,2 124,363,152,391,8 123,193,151,221,8 42,148,98,204,5 305,74,389,158,3 280,293,392,405,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000242.jpg 299,334,321,356,5 241,355,255,369,8 21,267,35,281,7 12,158,40,186,8 203,149,231,177,9 66,289,108,331,7 377,196,405,224,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000243.jpg 360,75,374,89,9 145,220,201,276,7 30,215,86,271,8 347,142,403,198,5 184,275,240,331,3 59,108,171,220,1 203,195,287,279,8 166,8,278,120,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000244.jpg 43,129,57,143,9 265,32,287,54,7 53,216,95,258,4 103,275,131,303,9 168,167,210,209,9 275,165,359,249,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000245.jpg 380,357,394,371,6 113,293,169,349,6 347,10,389,52,0 229,24,257,52,2 238,274,322,358,5 123,74,235,186,6 289,155,401,267,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000246.jpg 367,400,381,414,9 335,178,363,206,1 319,333,375,389,1 232,52,316,136,6 102,70,214,182,3 93,288,177,372,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000247.jpg 155,4,197,46,7 124,135,166,177,3 246,319,302,375,4 178,353,206,381,4 22,286,64,328,9 120,239,148,267,7 296,5,408,117,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000248.jpg 284,367,306,389,8 25,10,137,122,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000249.jpg 351,39,373,61,1 282,147,366,231,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000250.jpg 41,259,63,281,3 52,158,74,180,7 313,361,335,383,3 30,358,86,414,1 317,302,373,358,5 252,343,294,385,6 268,110,380,222,8 101,150,213,262,2 142,21,254,133,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000251.jpg 48,305,70,327,3 72,27,114,69,6 126,24,168,66,0 184,227,212,255,1 273,64,315,106,6 151,266,235,350,8 86,106,170,190,1 308,316,392,400,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000252.jpg 174,50,230,106,5 373,310,401,338,9 157,193,241,277,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000253.jpg 60,322,102,364,3 124,193,166,235,2 244,15,286,57,0 67,74,95,102,0 126,47,210,131,1 172,125,284,237,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000254.jpg 215,65,229,79,0 167,113,189,135,1 342,253,370,281,3 330,373,358,401,8 209,163,321,275,1 28,278,140,390,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000255.jpg 172,21,194,43,6 264,228,286,250,2 321,48,343,70,5 130,309,158,337,8 202,199,244,241,7 5,346,61,402,7 27,215,69,257,4 155,67,197,109,8 59,90,143,174,3 220,244,332,356,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000256.jpg 238,201,280,243,0 23,15,65,57,2 100,109,142,151,5 261,77,317,133,6 158,230,200,272,5 211,267,295,351,1 54,222,138,306,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000257.jpg 350,146,364,160,8 193,56,207,70,5 282,141,304,163,7 83,324,111,352,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000258.jpg 184,3,198,17,5 294,358,350,414,4 42,149,70,177,1 290,44,318,72,2 324,24,380,80,1 202,282,286,366,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000259.jpg 113,250,169,306,9 304,351,360,407,1 272,314,300,342,2 176,214,232,270,1 275,127,359,211,7 132,98,216,182,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000260.jpg 141,130,155,144,5 387,16,409,38,6 89,317,131,359,0 27,334,83,390,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000261.jpg 193,328,235,370,9 320,158,348,186,1 112,158,168,214,9 184,58,296,170,7 203,218,315,330,1 302,15,414,127,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000262.jpg 305,43,319,57,9 297,220,319,242,4 304,148,360,204,8 19,159,47,187,9 361,282,389,310,3 299,57,327,85,5 140,197,168,225,6 44,349,100,405,1 29,195,141,307,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000263.jpg 83,19,125,61,7 379,385,407,413,3 145,90,201,146,7 330,18,372,60,2 384,228,412,256,5 339,260,367,288,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000264.jpg 57,42,79,64,6 117,86,229,198,9 290,25,374,109,5 84,226,196,338,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000265.jpg 250,384,272,406,2 354,142,368,156,3 20,134,76,190,9 110,338,138,366,6 303,238,387,322,0 229,53,313,137,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000266.jpg 28,156,42,170,9 297,354,319,376,1 56,112,112,168,8 129,115,157,143,6 155,353,183,381,0 42,306,84,348,3 33,164,145,276,0 213,64,297,148,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000267.jpg 286,39,398,151,6 241,154,325,238,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000268.jpg 25,75,39,89,0 176,363,190,377,2 246,138,268,160,4 262,244,290,272,6 195,160,279,244,7 24,103,108,187,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000269.jpg 30,327,86,383,5 83,9,125,51,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000270.jpg 278,10,334,66,7 351,78,393,120,7 211,99,323,211,5 4,128,88,212,7 86,5,170,89,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000271.jpg 60,234,74,248,2 274,293,296,315,3 47,308,69,330,2 277,6,305,34,7 182,22,238,78,8 187,158,299,270,5 99,290,211,402,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000272.jpg 219,44,275,100,1 132,325,188,381,9 29,233,141,345,1 222,246,334,358,8 117,23,201,107,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000273.jpg 291,286,305,300,2 50,300,64,314,7 31,180,59,208,8 113,346,141,374,2 244,183,356,295,3 1,301,113,413,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000274.jpg 140,320,162,342,4 194,212,208,226,6 48,295,62,309,3 273,161,301,189,2 226,20,268,62,3 284,44,368,128,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000275.jpg 226,345,240,359,6 306,140,328,162,8 253,297,337,381,0 171,244,255,328,8 106,141,190,225,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000276.jpg 318,391,332,405,1 371,291,413,333,8 50,329,78,357,6 368,224,410,266,0 88,243,144,299,8 249,190,361,302,6 152,76,264,188,3 290,26,402,138,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000277.jpg 280,299,294,313,0 332,9,346,23,2 42,340,56,354,1 359,262,387,290,8 299,180,341,222,2 232,340,260,368,1 305,53,347,95,2 204,204,288,288,9 90,11,174,95,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000278.jpg 137,345,159,367,2 218,51,274,107,6 345,104,387,146,2 345,344,373,372,9 143,255,227,339,6 19,188,131,300,3 261,240,373,352,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000279.jpg 238,114,280,156,0 138,206,166,234,5 223,14,279,70,7 169,152,197,180,7 94,328,136,370,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000280.jpg 180,370,194,384,6 341,319,355,333,9 58,352,80,374,3 72,197,100,225,2 355,297,411,353,0 363,375,391,403,8 178,228,206,256,1 290,4,332,46,8 99,321,141,363,9 230,56,342,168,1 105,86,217,198,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000281.jpg 46,341,68,363,9 221,50,235,64,2 83,53,97,67,5 150,192,178,220,4 156,16,184,44,1 81,149,123,191,2 143,247,199,303,3 278,200,362,284,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000282.jpg 104,311,118,325,4 38,8,94,64,6 35,290,91,346,1 112,185,140,213,7 170,70,226,126,3 40,381,68,409,6 26,197,82,253,9 284,222,396,334,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000283.jpg 221,177,243,199,5 20,25,42,47,4 263,69,347,153,2 57,51,169,163,8 309,302,393,386,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000284.jpg 204,133,218,147,4 52,126,80,154,1 111,101,153,143,5 198,294,240,336,1 22,194,50,222,9 234,124,346,236,6 268,254,380,366,9 17,36,101,120,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000285.jpg 341,202,363,224,3 221,89,243,111,1 28,321,50,343,6 138,149,180,191,6 239,346,267,374,7 88,10,200,122,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000286.jpg 42,233,98,289,5 243,126,299,182,6 136,167,192,223,8 372,88,414,130,7 233,60,261,88,0 70,294,182,406,5 31,78,143,190,6 290,14,374,98,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000287.jpg 11,224,95,308,1 132,141,244,253,6 257,212,341,296,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000288.jpg 82,234,96,248,7 215,129,271,185,6 267,322,295,350,8 80,330,136,386,7 262,220,318,276,3 65,31,107,73,4 13,175,55,217,5 95,218,179,302,1 167,11,279,123,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000289.jpg 177,23,191,37,2 200,306,222,328,2 92,230,114,252,1 301,237,357,293,8 224,130,252,158,7 28,86,70,128,5 147,39,203,95,6 182,158,266,242,1 88,284,200,396,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000290.jpg 15,195,37,217,3 223,302,307,386,4 303,154,415,266,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000291.jpg 389,174,403,188,5 192,133,206,147,9 359,334,381,356,9 63,304,105,346,7 284,98,340,154,4 151,288,193,330,6 273,296,315,338,0 219,145,275,201,3 271,154,383,266,0 53,12,137,96,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000292.jpg 141,93,155,107,2 17,138,73,194,8 195,90,251,146,6 357,307,399,349,2 318,32,402,116,8 284,198,396,310,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000293.jpg 326,55,368,97,3 11,300,67,356,5 332,367,360,395,4 338,215,380,257,2 102,102,144,144,9 180,213,292,325,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000294.jpg 294,311,308,325,2 65,143,79,157,2 237,101,251,115,5 77,143,119,185,1 137,183,193,239,7 15,53,57,95,4 0,182,42,224,5 170,289,282,401,6 278,122,390,234,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000295.jpg 353,357,375,379,9 282,351,304,373,6 90,68,112,90,5 313,274,369,330,7 129,358,171,400,7 248,97,304,153,6 78,119,120,161,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000296.jpg 282,376,304,398,5 253,263,295,305,9 104,223,216,335,1 262,151,346,235,7 95,24,207,136,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000297.jpg 260,7,274,21,3 246,139,302,195,5 187,23,299,135,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000298.jpg 320,3,342,25,6 242,16,270,44,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000299.jpg 182,103,196,117,6 116,313,138,335,8 337,165,365,193,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000300.jpg 191,380,205,394,3 117,157,139,179,9 300,155,322,177,3 75,277,131,333,9 17,222,73,278,5 241,108,283,150,9 377,191,405,219,7 89,36,201,148,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000301.jpg 297,176,311,190,1 66,51,94,79,6 276,259,318,301,6 91,87,147,143,5 87,200,115,228,2 275,43,331,99,3 237,89,265,117,4 85,236,169,320,0 139,122,251,234,5 128,331,212,415,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000302.jpg 239,62,253,76,1 303,326,317,340,0 64,268,120,324,3 119,95,175,151,8 207,219,319,331,7 0,85,112,197,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000303.jpg 393,307,415,329,9 361,351,403,393,9 96,198,138,240,3 145,356,201,412,4 277,5,319,47,1 133,270,189,326,3 349,16,391,58,7 215,161,299,245,3 174,59,258,143,9 320,149,404,233,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000304.jpg 213,85,227,99,0 285,254,327,296,3 324,167,380,223,8 214,146,242,174,1 294,307,378,391,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000305.jpg 304,307,318,321,0 181,81,203,103,4 84,115,126,157,1 42,341,84,383,9 258,111,342,195,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000306.jpg 62,284,76,298,0 316,372,358,414,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000307.jpg 214,123,326,235,0 82,263,194,375,6 17,63,129,175,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000308.jpg 129,0,151,22,1 140,378,162,400,1 130,83,144,97,5 273,172,357,256,4 2,158,114,270,9 87,260,171,344,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000309.jpg 273,258,287,272,2 85,173,99,187,7 264,139,286,161,1 281,34,337,90,3 226,4,254,32,3 229,228,341,340,5 318,123,402,207,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000310.jpg 264,34,306,76,5 0,222,42,264,6 170,19,226,75,9 363,58,405,100,2 9,275,51,317,8 48,293,160,405,6 56,171,168,283,1 202,188,314,300,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000311.jpg 268,135,282,149,7 287,391,309,413,0 27,71,49,93,8 302,231,358,287,3 235,365,277,407,0 303,70,387,154,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000312.jpg 160,68,182,90,1 136,251,164,279,9 266,178,322,234,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000313.jpg 84,206,98,220,8 182,295,266,379,1 39,93,123,177,0 210,59,322,171,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000314.jpg 359,364,381,386,9 95,233,123,261,8 159,183,201,225,8 263,342,291,370,3 238,115,280,157,0 180,340,222,382,0 231,204,343,316,2 258,2,370,114,0 55,7,139,91,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000315.jpg 16,142,30,156,4 318,226,332,240,1 185,10,241,66,9 21,26,77,82,2 40,168,96,224,1 61,261,173,373,8 241,287,353,399,3 260,84,344,168,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000316.jpg 245,201,259,215,2 302,384,324,406,1 66,261,122,317,1 262,79,290,107,8 185,254,227,296,0 330,32,414,116,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000317.jpg 35,209,57,231,2 14,259,36,281,7 284,148,306,170,6 162,210,218,266,1 252,355,294,397,7 349,201,377,229,5 311,43,339,71,0 178,128,206,156,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000318.jpg 88,234,102,248,3 332,345,346,359,9 195,358,217,380,6 162,109,190,137,1 266,10,308,52,0 245,219,301,275,0 50,65,134,149,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000319.jpg 38,132,52,146,3 51,275,73,297,6 232,175,260,203,9 361,32,403,74,1 264,140,292,168,7 118,32,146,60,4 145,25,173,53,1 277,200,305,228,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000320.jpg 264,287,306,329,7 303,146,387,230,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000321.jpg 331,52,353,74,0 380,302,402,324,0 79,162,93,176,6 18,239,46,267,9 326,371,368,413,5 347,101,389,143,9 114,177,198,261,2 15,21,127,133,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000322.jpg 57,220,113,276,1 244,218,272,246,9 262,296,304,338,7 30,82,114,166,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000323.jpg 129,59,151,81,1 170,16,192,38,4 25,55,39,69,8 359,146,401,188,8 59,207,101,249,5 37,78,93,134,1 232,218,274,260,7 161,76,273,188,4 82,321,166,405,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000324.jpg 111,189,125,203,7 326,52,340,66,1 162,225,246,309,0 238,16,350,128,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000325.jpg 72,260,86,274,8 289,311,311,333,0 57,358,85,386,4 76,13,160,97,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000326.jpg 118,250,132,264,0 112,55,168,111,3 5,280,47,322,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000327.jpg 369,369,391,391,3 152,47,174,69,0 5,274,33,302,9 216,26,272,82,4 368,17,396,45,2 79,41,135,97,1 98,162,154,218,4 312,262,396,346,5 144,201,256,313,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000328.jpg 177,317,191,331,0 247,143,261,157,0 287,223,343,279,5 3,255,45,297,9 144,78,228,162,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000329.jpg 200,64,256,120,5 149,363,191,405,6 171,238,227,294,6 285,300,313,328,7 331,63,415,147,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000330.jpg 9,272,23,286,8 375,240,389,254,1 294,20,308,34,3 185,21,241,77,6 191,184,247,240,3 49,263,105,319,4 210,237,294,321,0 22,61,106,145,7 101,159,185,243,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000331.jpg 42,10,64,32,8 300,261,322,283,9 167,35,209,77,4 349,372,377,400,0 334,139,376,181,9 64,370,92,398,1 247,7,289,49,7 101,96,213,208,8 65,231,177,343,8 235,81,319,165,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000332.jpg 57,377,71,391,1 173,52,187,66,7 224,237,238,251,8 298,196,326,224,3 174,338,202,366,0 7,131,49,173,4 154,204,182,232,7 250,283,362,395,3 261,43,345,127,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000333.jpg 65,89,87,111,9 125,314,147,336,7 258,130,314,186,1 38,208,150,320,2 106,4,190,88,4 313,144,397,228,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000334.jpg 362,51,384,73,6 257,258,271,272,3 289,154,345,210,6 121,211,149,239,5 44,321,100,377,0 204,352,260,408,1 238,246,350,358,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000335.jpg 35,83,63,111,0 24,271,80,327,7 237,109,265,137,9 112,259,154,301,8 1,115,57,171,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000336.jpg 56,224,70,238,7 189,46,217,74,8 37,136,79,178,9 359,186,387,214,5 233,83,261,111,1 108,273,150,315,2 123,100,235,212,6 22,50,106,134,9 293,257,405,369,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000337.jpg 401,36,415,50,1 196,378,210,392,7 399,236,413,250,9 141,200,197,256,9 166,290,194,318,7 21,298,63,340,7 270,204,354,288,3 181,2,265,86,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000338.jpg 147,253,169,275,2 14,68,28,82,2 104,114,216,226,0 316,292,400,376,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000339.jpg 304,143,318,157,5 238,69,260,91,6 243,107,299,163,2 278,189,306,217,7 330,173,372,215,4 106,314,148,356,1 283,325,325,367,8 137,250,193,306,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000340.jpg 285,63,313,91,4 45,157,101,213,6 32,292,74,334,6 184,223,296,335,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000341.jpg 227,82,283,138,2 90,280,118,308,0 93,365,121,393,8 148,28,176,56,0 300,22,342,64,1 322,323,406,407,8 318,241,402,325,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000342.jpg 33,43,47,57,7 349,301,363,315,8 160,33,182,55,7 16,122,44,150,3 42,151,154,263,8 247,25,359,137,2 317,185,401,269,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000343.jpg 75,389,89,403,1 292,109,306,123,3 256,57,278,79,7 195,359,237,401,3 212,305,240,333,7 22,294,134,406,6 172,80,256,164,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000344.jpg 35,270,57,292,9 165,318,179,332,5 85,344,141,400,8 161,336,203,378,0 98,131,182,215,8 233,117,345,229,8 5,114,89,198,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000345.jpg 82,106,96,120,7 264,370,306,412,4 137,41,179,83,2 127,300,155,328,0 55,145,83,173,4 239,137,295,193,4 350,340,406,396,2 126,191,238,303,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000346.jpg 93,368,121,396,7 60,215,116,271,9 311,212,353,254,0 331,381,359,409,8 220,319,276,375,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000347.jpg 206,320,220,334,3 235,366,249,380,8 103,39,187,123,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000348.jpg 350,319,364,333,6 69,370,111,412,1 299,140,341,182,1 71,233,127,289,2 87,176,129,218,8 342,350,384,392,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000349.jpg 271,17,293,39,1 172,195,214,237,8 248,90,304,146,0 217,224,259,266,4 355,351,397,393,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000350.jpg 21,57,35,71,6 302,19,344,61,5 89,103,117,131,3 343,47,399,103,5 62,354,118,410,2 317,217,359,259,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000351.jpg 113,80,135,102,0 248,33,270,55,3 174,276,196,298,1 349,234,391,276,3 66,236,122,292,1 45,2,101,58,7 231,124,343,236,6 119,153,203,237,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000352.jpg 11,133,33,155,3 52,154,80,182,9 218,198,246,226,1 306,158,334,186,1 193,252,249,308,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000353.jpg 292,92,376,176,1 279,184,391,296,0 1,85,113,197,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000354.jpg 368,65,390,87,0 190,292,212,314,8 54,147,96,189,6 69,91,125,147,0 271,211,299,239,2 28,346,70,388,1 109,35,137,63,4 243,330,327,414,9 218,32,302,116,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000355.jpg 190,163,212,185,4 16,400,30,414,8 73,20,101,48,3 64,336,120,392,5 74,200,116,242,9 104,89,146,131,1 111,159,153,201,0 207,235,319,347,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000356.jpg 369,139,411,181,0 93,80,135,122,4 105,307,161,363,3 60,294,88,322,0 368,8,410,50,6 9,52,51,94,2 40,183,152,295,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000357.jpg 110,105,152,147,1 106,203,148,245,2 138,155,180,197,1 89,286,131,328,5 195,177,307,289,1 274,63,358,147,3 148,39,260,151,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000358.jpg 109,173,131,195,0 362,236,376,250,4 155,203,183,231,7 320,32,376,88,9 193,373,235,415,8 215,118,271,174,0 365,365,393,393,3 0,262,56,318,1 186,213,270,297,9 108,58,220,170,1 37,184,121,268,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000359.jpg 83,93,97,107,8 350,49,372,71,2 177,313,199,335,8 141,378,169,406,5 41,315,83,357,2 176,238,218,280,0 243,121,285,163,9 136,310,178,352,0 305,337,333,365,6 22,96,134,208,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000360.jpg 237,38,259,60,4 255,151,311,207,2 75,302,131,358,1 70,57,126,113,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000361.jpg 170,349,184,363,0 228,147,250,169,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000362.jpg 305,105,327,127,6 287,232,301,246,6 84,316,112,344,0 193,326,235,368,4 316,181,400,265,9 59,140,171,252,1 181,59,265,143,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000363.jpg 260,225,282,247,2 354,393,376,415,0 153,253,181,281,3 102,52,130,80,3 199,270,241,312,6 302,169,414,281,9 13,72,125,184,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000364.jpg 4,48,18,62,5 262,150,304,192,0 190,11,246,67,6 134,191,246,303,5 87,44,171,128,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000365.jpg 361,315,403,357,9 248,283,276,311,2 13,133,41,161,6 92,248,120,276,9 314,89,370,145,2 25,335,67,377,8 90,291,202,403,4 190,90,302,202,1 236,9,320,93,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000366.jpg 33,261,61,289,4 305,31,347,73,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000367.jpg 174,265,202,293,7 159,326,201,368,1 39,121,151,233,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000368.jpg 97,199,139,241,9 349,252,391,294,1 240,183,282,225,5 211,166,239,194,0 192,264,304,376,2 93,95,177,179,7 292,103,404,215,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000369.jpg 249,291,263,305,8 107,199,163,255,3 309,307,337,335,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000370.jpg 138,332,194,388,3 140,76,168,104,0 293,198,335,240,3 18,89,46,117,5 84,135,196,247,5 10,301,122,413,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000371.jpg 136,158,178,200,2 38,107,94,163,2 177,191,219,233,2 48,16,104,72,8 216,11,244,39,1 92,362,134,404,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000372.jpg 159,328,173,342,8 196,284,218,306,7 232,307,274,349,8 30,30,72,72,1 258,355,300,397,9 343,169,371,197,7 290,291,332,333,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000373.jpg 51,307,93,349,8 114,225,198,309,1 218,39,330,151,9 299,283,383,367,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000374.jpg 347,222,361,236,1 38,286,60,308,0 283,216,311,244,8 300,283,356,339,7 281,337,337,393,2 333,155,389,211,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000375.jpg 265,302,287,324,2 369,126,411,168,6 4,90,46,132,9 173,221,201,249,9 77,51,189,163,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000376.jpg 323,279,351,307,1 182,96,210,124,3 122,328,164,370,9 11,237,53,279,3 120,270,148,298,5 91,117,147,173,0 172,201,284,313,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000377.jpg 249,127,263,141,1 253,246,275,268,0 398,215,412,229,7 325,339,381,395,0 316,297,344,325,0 8,162,50,204,4 104,150,160,206,4 170,86,254,170,0 311,76,395,160,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000378.jpg 366,213,388,235,7 144,152,166,174,2 261,248,303,290,2 170,97,198,125,7 50,297,78,325,7 319,81,361,123,5 148,304,176,332,7 108,182,220,294,8 39,62,151,174,5 239,163,323,247,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000379.jpg 329,38,351,60,7 92,182,120,210,4 9,240,51,282,1 180,11,222,53,3 293,212,335,254,7 6,337,62,393,8 84,83,112,111,7 60,233,172,345,3 287,277,399,389,3 108,69,192,153,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000380.jpg 171,261,193,283,9 316,334,358,376,5 383,179,411,207,1 289,249,331,291,6 260,57,288,85,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000381.jpg 52,76,108,132,0 386,192,414,220,7 139,157,195,213,6 296,94,324,122,1 136,255,164,283,9 324,207,380,263,1 41,196,125,280,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000382.jpg 337,94,365,122,5 190,64,218,92,6 8,125,64,181,5 31,252,87,308,3 255,55,311,111,1 186,179,214,207,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000383.jpg 20,178,76,234,5 190,203,232,245,0 70,124,98,152,4 323,125,365,167,4 314,361,342,389,1 21,66,49,94,7 185,251,269,335,8 51,30,135,114,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000384.jpg 362,275,384,297,2 270,207,298,235,8 215,35,271,91,8 257,141,285,169,1 311,302,367,358,8 349,169,377,197,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000385.jpg 366,330,388,352,4 115,60,129,74,2 255,260,311,316,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000386.jpg 293,138,315,160,6 320,203,376,259,7 114,205,170,261,3 182,226,238,282,5 278,359,306,387,4 10,274,122,386,0 116,75,200,159,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000387.jpg 278,178,306,206,3 165,383,193,411,2 340,120,368,148,6 205,177,233,205,5 185,74,297,186,8 220,216,304,300,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000388.jpg 314,250,356,292,3 232,153,288,209,0 347,220,375,248,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000389.jpg 126,51,168,93,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000390.jpg 139,114,161,136,8 254,89,268,103,3 330,211,344,225,0 203,355,245,397,8 131,252,159,280,5 55,285,97,327,1 30,212,86,268,7 206,279,262,335,8 265,296,377,408,7 308,88,392,172,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000391.jpg 296,276,310,290,5 2,277,24,299,5 62,356,118,412,6 160,387,188,415,7 328,220,370,262,2 248,61,304,117,4 200,141,256,197,6 28,85,112,169,2 226,281,310,365,1 323,275,407,359,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000392.jpg 311,341,333,363,1 129,66,151,88,2 158,345,172,359,7 338,29,380,71,1 87,181,129,223,7 21,85,63,127,7 27,135,69,177,7 303,172,415,284,9 199,79,311,191,9 87,269,171,353,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000393.jpg 373,263,401,291,2 257,346,285,374,8 96,150,124,178,1 255,241,311,297,7 139,284,181,326,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000394.jpg 379,177,393,191,1 51,279,73,301,1 244,27,266,49,9 60,315,116,371,6 74,220,130,276,5 347,204,403,260,6 211,289,253,331,7 323,57,407,141,7 257,236,341,320,0 124,295,208,379,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000395.jpg 233,274,247,288,2 91,67,133,109,2 37,369,65,397,4 135,145,177,187,1 15,228,127,340,4 205,81,289,165,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000396.jpg 37,185,93,241,3 258,72,370,184,1 112,298,224,410,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000397.jpg 76,99,118,141,6 44,60,72,88,2 185,351,227,393,4 80,294,136,350,7 351,354,393,396,7 7,189,35,217,7 211,185,295,269,7 244,23,356,135,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000398.jpg 226,231,248,253,4 234,16,262,44,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000399.jpg 378,61,400,83,6 208,255,222,269,3 181,8,237,64,2 118,100,146,128,3 25,287,81,343,1 48,74,76,102,7 2,51,30,79,4 234,219,318,303,3 275,52,387,164,2 158,138,242,222,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000400.jpg 285,61,299,75,3 204,292,288,376,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000401.jpg 173,234,195,256,3 172,120,214,162,4 67,261,95,289,9 160,72,202,114,1 82,167,124,209,9 240,117,296,173,1 268,1,380,113,0 192,203,276,287,8 216,288,300,372,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000402.jpg 229,393,251,415,1 24,85,38,99,9 57,350,99,392,3 260,169,288,197,9 193,233,235,275,7 37,26,65,54,7 96,253,138,295,1 174,29,286,141,3 273,247,385,359,6 323,4,407,88,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000403.jpg 334,17,348,31,7 298,101,320,123,9 2,283,16,297,4 277,280,319,322,3 167,78,279,190,9 132,227,244,339,2 24,146,136,258,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000404.jpg 27,46,69,88,6 196,324,280,408,7 148,209,232,293,9 241,169,353,281,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000405.jpg 320,293,334,307,5 352,194,374,216,1 33,7,75,49,7 115,347,157,389,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000406.jpg 234,267,248,281,2 79,331,101,353,2 335,163,349,177,7 125,175,167,217,6 163,39,191,67,8 155,219,197,261,8 310,276,338,304,6 88,64,200,176,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000407.jpg 159,9,181,31,8 282,87,310,115,9 150,357,192,399,0 18,104,74,160,6 190,256,232,298,0 192,177,234,219,5 241,143,297,199,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000408.jpg 360,42,374,56,2 392,329,406,343,1 199,233,283,317,1 313,273,397,357,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000409.jpg 354,288,368,302,1 86,100,100,114,7 106,129,148,171,9 79,362,121,404,8 38,255,80,297,1 153,344,195,386,4 120,291,176,347,3 352,160,380,188,9 184,251,296,363,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000410.jpg 235,324,249,338,6 223,167,279,223,8 347,184,403,240,2 86,164,142,220,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000411.jpg 160,249,188,277,5 343,217,371,245,2 55,128,167,240,1 251,61,363,173,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000412.jpg 342,376,364,398,4 169,307,191,329,7 117,279,131,293,4 167,76,209,118,2 367,165,409,207,4 239,276,323,360,8 35,5,147,117,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000413.jpg 137,225,159,247,2 348,13,370,35,4 0,109,14,123,8 332,245,388,301,1 99,340,141,382,1 219,0,261,42,3 61,109,117,165,7 100,299,142,341,1 264,56,376,168,6 15,169,127,281,7 212,246,324,358,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000414.jpg 118,208,140,230,1 28,345,50,367,6 290,53,346,109,8 362,308,390,336,3 160,168,272,280,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000415.jpg 380,363,394,377,8 94,114,136,156,4 303,178,331,206,5 257,339,285,367,3 107,7,163,63,2 60,219,116,275,7 183,304,211,332,6 219,227,303,311,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000416.jpg 179,74,201,96,8 34,84,48,98,7 264,207,286,229,0 20,294,48,322,1 84,154,196,266,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000417.jpg 5,89,27,111,0 191,236,205,250,0 132,207,174,249,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000418.jpg 262,366,284,388,1 64,78,92,106,5 41,323,69,351,0 358,105,386,133,3 45,244,101,300,0 201,336,257,392,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000419.jpg 318,194,340,216,9 373,22,395,44,5 226,221,240,235,4 199,294,311,406,1 154,83,266,195,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000420.jpg 97,363,119,385,8 122,61,136,75,8 134,270,190,326,6 202,15,230,43,4 125,87,153,115,8 324,11,380,67,9 172,207,228,263,2 44,179,72,207,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000421.jpg 19,310,33,324,7 75,16,89,30,1 339,330,361,352,5 231,267,287,323,3 90,138,202,250,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000422.jpg 238,144,252,158,3 128,8,184,64,2 206,91,262,147,0 266,342,322,398,9 100,260,156,316,3 298,62,382,146,0 278,150,390,262,8 158,192,270,304,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000423.jpg 31,254,115,338,6 184,160,296,272,4 82,52,166,136,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000424.jpg 152,320,174,342,6 43,149,85,191,9 295,61,407,173,1 68,212,180,324,2 161,63,273,175,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000425.jpg 238,107,252,121,3 167,305,209,347,1 264,144,320,200,7 286,7,314,35,4 299,260,341,302,3 25,202,109,286,8 20,30,132,142,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000426.jpg 306,130,320,144,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000427.jpg 312,352,326,366,6 140,236,196,292,1 280,217,322,259,5 240,73,352,185,8 39,2,123,86,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000428.jpg 108,297,130,319,8 108,376,130,398,7 236,195,292,251,6 89,135,117,163,8 342,35,370,63,5 65,239,107,281,4 74,8,116,50,5 41,89,83,131,0 3,148,87,232,2 203,97,287,181,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000429.jpg 372,75,394,97,1 33,136,55,158,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000430.jpg 118,70,140,92,1 219,182,233,196,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000431.jpg 262,105,290,133,7 220,263,262,305,1 115,272,157,314,2 193,85,221,113,5 337,369,379,411,6 270,198,326,254,5 0,138,112,250,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000432.jpg 166,61,194,89,7 272,219,314,261,3 168,344,224,400,2 4,50,46,92,5 43,378,71,406,8 123,151,235,263,6 34,186,118,270,5 290,256,402,368,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000433.jpg 352,30,366,44,7 235,88,277,130,3 311,103,339,131,8 288,245,372,329,4 283,159,367,243,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000434.jpg 345,322,367,344,0 339,181,367,209,9 349,216,377,244,7 79,11,121,53,9 243,204,271,232,9 35,10,77,52,6 278,63,306,91,8 95,322,179,406,8 259,280,343,364,6 149,167,233,251,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000435.jpg 167,329,189,351,1 263,329,319,385,6 4,126,88,210,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000436.jpg 272,2,294,24,0 198,208,212,222,0 266,226,288,248,0 359,72,387,100,5 130,81,172,123,7 240,77,296,133,3 78,299,106,327,3 288,150,372,234,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000437.jpg 358,81,414,137,6 96,105,124,133,3 53,153,137,237,9 144,119,256,231,9 220,218,332,330,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000438.jpg 366,197,408,239,8 305,289,361,345,2 338,42,366,70,3 224,74,336,186,3 105,110,189,194,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000439.jpg 399,129,413,143,8 387,354,401,368,4 227,325,269,367,5 280,49,336,105,2 337,133,379,175,2 326,19,354,47,7 157,25,199,67,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000440.jpg 290,241,304,255,6 169,295,225,351,4 252,275,364,387,7 162,37,246,121,5 54,163,166,275,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000441.jpg 112,261,168,317,0 177,354,205,382,3 179,142,235,198,6 15,308,71,364,6 313,137,369,193,7 144,230,172,258,6 221,278,333,390,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000442.jpg 56,49,112,105,0 140,337,168,365,1 365,71,407,113,3 141,268,197,324,6 100,222,128,250,2 265,166,321,222,7 116,11,200,95,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000443.jpg 398,185,412,199,5 229,266,243,280,7 353,318,395,360,8 196,364,238,406,7 314,110,398,194,1 17,157,129,269,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000444.jpg 12,311,26,325,4 113,162,135,184,1 31,38,59,66,6 322,91,378,147,6 132,78,188,134,3 181,32,223,74,3 244,285,328,369,4 91,230,175,314,2 204,109,288,193,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000445.jpg 332,318,354,340,1 154,15,196,57,8 83,70,111,98,9 333,344,375,386,1 30,336,72,378,8 274,90,358,174,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000446.jpg 387,241,401,255,1 219,11,331,123,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000447.jpg 163,7,177,21,3 101,318,143,360,7 256,48,312,104,1 334,68,362,96,3 247,119,289,161,4 57,351,99,393,9 255,257,367,369,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000448.jpg 311,29,333,51,9 101,201,115,215,5 320,200,334,214,6 26,332,68,374,6 290,352,346,408,1 84,243,112,271,7 38,59,94,115,8 295,51,407,163,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000449.jpg 235,41,263,69,1 93,26,135,68,1 140,250,196,306,9 6,280,34,308,8 246,278,358,390,9 29,284,141,396,0 97,134,181,218,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000450.jpg 340,158,354,172,8 82,168,124,210,1 12,300,96,384,1 85,36,197,148,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000451.jpg 399,170,413,184,5 160,317,182,339,4 137,76,151,90,7 240,25,296,81,9 4,338,46,380,8 153,110,265,222,0 36,152,148,264,7 46,308,130,392,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000452.jpg 72,208,86,222,4 302,46,324,68,5 33,237,61,265,5 346,120,374,148,3 168,319,196,347,2 210,139,238,167,6 6,269,34,297,7 56,262,168,374,5 224,158,308,242,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000453.jpg 247,172,269,194,8 148,354,170,376,4 313,156,369,212,0 68,157,124,213,1 236,29,348,141,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000454.jpg 395,246,409,260,2 179,3,201,25,6 109,373,131,395,1 144,258,186,300,7 206,32,248,74,1 45,250,73,278,3 361,341,403,383,2 55,20,83,48,1 293,105,377,189,4 221,183,333,295,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000455.jpg 93,168,135,210,2 336,174,392,230,3 215,325,299,409,3 123,37,235,149,4 304,51,388,135,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000456.jpg 272,95,286,109,2 200,241,214,255,0 191,341,213,363,2 155,294,183,322,7 225,192,281,248,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000457.jpg 316,254,338,276,1 190,26,212,48,8 230,49,244,63,3 207,226,263,282,1 250,172,278,200,7 248,319,304,375,6 197,126,225,154,9 216,59,272,115,7 57,124,141,208,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000458.jpg 400,258,414,272,0 213,242,325,354,7 289,12,373,96,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000459.jpg 184,41,206,63,8 79,233,101,255,2 286,358,328,400,0 61,74,117,130,6 112,116,168,172,2 196,150,280,234,8 46,301,130,385,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000460.jpg 138,158,160,180,2 16,329,38,351,5 139,278,153,292,3 256,56,312,112,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000461.jpg 252,200,266,214,0 172,182,284,294,5 292,212,404,324,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000462.jpg 355,301,383,329,5 132,353,174,395,4 14,222,42,250,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000463.jpg 178,63,220,105,3 305,364,333,392,5 356,286,398,328,7 183,284,239,340,5 103,320,159,376,7 86,158,114,186,3 175,129,259,213,9 258,66,342,150,4 41,5,125,89,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000464.jpg 66,63,80,77,9 98,187,120,209,0 352,8,394,50,5 345,321,387,363,0 283,73,311,101,8 24,350,52,378,2 217,265,273,321,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000465.jpg 353,301,367,315,9 59,249,115,305,1 140,43,168,71,1 314,83,370,139,6 324,184,366,226,9 174,54,286,166,6 123,250,207,334,0 248,288,332,372,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000466.jpg 371,66,385,80,4 95,49,109,63,4 384,292,398,306,9 211,255,267,311,9 128,74,184,130,5 354,254,382,282,9 230,156,314,240,1 230,23,314,107,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000467.jpg 382,123,404,145,0 247,16,261,30,1 359,262,381,284,0 165,321,249,405,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000468.jpg 374,292,402,320,1 226,320,268,362,5 291,232,375,316,8 111,198,195,282,6 12,243,96,327,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000469.jpg 170,347,192,369,5 158,216,172,230,6 212,119,234,141,2 152,148,264,260,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000470.jpg 344,16,358,30,9 78,129,134,185,6 149,227,205,283,9 320,169,376,225,6 76,249,104,277,0 39,280,151,392,0 225,3,309,87,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000471.jpg 257,117,313,173,7 34,182,62,210,1 67,193,179,305,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000472.jpg 320,11,342,33,1 182,284,204,306,5 283,319,297,333,4 236,21,292,77,4 132,99,160,127,8 32,252,74,294,5 227,317,269,359,0 110,31,166,87,1 27,107,83,163,7 306,265,390,349,8 258,112,342,196,0 141,131,253,243,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000473.jpg 77,211,99,233,8 124,279,138,293,8 104,297,132,325,6 367,143,409,185,7 123,320,165,362,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000474.jpg 23,11,37,25,5 400,98,414,112,4 4,166,26,188,3 172,239,214,281,9 280,317,336,373,7 33,368,61,396,2 193,178,249,234,2 324,221,408,305,1 292,3,404,115,2 115,36,227,148,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000475.jpg 76,44,104,72,5 10,252,38,280,2 199,108,255,164,6 126,73,168,115,5 72,180,184,292,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000476.jpg 231,377,253,399,2 169,339,191,361,6 321,70,363,112,1 59,307,101,349,1 55,17,83,45,0 191,196,247,252,0 130,280,158,308,5 149,54,177,82,7 256,270,340,354,7 243,137,355,249,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000477.jpg 120,61,134,75,6 251,186,265,200,9 347,266,375,294,6 109,231,137,259,1 11,204,39,232,7 179,6,263,90,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000478.jpg 396,304,410,318,8 51,253,65,267,2 250,213,334,297,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000479.jpg 302,370,324,392,4 175,206,203,234,5 385,173,413,201,0 311,148,367,204,8 163,296,191,324,8 118,53,160,95,5 86,357,114,385,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000480.jpg 360,393,374,407,8 112,140,140,168,7 64,76,120,132,1 29,153,113,237,9 34,276,146,388,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000481.jpg 220,246,262,288,6 243,29,299,85,4 1,251,113,363,6 124,70,236,182,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000482.jpg 151,138,173,160,3 308,186,330,208,8 298,272,312,286,6 105,82,147,124,5 120,251,232,363,4 183,40,267,124,7 275,53,359,137,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000483.jpg 7,167,29,189,2 250,6,306,62,4 205,302,233,330,4 41,199,69,227,1 20,29,48,57,5 196,238,224,266,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000484.jpg 37,211,51,225,0 267,338,281,352,6 151,215,179,243,3 115,267,157,309,4 270,130,326,186,8 246,59,288,101,4 339,118,395,174,8 108,71,220,183,3 263,208,375,320,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000485.jpg 157,285,171,299,4 6,154,62,210,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000486.jpg 340,337,362,359,6 318,118,332,132,8 220,48,242,70,1 88,124,172,208,8 250,136,334,220,1 273,27,385,139,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000487.jpg 137,332,159,354,9 246,171,268,193,4 171,38,227,94,5 222,203,250,231,9 59,91,115,147,7 54,344,82,372,8 99,4,155,60,0 244,62,272,90,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000488.jpg 145,57,159,71,5 82,275,96,289,7 399,124,413,138,3 139,76,195,132,4 105,52,133,80,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000489.jpg 147,76,161,90,6 89,181,103,195,3 182,148,238,204,1 188,39,300,151,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000490.jpg 272,136,294,158,5 393,249,415,271,7 160,15,202,57,4 325,170,409,254,0 317,4,401,88,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000491.jpg 390,23,404,37,7 315,325,329,339,3 216,257,238,279,7 285,61,327,103,1 174,63,216,105,8 12,327,40,355,7 231,283,259,311,6 87,32,115,60,7 71,155,99,183,9 264,201,376,313,9 99,267,183,351,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000492.jpg 8,10,36,38,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000493.jpg 63,216,91,244,0 210,235,252,277,3 180,77,236,133,8 62,350,118,406,2 266,317,294,345,3 43,17,155,129,9 270,98,382,210,0 158,287,270,399,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000494.jpg 267,355,289,377,1 111,249,125,263,5 21,191,105,275,0 178,91,290,203,0 129,257,241,369,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000495.jpg 159,158,181,180,6 351,17,373,39,2 147,68,175,96,0 20,295,76,351,0 208,66,264,122,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000496.jpg 367,122,409,164,7 29,162,71,204,4 292,91,348,147,5 208,266,264,322,4 96,206,124,234,1 295,251,351,307,2 76,267,188,379,8 179,168,263,252,9 74,68,186,180,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000497.jpg 177,347,191,361,0 247,263,261,277,6 303,89,359,145,6 26,77,54,105,6 149,279,205,335,6 60,87,116,143,4 358,180,400,222,0 274,214,386,326,9 147,21,259,133,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000498.jpg 40,187,62,209,8 82,280,110,308,8 285,12,313,40,1 150,224,234,308,7 157,324,241,408,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000499.jpg 223,143,245,165,5 227,373,249,395,7 339,83,361,105,0 256,300,312,356,4 310,29,366,85,8 145,108,187,150,0 69,155,111,197,1 73,279,157,363,1 142,174,254,286,1 255,129,367,241,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000500.jpg 392,146,414,168,2 239,282,253,296,2 231,76,245,90,0 265,44,307,86,4 152,211,208,267,2 272,291,356,375,9 228,97,312,181,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000501.jpg 53,269,75,291,4 132,211,154,233,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000502.jpg 394,155,408,169,8 68,126,82,140,9 370,273,384,287,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000503.jpg 42,217,98,273,9 110,123,152,165,3 86,283,128,325,6 44,297,86,339,0 54,190,82,218,7 187,137,229,179,4 220,180,304,264,8 321,40,405,124,8 285,273,397,385,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000504.jpg 272,247,294,269,8 187,102,209,124,7 31,71,53,93,4 83,85,125,127,8 289,103,317,131,2 286,190,342,246,5 43,325,85,367,9 149,253,233,337,8 44,222,128,306,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000505.jpg 305,15,361,71,8 139,56,195,112,3 273,181,357,265,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000506.jpg 305,178,327,200,8 320,238,342,260,2 245,247,329,331,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000507.jpg 164,82,186,104,0 134,375,148,389,0 274,98,302,126,7 133,194,189,250,8 210,196,266,252,2 363,298,405,340,9 24,111,136,223,8 185,95,269,179,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000508.jpg 48,83,70,105,8 2,310,16,324,3 182,240,210,268,0 279,209,335,265,0 77,6,189,118,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000509.jpg 268,142,290,164,5 202,317,216,331,3 51,156,73,178,4 289,294,345,350,6 125,331,181,387,0 371,99,413,141,6 273,2,385,114,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000510.jpg 353,259,375,281,5 158,189,200,231,9 164,12,220,68,7 168,244,210,286,0 61,85,117,141,9 88,297,116,325,7 7,101,35,129,3 261,96,373,208,9 52,181,136,265,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000511.jpg 349,52,371,74,1 226,31,240,45,0 108,315,164,371,2 339,301,395,357,3 17,118,73,174,2 197,162,309,274,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000512.jpg 294,363,322,391,2 378,210,406,238,7 213,164,269,220,9 322,347,364,389,4 19,186,75,242,8 240,4,282,46,7 291,63,375,147,0 92,146,204,258,1 185,66,269,150,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000513.jpg 146,213,202,269,7 76,310,132,366,6 171,10,199,38,8 89,252,145,308,6 129,152,171,194,0 262,211,374,323,1 22,30,106,114,9 289,99,401,211,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000514.jpg 355,162,377,184,0 2,256,44,298,2 93,35,205,147,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000515.jpg 233,154,275,196,6 273,81,329,137,9 286,147,314,175,1 194,216,250,272,1 350,163,392,205,3 167,302,223,358,1 224,301,308,385,8 47,117,159,229,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000516.jpg 178,49,192,63,3 344,270,372,298,4 288,161,372,245,5 115,192,199,276,2 49,76,161,188,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000517.jpg 304,247,332,275,7 235,134,291,190,3 91,181,175,265,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000518.jpg 149,172,163,186,6 16,347,38,369,7 286,322,342,378,8 316,126,344,154,2 225,245,253,273,0 82,145,194,257,2 213,49,325,161,6 122,260,206,344,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000519.jpg 245,19,273,47,0 88,107,144,163,7 168,87,210,129,6 343,33,371,61,7 226,102,338,214,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000520.jpg 128,112,150,134,9 281,231,295,245,0 358,92,372,106,4 346,162,388,204,6 98,26,126,54,1 243,43,299,99,4 288,153,316,181,7 149,178,191,220,7 39,205,95,261,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000521.jpg 170,201,192,223,2 217,62,231,76,7 261,18,275,32,5 67,65,123,121,1 86,169,142,225,8 150,20,192,62,3 51,330,79,358,4 188,240,244,296,4 317,61,373,117,3 274,147,386,259,3 236,275,320,359,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000522.jpg 52,107,66,121,9 29,159,43,173,3 212,25,234,47,0 109,216,165,272,6 172,169,256,253,8 264,290,348,374,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000523.jpg 272,113,314,155,5 53,366,95,408,4 266,224,294,252,2 337,108,393,164,1 125,262,209,346,2 119,115,231,227,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000524.jpg 263,334,285,356,7 275,292,297,314,1 160,113,202,155,1 330,327,372,369,1 108,286,164,342,7 149,185,191,227,3 103,189,145,231,6 2,338,58,394,3 290,202,374,286,8 46,80,158,192,5 288,57,400,169,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000525.jpg 333,62,347,76,7 393,198,415,220,2 311,47,325,61,4 3,376,31,404,3 12,69,68,125,7 258,102,342,186,1 90,120,202,232,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000526.jpg 226,87,240,101,2 240,175,352,287,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000527.jpg 294,141,316,163,0 195,11,223,39,9 174,331,230,387,1 201,246,257,302,8 128,286,184,342,5 27,3,69,45,9 234,21,318,105,6 64,108,176,220,0 260,239,372,351,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000528.jpg 306,39,320,53,2 142,202,170,230,4 134,1,190,57,3 234,229,290,285,1 52,39,80,67,2 176,292,232,348,2 193,107,277,191,8 271,279,383,391,1 282,136,394,248,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000529.jpg 43,290,57,304,3 1,154,15,168,8 333,90,347,104,8 215,332,257,374,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000530.jpg 133,27,147,41,3 179,6,201,28,6 216,17,238,39,3 288,147,330,189,1 0,61,56,117,7 134,50,246,162,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000531.jpg 91,314,133,356,4 371,189,399,217,1 42,160,154,272,6 181,78,265,162,5 203,225,315,337,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000532.jpg 199,311,221,333,9 203,358,217,372,8 186,241,200,255,2 267,236,323,292,7 333,154,375,196,0 80,262,164,346,0 223,42,335,154,7 53,35,165,147,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000533.jpg 76,99,104,127,7 85,24,141,80,1 3,324,45,366,8 91,212,133,254,4 206,325,262,381,9 232,14,344,126,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000534.jpg 10,63,32,85,0 2,269,44,311,8 147,71,189,113,6 319,115,375,171,0 252,13,280,41,3 320,328,376,384,0 378,248,406,276,8 48,134,132,218,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000535.jpg 5,221,33,249,0 177,3,219,45,1 284,380,312,408,1 99,80,155,136,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000536.jpg 3,370,25,392,7 298,168,320,190,8 269,221,291,243,3 18,2,74,58,6 113,359,169,415,7 91,235,147,291,0 98,43,154,99,6 258,51,370,163,6 21,101,133,213,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000537.jpg 243,135,257,149,2 23,46,79,102,5 91,313,175,397,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000538.jpg 175,177,217,219,7 4,51,60,107,2 194,98,250,154,5 235,370,277,412,5 52,130,136,214,6 224,247,336,359,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000539.jpg 149,58,191,100,2 156,178,212,234,1 134,107,176,149,7 348,236,404,292,5 223,133,251,161,7 10,321,94,405,2 98,323,182,407,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000540.jpg 196,5,210,19,1 160,395,174,409,2 95,77,137,119,7 322,271,378,327,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000541.jpg 0,348,22,370,7 265,271,293,299,0 14,138,70,194,4 59,24,87,52,7 50,283,92,325,4 242,324,326,408,2 145,127,229,211,7 238,103,350,215,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000542.jpg 105,311,127,333,8 377,332,391,346,8 2,174,114,286,8 268,201,380,313,9 74,4,158,88,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000543.jpg 60,75,74,89,4 101,97,115,111,9 211,225,225,239,4 170,54,198,82,8 97,237,153,293,3 267,229,323,285,4 0,188,28,216,9 108,160,150,202,7 112,57,168,113,4 178,290,290,402,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000544.jpg 285,159,307,181,3 229,372,251,394,6 4,33,26,55,5 355,357,411,413,1 329,134,357,162,4 367,327,395,355,2 182,80,224,122,2 158,194,200,236,3 46,217,74,245,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000545.jpg 306,242,362,298,8 90,52,146,108,4 222,353,264,395,4 157,83,241,167,0 284,28,396,140,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000546.jpg 7,182,21,196,6 158,299,172,313,1 32,335,88,391,9 156,111,184,139,3 210,201,238,229,3 82,80,138,136,9 54,216,96,258,7 82,262,124,304,6 306,0,390,84,3 309,259,393,343,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000547.jpg 360,194,374,208,2 311,92,353,134,5 228,155,340,267,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000548.jpg 276,273,388,385,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000549.jpg 273,209,301,237,2 91,268,133,310,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000550.jpg 311,343,367,399,5 99,310,155,366,9 61,164,103,206,2 257,15,341,99,6 159,245,271,357,5 11,205,95,289,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000551.jpg 1,9,15,23,4 62,190,76,204,9 132,188,174,230,8 325,168,381,224,0 102,151,144,193,6 54,65,96,107,2 357,114,413,170,4 13,329,69,385,3 185,270,297,382,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000552.jpg 368,147,390,169,0 4,340,18,354,3 278,321,300,343,1 156,37,240,121,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000553.jpg 82,87,104,109,0 127,276,149,298,9 219,102,261,144,7 296,320,338,362,9 311,363,339,391,8 113,187,197,271,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000554.jpg 373,155,415,197,5 321,159,349,187,0 220,294,248,322,4 21,267,133,379,8 262,266,346,350,7 47,171,131,255,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000555.jpg 50,173,106,229,1 309,89,365,145,7 316,319,372,375,7 98,306,126,334,0 91,99,133,141,9 245,183,329,267,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000556.jpg 170,312,192,334,5 24,349,80,405,2 271,10,299,38,5 274,179,316,221,8 73,196,129,252,1 368,27,396,55,9 129,9,241,121,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000557.jpg 190,339,204,353,4 280,148,294,162,1 240,291,262,313,3 290,173,332,215,7 160,62,272,174,9 52,264,136,348,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000558.jpg 322,363,344,385,4 89,147,111,169,9 145,156,201,212,4 299,246,327,274,0 235,295,263,323,1 91,303,203,415,1 11,198,123,310,3 28,25,140,137,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000559.jpg 193,317,215,339,2 56,202,78,224,9 258,17,314,73,2 86,181,142,237,0 355,378,383,406,4 270,260,354,344,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000560.jpg 289,15,303,29,7 11,341,33,363,3 46,332,60,346,5 122,218,206,302,4 82,55,166,139,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000561.jpg 368,85,390,107,1 330,128,358,156,5 329,196,371,238,5 103,8,131,36,4 169,286,225,342,8 235,253,347,365,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000562.jpg 1,376,29,404,4 54,204,96,246,9 165,262,207,304,4 57,247,113,303,0 345,238,401,294,6 94,151,178,235,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000563.jpg 1,227,15,241,2 211,16,233,38,6 89,155,131,197,9 150,299,206,355,8 247,64,303,120,8 348,10,404,66,8 43,248,99,304,6 259,160,371,272,5 138,112,250,224,5 320,77,404,161,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000564.jpg 144,154,158,168,1 335,159,349,173,2 23,163,65,205,5 29,224,71,266,1 273,343,301,371,0 103,295,145,337,4 363,277,405,319,0 144,213,200,269,1 185,84,297,196,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000565.jpg 401,95,415,109,1 76,194,98,216,8 11,175,25,189,2 308,196,350,238,7 136,81,192,137,3 201,266,257,322,9 2,266,30,294,8 256,136,284,164,2 201,16,229,44,7 288,236,372,320,5 37,315,121,399,5 126,184,210,268,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000566.jpg 158,0,172,14,5 64,129,78,143,0 247,130,275,158,8 280,359,322,401,4 278,200,306,228,5 64,309,92,337,0 136,25,248,137,4 248,36,332,120,6 109,162,221,274,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000567.jpg 374,298,396,320,0 149,10,163,24,2 289,139,331,181,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000568.jpg 37,29,79,71,8 198,167,226,195,9 90,292,146,348,8 280,141,308,169,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000569.jpg 30,154,44,168,7 376,33,404,61,5 199,273,227,301,7 25,191,67,233,7 176,295,204,323,2 193,49,221,77,2 218,369,246,397,6 155,122,239,206,0 22,44,134,156,3 24,280,108,364,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000570.jpg 133,243,147,257,6 183,237,205,259,5 215,282,299,366,1 226,160,338,272,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000571.jpg 382,379,396,393,3 293,94,315,116,9 255,324,277,346,0 256,167,284,195,9 153,31,181,59,0 102,219,158,275,4 311,271,353,313,1 33,11,145,123,3 282,120,366,204,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000572.jpg 304,232,326,254,8 323,252,337,266,6 97,216,181,300,7 260,287,372,399,9 85,103,197,215,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000573.jpg 125,364,147,386,0 9,33,65,89,0 300,268,342,310,1 59,88,171,200,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000574.jpg 47,94,69,116,9 316,50,338,72,0 274,327,288,341,8 38,244,80,286,1 195,220,237,262,2 334,267,390,323,1 287,170,343,226,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000575.jpg 281,194,295,208,8 205,140,227,162,9 251,177,363,289,2 10,92,122,204,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000576.jpg 15,254,99,338,5 257,35,341,119,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000577.jpg 222,109,236,123,2 244,69,258,83,7 261,258,275,272,9 220,168,276,224,6 9,358,65,414,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000578.jpg 61,394,75,408,8 221,28,235,42,8 99,155,121,177,4 352,281,394,323,7 211,264,295,348,6 218,99,302,183,8 318,150,402,234,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000579.jpg 394,279,408,293,9 288,231,372,315,7 83,41,195,153,1 202,62,286,146,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000580.jpg 362,321,384,343,4 214,97,228,111,3 277,136,291,150,8 110,247,152,289,3 70,151,112,193,7 204,232,316,344,7 250,25,334,109,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000581.jpg 355,357,377,379,4 107,90,121,104,7 294,166,308,180,6 123,111,179,167,0 185,23,241,79,5 38,200,80,242,5 202,240,286,324,0 264,8,376,120,5 286,274,370,358,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000582.jpg 231,213,253,235,2 17,52,59,94,5 271,300,327,356,7 114,151,142,179,2 254,151,310,207,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000583.jpg 312,87,354,129,6 280,34,308,62,4 98,136,140,178,1 206,208,290,292,4 69,217,181,329,2 243,315,327,399,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000584.jpg 352,209,408,265,5 279,82,307,110,9 150,333,206,389,4 78,78,106,106,7 163,176,205,218,0 141,94,225,178,3 36,270,148,382,2 299,43,411,155,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000585.jpg 192,147,234,189,0 47,134,89,176,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000586.jpg 348,169,390,211,6 19,166,75,222,3 312,248,368,304,0 385,8,413,36,3 335,91,377,133,1 275,181,303,209,7 82,21,166,105,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000587.jpg 257,327,279,349,7 85,1,99,15,2 183,312,225,354,7 105,77,161,133,9 254,264,296,306,0 30,310,72,352,8 223,131,335,243,7 7,201,119,313,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000588.jpg 222,392,236,406,3 276,80,290,94,3 316,165,338,187,2 210,86,294,170,1 162,190,274,302,1 300,283,384,367,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000589.jpg 290,207,312,229,8 281,53,337,109,7 363,320,391,348,0 155,296,197,338,5 137,185,249,297,4 70,52,182,164,3 55,311,139,395,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000590.jpg 75,25,89,39,2 232,83,254,105,2 225,139,247,161,7 197,284,225,312,3 70,267,154,351,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000591.jpg 378,125,392,139,8 232,226,344,338,5 309,16,393,100,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000592.jpg 96,46,110,60,4 400,367,414,381,4 125,5,139,19,0 242,296,284,338,2 271,55,299,83,3 283,93,325,135,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000593.jpg 240,346,254,360,6 26,357,48,379,7 159,227,215,283,3 101,287,143,329,0 47,357,89,399,6 318,320,360,362,8 156,40,268,152,8 51,61,135,145,9 11,232,95,316,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000594.jpg 115,224,199,308,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000595.jpg 292,118,348,174,5 177,226,219,268,8 137,65,249,177,1 297,192,381,276,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000596.jpg 235,54,291,110,0 281,113,309,141,4 245,305,329,389,8 21,260,105,344,4 324,250,408,334,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000597.jpg 220,244,234,258,2 363,401,377,415,3 306,145,362,201,3 185,5,213,33,2 51,204,135,288,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000598.jpg 352,43,366,57,6 209,221,231,243,0 148,289,190,331,8 324,318,380,374,1 335,145,363,173,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000599.jpg 80,175,122,217,7 50,63,106,119,5 346,341,388,383,3 173,293,201,321,3 180,9,222,51,9 114,56,198,140,8 256,53,340,137,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000600.jpg 5,376,27,398,7 236,241,258,263,0 146,175,160,189,0 90,59,118,87,6 164,42,276,154,9 87,213,199,325,3 216,295,328,407,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000601.jpg 289,103,303,117,7 330,118,372,160,9 107,249,149,291,0 199,266,311,378,1 0,251,84,335,9 40,105,152,217,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000602.jpg 273,225,295,247,1 145,160,167,182,5 201,185,223,207,4 192,279,220,307,2 293,209,349,265,9 297,289,325,317,7 134,302,218,386,5 150,43,234,127,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000603.jpg 160,93,174,107,8 0,157,22,179,2 230,169,252,191,6 293,302,321,330,0 205,204,233,232,5 300,173,356,229,7 6,222,48,264,1 30,145,114,229,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000604.jpg 75,197,117,239,3 297,84,325,112,7 166,284,208,326,6 251,178,279,206,1 53,77,95,119,6 110,75,194,159,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000605.jpg 109,68,137,96,6 4,196,46,238,2 114,180,156,222,4 155,155,197,197,5 349,104,405,160,3 48,313,104,369,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000606.jpg 151,124,179,152,7 13,327,55,369,9 64,190,92,218,2 164,22,248,106,0 73,311,157,395,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000607.jpg 308,268,330,290,2 66,195,94,223,5 78,362,106,390,2 260,355,316,411,3 100,199,142,241,1 128,19,170,61,0 29,122,71,164,3 169,95,281,207,5 71,90,155,174,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000608.jpg 323,219,345,241,2 33,325,47,339,9 400,111,414,125,4 268,109,310,151,6 18,169,130,281,7 125,194,237,306,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000609.jpg 19,227,33,241,4 257,117,271,131,8 269,206,325,262,5 312,358,368,414,8 269,286,325,342,6 19,364,47,392,4 230,269,258,297,8 333,171,375,213,2 100,122,184,206,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000610.jpg 241,154,263,176,6 14,199,28,213,1 185,227,269,311,0 228,41,340,153,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000611.jpg 296,41,318,63,7 214,327,228,341,5 146,20,168,42,0 61,78,173,190,2 241,190,353,302,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000612.jpg 357,327,371,341,8 15,102,37,124,3 184,359,240,415,5 91,260,175,344,4 88,98,172,182,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000613.jpg 182,39,204,61,3 88,349,116,377,7 265,296,307,338,1 178,181,234,237,4 341,282,383,324,8 15,205,127,317,7 272,45,384,157,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000614.jpg 92,14,114,36,2 277,307,291,321,5 146,231,230,315,8 148,6,260,118,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000615.jpg 146,282,202,338,5 102,75,214,187,4 45,251,129,335,4 263,183,375,295,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000616.jpg 224,255,238,269,2 137,318,165,346,9 18,259,60,301,4 302,366,330,394,6 146,150,188,192,0 154,38,266,150,9 30,76,114,160,4 187,188,299,300,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000617.jpg 356,395,370,409,1 168,209,190,231,1 333,80,389,136,1 13,16,55,58,8 272,315,300,343,4 54,86,166,198,1 262,185,374,297,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000618.jpg 360,216,374,230,7 78,323,92,337,5 14,139,42,167,8 341,308,397,364,5 97,108,139,150,4 292,80,334,122,5 230,321,286,377,3 2,48,44,90,3 111,283,195,367,0 197,201,309,313,2 73,180,157,264,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000619.jpg 308,219,364,275,8 48,290,76,318,1 113,30,155,72,6 224,106,280,162,1 169,44,225,100,1 259,301,343,385,5 40,118,152,230,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000620.jpg 36,312,50,326,3 204,97,232,125,4 84,22,126,64,1 285,30,369,114,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000621.jpg 75,221,103,249,8 215,107,271,163,6 297,181,409,293,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000622.jpg 381,261,403,283,1 301,258,315,272,6 116,157,138,179,8 136,353,192,409,3 253,248,295,290,8 107,253,163,309,6 217,152,245,180,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000623.jpg 245,265,267,287,1 129,66,143,80,3 139,220,195,276,1 221,55,277,111,7 337,103,393,159,0 194,131,236,173,0 151,44,193,86,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000624.jpg 352,164,374,186,1 51,126,163,238,4 69,265,181,377,1 36,15,120,99,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000625.jpg 96,385,110,399,4 133,345,147,359,1 320,360,334,374,7 157,4,199,46,7 129,31,157,59,2 317,301,345,329,6 117,119,145,147,5 63,238,119,294,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000626.jpg 57,255,79,277,4 31,206,45,220,1 194,274,216,296,4 234,381,262,409,7 232,91,344,203,9 8,327,92,411,4 213,249,325,361,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000627.jpg 347,351,361,365,4 350,45,372,67,5 198,223,212,237,4 103,211,145,253,2 31,113,73,155,1 144,6,186,48,7 36,55,64,83,7 233,84,275,126,7 286,145,370,229,0 189,130,273,214,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000628.jpg 223,140,265,182,1 29,260,113,344,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000629.jpg 214,40,228,54,8 37,8,59,30,1 365,389,379,403,6 139,340,181,382,5 301,178,357,234,1 245,361,273,389,0 325,61,381,117,7 249,80,291,122,6 334,0,390,56,8 52,292,136,376,3 16,86,128,198,2 166,199,278,311,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000630.jpg 69,289,111,331,4 59,115,87,143,5 28,168,84,224,7 275,148,387,260,7 109,44,193,128,1 127,223,239,335,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000631.jpg 174,199,188,213,6 71,190,183,302,7 195,227,307,339,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000632.jpg 318,104,374,160,0 290,35,318,63,1 113,292,155,334,6 213,255,241,283,8 217,116,245,144,9 6,303,118,415,8 208,161,292,245,5 17,145,101,229,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000633.jpg 74,175,88,189,2 86,54,100,68,1 240,63,262,85,8 378,377,406,405,6 284,335,312,363,2 123,286,165,328,1 29,108,57,136,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000634.jpg 169,41,197,69,8 363,66,405,108,0 154,79,210,135,9 125,1,167,43,0 256,57,312,113,3 221,270,305,354,4 18,120,102,204,2 110,133,222,245,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000635.jpg 224,253,246,275,5 13,288,35,310,4 152,61,208,117,0 278,261,320,303,6 24,139,136,251,3 140,301,252,413,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000636.jpg 318,274,340,296,9 208,212,230,234,4 11,91,33,113,5 163,346,191,374,8 342,176,398,232,9 80,213,192,325,0 40,121,124,205,0 145,10,257,122,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000637.jpg 375,209,397,231,5 370,76,398,104,6 77,142,189,254,6 36,260,120,344,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000638.jpg 142,32,184,74,6 51,100,107,156,8 293,293,349,349,3 3,44,59,100,4 106,194,162,250,1 14,219,70,275,4 201,43,285,127,4 160,208,272,320,7 54,293,166,405,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000639.jpg 50,353,72,375,9 226,61,268,103,7 77,272,119,314,6 160,273,272,385,4 250,122,362,234,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000640.jpg 322,214,344,236,3 62,141,84,163,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000641.jpg 181,190,195,204,9 161,145,175,159,9 17,246,39,268,8 204,187,246,229,8 280,173,322,215,4 108,105,150,147,9 354,55,410,111,8 245,320,301,376,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000642.jpg 275,332,289,346,7 190,40,232,82,8 361,198,403,240,5 53,359,81,387,4 230,208,272,250,0 88,115,130,157,4 382,238,410,266,9 81,153,193,265,4 292,258,404,370,5 101,330,185,414,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000643.jpg 108,234,130,256,4 304,148,360,204,4 24,296,52,324,1 6,366,34,394,6 59,250,171,362,6 110,74,194,158,4 274,9,386,121,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000644.jpg 342,390,364,412,9 295,321,309,335,4 285,247,341,303,0 155,183,211,239,6 74,162,102,190,3 264,165,292,193,5 105,32,217,144,2 28,323,112,407,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000645.jpg 144,400,158,414,8 0,195,56,251,7 268,59,352,143,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000646.jpg 125,4,181,60,1 204,125,246,167,6 25,168,109,252,2 134,267,246,379,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000647.jpg 32,37,46,51,2 218,211,240,233,5 8,173,92,257,8 272,243,384,355,0 116,275,200,359,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000648.jpg 226,136,248,158,6 180,280,222,322,5 118,338,160,380,1 108,25,164,81,3 170,182,226,238,5 125,102,153,130,5 342,319,370,347,1 81,190,165,274,1 267,193,379,305,1 317,52,401,136,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000649.jpg 360,65,382,87,6 298,100,382,184,7 125,100,209,184,4 293,214,405,326,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000650.jpg 233,312,247,326,5 352,118,394,160,5 176,1,232,57,1 0,103,84,187,1 188,60,300,172,7 251,182,363,294,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000651.jpg 7,88,49,130,3 20,246,62,288,1 162,380,190,408,7 87,150,199,262,7 51,15,163,127,6 218,221,330,333,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000652.jpg 124,102,138,116,8 316,44,400,128,8 30,8,114,92,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000653.jpg 248,129,332,213,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000654.jpg 170,91,184,105,6 118,394,132,408,1 182,53,196,67,5 353,324,409,380,1 80,90,136,146,7 329,174,357,202,3 203,362,245,404,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000655.jpg 132,64,154,86,1 119,357,147,385,6 102,4,130,32,7 196,291,308,403,4 24,146,136,258,7 285,157,397,269,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000656.jpg 87,329,101,343,1 322,211,344,233,6 91,263,105,277,0 121,120,177,176,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000657.jpg 360,288,374,302,8 147,89,189,131,2 356,31,398,73,9 90,273,118,301,8 262,44,318,100,6 275,101,359,185,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000658.jpg 83,318,97,332,7 244,206,266,228,4 280,276,294,290,8 305,161,361,217,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000659.jpg 37,372,65,400,9 237,233,293,289,1 353,41,409,97,7 136,147,178,189,7 321,238,349,266,4 82,279,110,307,9 162,8,246,92,8 127,220,239,332,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000660.jpg 284,64,326,106,9 353,330,395,372,6 240,185,282,227,5 177,297,261,381,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000661.jpg 273,152,287,166,1 90,52,112,74,3 328,184,342,198,0 119,194,147,222,4 309,326,393,410,9 173,206,285,318,8 8,114,120,226,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000662.jpg 335,239,357,261,8 174,399,188,413,9 38,36,94,92,0 181,3,209,31,2 316,44,358,86,5 200,35,284,119,3 29,150,141,262,7 291,299,403,411,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000663.jpg 232,54,316,138,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000664.jpg 173,188,195,210,7 294,290,316,312,1 368,383,396,411,3 47,34,89,76,6 219,48,261,90,6 94,338,150,394,2 217,140,259,182,8 353,325,409,381,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000665.jpg 184,78,198,92,2 13,202,35,224,3 290,80,312,102,1 127,239,155,267,7 190,355,246,411,1 96,139,138,181,4 197,272,239,314,9 347,87,389,129,7 337,50,365,78,5 156,145,240,229,3 14,5,98,89,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000666.jpg 180,254,194,268,8 154,79,176,101,3 153,293,167,307,6 51,10,79,38,4 136,253,164,281,2 221,116,277,172,1 333,173,389,229,7 320,338,376,394,4 133,335,161,363,6 103,143,215,255,5 9,232,121,344,7 198,22,282,106,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000667.jpg 340,125,396,181,9 292,151,334,193,3 44,205,100,261,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000668.jpg 371,98,413,140,7 314,24,342,52,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000669.jpg 228,25,250,47,7 70,179,92,201,7 121,252,143,274,4 344,319,386,361,4 332,369,374,411,3 3,162,31,190,2 95,13,151,69,3 206,267,248,309,1 173,99,257,183,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000670.jpg 259,42,301,84,8 165,263,277,375,3 134,29,246,141,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000671.jpg 19,23,41,45,3 335,303,349,317,1 278,142,334,198,3 97,320,139,362,3 1,42,57,98,1 310,316,352,358,8 47,219,103,275,7 160,42,202,84,9 152,144,264,256,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000672.jpg 4,143,32,171,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000673.jpg 193,181,207,195,8 98,163,112,177,2 179,68,235,124,5 113,252,225,364,3 257,325,341,409,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000674.jpg 132,265,154,287,6 12,247,26,261,8 371,15,385,29,0 351,230,407,286,8 267,16,323,72,9 348,370,390,412,7 296,315,338,357,4 62,147,118,203,6 180,116,292,228,6 227,222,311,306,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000675.jpg 286,359,300,373,9 192,322,276,406,7 292,61,376,145,3 247,151,331,235,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000676.jpg 198,387,220,409,3 320,10,404,94,6 35,317,119,401,3 55,147,139,231,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000677.jpg 164,64,192,92,4 303,337,345,379,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000678.jpg 338,319,366,347,7 112,276,140,304,8 48,94,132,178,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000679.jpg 242,314,270,342,8 234,128,276,170,1 141,81,225,165,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000680.jpg 80,344,102,366,7 375,25,389,39,5 53,98,75,120,1 17,114,59,156,0 224,349,266,391,3 286,36,328,78,9 202,77,286,161,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000681.jpg 26,274,48,296,0 187,323,209,345,0 209,314,223,328,7 70,184,182,296,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000682.jpg 184,328,198,342,1 81,365,103,387,7 134,25,176,67,4 380,104,408,132,4 314,291,398,375,5 159,212,243,296,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000683.jpg 20,205,34,219,3 201,202,223,224,6 181,362,223,404,2 20,71,76,127,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000684.jpg 226,240,268,282,5 131,108,187,164,9 238,184,294,240,1 202,293,244,335,1 277,306,305,334,8 347,257,403,313,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000685.jpg 251,158,265,172,0 131,187,173,229,8 76,274,188,386,6 187,24,299,136,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000686.jpg 256,2,278,24,5 392,164,414,186,0 146,349,168,371,7 0,228,56,284,2 299,153,341,195,7 79,350,107,378,4 213,288,269,344,1 57,153,113,209,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000687.jpg 295,83,351,139,8 197,337,225,365,8 113,136,155,178,7 79,209,135,265,5 48,246,76,274,1 47,43,131,127,7 295,265,407,377,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000688.jpg 295,43,337,85,3 258,203,300,245,0 141,281,253,393,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000689.jpg 356,30,378,52,4 340,237,362,259,5 242,120,298,176,9 114,253,226,365,6 7,229,91,313,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000690.jpg 131,231,153,253,2 289,120,303,134,3 84,268,98,282,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000691.jpg 71,73,93,95,2 311,92,333,114,8 298,328,354,384,3 276,308,304,336,7 234,201,318,285,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000692.jpg 294,206,406,318,6 141,297,253,409,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000693.jpg 73,397,87,411,3 214,75,228,89,6 225,102,253,130,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000694.jpg 147,189,231,273,4 262,305,346,389,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000695.jpg 27,126,41,140,2 95,329,117,351,2 107,226,163,282,2 286,74,328,116,8 359,111,415,167,6 271,138,327,194,8 29,313,85,369,8 161,110,189,138,4 182,220,294,332,4 307,204,391,288,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000696.jpg 8,196,64,252,4 327,54,369,96,3 285,4,341,60,4 18,106,74,162,4 249,170,305,226,5 144,21,186,63,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000697.jpg 119,317,133,331,1 140,34,154,48,6 249,47,291,89,3 231,177,273,219,9 33,107,89,163,2 37,38,65,66,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000698.jpg 141,306,183,348,4 349,159,391,201,1 127,218,169,260,2 61,112,89,140,4 119,108,231,220,1 27,320,111,404,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000699.jpg 242,312,256,326,6 23,296,37,310,8 111,285,153,327,7 73,64,115,106,7 348,316,404,372,0 128,34,212,118,8 93,146,177,230,1 240,145,352,257,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000700.jpg 174,10,286,122,8 6,205,118,317,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000701.jpg 317,311,331,325,3 332,278,346,292,8 357,316,371,330,2 148,244,176,272,8 83,297,167,381,5 219,50,303,134,4 179,187,291,299,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000702.jpg 323,147,345,169,0 397,234,411,248,8 224,45,246,67,1 120,309,176,365,1 28,320,84,376,4 153,102,181,130,2 62,2,104,44,7 315,321,343,349,7 248,198,290,240,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000703.jpg 213,51,269,107,3 179,200,263,284,3 55,299,139,383,7 296,177,408,289,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000704.jpg 164,218,192,246,0 259,362,287,390,4 326,246,368,288,2 289,39,331,81,0 27,281,69,323,8 108,117,150,159,2 222,109,334,221,0 110,269,222,381,7 18,170,130,282,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000705.jpg 282,54,296,68,5 126,183,182,239,7 250,251,306,307,0 161,266,203,308,1 128,55,240,167,3 161,311,245,395,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000706.jpg 330,226,386,282,5 231,56,259,84,4 166,44,194,72,8 75,24,159,108,8 33,273,117,357,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000707.jpg 294,225,322,253,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000708.jpg 15,20,29,34,0 153,184,175,206,2 293,290,349,346,5 256,337,298,379,3 266,37,308,79,3 17,222,101,306,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000709.jpg 131,266,145,280,3 242,70,256,84,5 12,257,124,369,6 143,123,227,207,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000710.jpg 381,118,403,140,3 161,14,273,126,5 266,223,350,307,0 50,68,134,152,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000711.jpg 266,53,288,75,4 64,127,78,141,5 321,177,343,199,0 10,232,52,274,3 56,352,98,394,7 74,138,102,166,3 117,270,173,326,9 210,229,294,313,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000712.jpg 220,333,234,347,1 266,385,288,407,6 118,295,132,309,1 128,158,240,270,4 293,256,405,368,4 208,78,292,162,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000713.jpg 169,391,183,405,6 94,25,108,39,8 270,388,292,410,9 70,207,126,263,0 66,88,150,172,5 247,59,359,171,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000714.jpg 80,282,102,304,3 273,177,295,199,9 261,2,303,44,1 220,52,276,108,1 102,166,214,278,5 25,10,137,122,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000715.jpg 90,164,112,186,3 254,349,268,363,0 94,318,116,340,3 151,313,193,355,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000716.jpg 113,51,135,73,4 217,12,231,26,2 307,161,349,203,7 371,303,399,331,5 8,137,64,193,9 174,61,230,117,8 129,178,241,290,7 222,279,334,391,7 254,48,366,160,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000717.jpg 276,75,298,97,3 35,270,49,284,6 2,166,16,180,4 178,163,234,219,1 149,307,191,349,2 269,320,311,362,7 90,115,146,171,4 162,9,246,93,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000718.jpg 156,318,212,374,5 55,255,111,311,1 289,293,317,321,3 135,50,191,106,1 288,221,316,249,4 167,197,251,281,2 30,92,114,176,4 233,46,317,130,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000719.jpg 48,126,76,154,2 239,142,267,170,1 128,244,240,356,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000720.jpg 274,91,296,113,4 316,308,338,330,7 251,116,293,158,2 37,33,93,89,0 226,4,282,60,1 58,227,86,255,9 293,327,349,383,7 203,300,259,356,2 31,97,143,209,3 170,155,282,267,0 27,277,139,389,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000721.jpg 30,369,72,411,7 12,5,68,61,5 65,209,107,251,7 202,218,314,330,3 186,38,298,150,0 98,285,210,397,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000722.jpg 108,4,130,26,0 21,122,43,144,3 197,131,239,173,7 202,296,286,380,2 255,127,367,239,7 153,42,237,126,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000723.jpg 273,379,295,401,4 134,115,148,129,6 365,210,393,238,5 13,225,41,253,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000724.jpg 293,160,315,182,9 261,36,275,50,0 165,260,193,288,0 321,54,377,110,4 225,162,253,190,6 370,278,412,320,0 239,247,351,359,6 48,331,132,415,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000725.jpg 105,124,119,138,1 111,329,153,371,7 25,119,53,147,5 202,37,258,93,6 320,62,348,90,5 42,176,84,218,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000726.jpg 268,83,324,139,4 108,260,150,302,1 13,26,97,110,4 115,20,199,104,0 297,318,381,402,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000727.jpg 332,167,354,189,3 95,200,117,222,7 3,239,45,281,8 371,273,413,315,4 71,330,127,386,9 127,244,155,272,6 168,161,210,203,0 21,359,49,387,7 216,118,300,202,3 233,223,345,335,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000728.jpg 390,110,404,124,8 240,288,262,310,4 95,219,179,303,2 155,117,239,201,3 5,34,117,146,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000729.jpg 374,197,388,211,3 46,175,60,189,5 135,329,149,343,5 177,49,233,105,2 325,139,381,195,8 81,121,165,205,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000730.jpg 68,308,90,330,6 40,204,96,260,7 229,283,285,339,4 356,23,384,51,3 66,47,94,75,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000731.jpg 228,273,250,295,8 210,307,224,321,5 392,132,406,146,9 50,94,78,122,2 336,108,392,164,7 28,205,70,247,7 92,300,148,356,4 150,77,206,133,4 362,190,404,232,2 293,238,377,322,5 196,110,308,222,4 139,230,223,314,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000732.jpg 143,276,157,290,9 382,182,410,210,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000733.jpg 213,90,255,132,6 188,349,230,391,0 234,168,318,252,6 251,261,363,373,4 49,185,161,297,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000734.jpg 104,249,118,263,9 192,246,248,302,8 325,299,381,355,9 271,75,327,131,6 83,296,125,338,7 73,11,101,39,2 122,107,164,149,0 44,144,128,228,0 253,193,365,305,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000735.jpg 36,351,78,393,3 127,186,169,228,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000736.jpg 397,103,411,117,8 201,69,223,91,5 216,300,244,328,8 63,109,91,137,7 212,216,268,272,8 31,53,87,109,4 189,345,217,373,2 350,361,378,389,4 223,132,307,216,6 75,147,187,259,9 9,249,121,361,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000737.jpg 26,345,40,359,2 201,148,223,170,5 74,165,102,193,9 149,166,191,208,1 89,381,117,409,6 122,357,178,413,8 158,213,186,241,8 68,74,152,158,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000738.jpg 6,263,20,277,9 109,296,123,310,2 351,207,407,263,5 265,291,293,319,1 103,130,145,172,6 9,205,51,247,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000739.jpg 97,205,119,227,5 169,209,183,223,3 360,199,402,241,6 319,236,347,264,1 307,167,349,209,1 115,24,199,108,3 194,132,278,216,7 7,290,119,402,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000740.jpg 310,122,324,136,7 369,81,383,95,9 112,10,168,66,3 330,101,358,129,3 207,114,235,142,0 311,23,367,79,4 24,3,52,31,8 1,386,29,414,9 176,286,288,398,5 283,219,395,331,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000741.jpg 395,381,409,395,0 262,196,276,210,7 331,109,359,137,5 232,213,316,297,5 54,172,166,284,6 265,0,377,112,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000742.jpg 338,308,360,330,4 367,106,389,128,7 240,200,254,214,1 197,200,239,242,5 287,77,371,161,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000743.jpg 324,172,380,228,2 131,248,187,304,6 130,165,172,207,9 171,84,227,140,6 264,174,306,216,0 64,318,106,360,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000744.jpg 192,93,234,135,7 45,344,87,386,4 192,178,220,206,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000745.jpg 130,268,144,282,8 356,186,378,208,3 215,246,299,330,7 3,13,115,125,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000746.jpg 336,160,358,182,7 278,147,320,189,0 348,300,390,342,0 282,76,324,118,6 131,239,187,295,6 289,355,331,397,0 238,242,280,284,0 170,87,282,199,9 200,328,284,412,4 48,120,160,232,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000747.jpg 184,253,206,275,1 263,82,285,104,3 27,242,41,256,8 260,106,302,148,7 36,74,92,130,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000748.jpg 281,161,303,183,4 165,19,207,61,1 363,200,405,242,0 329,134,357,162,5 33,37,75,79,2 8,80,64,136,9 334,185,362,213,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000749.jpg 235,271,257,293,5 321,216,335,230,2 347,201,361,215,6 290,127,318,155,6 183,151,225,193,0 358,328,386,356,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000750.jpg 8,300,22,314,0 194,328,236,370,4 334,293,376,335,9 67,196,95,224,7 55,255,139,339,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000751.jpg 392,260,406,274,1 117,42,131,56,4 94,247,150,303,1 232,34,274,76,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000752.jpg 113,217,127,231,9 312,25,334,47,7 165,256,187,278,5 271,122,313,164,4 293,247,377,331,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000753.jpg 352,330,374,352,8 103,389,117,403,3 163,359,177,373,8 100,36,128,64,3 134,315,176,357,0 171,76,213,118,3 32,142,88,198,9 203,173,231,201,2 113,182,197,266,0 181,257,293,369,2 252,111,336,195,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000754.jpg 329,365,357,393,7 231,216,287,272,1 126,344,182,400,7 122,142,150,170,1 289,10,373,94,6 9,164,121,276,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000755.jpg 299,363,327,391,9 182,51,210,79,3 49,187,91,229,4 58,7,142,91,4 65,231,149,315,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000756.jpg 134,161,148,175,4 319,90,341,112,1 101,41,129,69,0 367,200,409,242,6 207,357,249,399,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000757.jpg 382,116,396,130,0 389,175,403,189,0 93,387,107,401,1 226,194,282,250,0 175,272,217,314,3 384,62,412,90,7 110,111,152,153,4 211,333,267,389,3 130,221,158,249,1 275,121,387,233,9 322,246,406,330,1 5,227,117,339,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000758.jpg 17,165,31,179,9 307,214,335,242,4 105,179,147,221,0 190,125,302,237,7 316,42,400,126,7 228,235,340,347,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000759.jpg 377,328,405,356,7 48,49,104,105,3 359,70,415,126,3 229,220,285,276,9 65,244,149,328,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000760.jpg 307,351,329,373,0 230,90,286,146,0 77,263,133,319,3 48,375,76,403,7 156,5,198,47,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000761.jpg 322,176,344,198,7 356,220,370,234,7 340,3,362,25,0 108,51,150,93,9 151,347,193,389,6 178,237,220,279,8 177,136,205,164,2 154,296,182,324,5 318,71,374,127,0 209,127,321,239,9 202,15,286,99,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000762.jpg 216,60,230,74,9 240,243,254,257,2 13,138,55,180,2 243,274,271,302,6 153,246,195,288,2 167,301,223,357,2 220,359,276,415,8 370,204,412,246,1 264,94,376,206,0 4,2,116,114,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000763.jpg 353,327,367,341,9 175,281,189,295,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000764.jpg 61,5,83,27,9 149,285,171,307,8 205,17,227,39,9 98,11,154,67,2 8,175,64,231,7 317,43,359,85,6 9,20,65,76,4 144,206,200,262,5 241,361,269,389,1 218,220,302,304,6 277,298,389,410,7 129,326,213,410,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000765.jpg 80,379,102,401,8 199,69,241,111,7 241,230,353,342,6 22,4,134,116,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000766.jpg 327,12,355,40,8 123,382,151,410,7 342,321,384,363,5 190,347,232,389,3 150,42,234,126,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000767.jpg 123,303,137,317,9 59,302,87,330,6 333,92,375,134,6 10,236,38,264,1 17,22,59,64,7 237,131,349,243,1 241,242,325,326,1 83,154,195,266,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000768.jpg 193,322,215,344,5 62,91,90,119,6 307,104,363,160,3 122,45,234,157,4 253,230,365,342,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000769.jpg 363,263,377,277,8 192,135,214,157,3 356,63,378,85,9 220,235,276,291,6 282,349,324,391,1 106,354,148,396,9 57,30,99,72,6 123,75,179,131,3 294,219,406,331,4 139,217,223,301,2 252,94,364,206,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000770.jpg 211,319,233,341,4 233,70,247,84,4 135,326,177,368,5 162,49,190,77,1 264,74,320,130,3 271,340,327,396,1 73,243,115,285,3 76,95,160,179,0 269,162,381,274,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000771.jpg 266,286,280,300,1 196,178,252,234,1 134,185,176,227,2 113,94,141,122,5 281,337,323,379,1 87,0,129,42,2 45,187,73,215,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000772.jpg 0,10,14,24,0 111,18,125,32,2 218,122,274,178,8 70,36,112,78,1 217,335,259,377,0 167,74,223,130,1 296,281,408,393,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000773.jpg 364,210,378,224,8 252,55,308,111,1 236,270,292,326,2 6,321,48,363,6 151,64,179,92,6 161,181,245,265,0 12,27,124,139,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000774.jpg 284,207,326,249,3 337,359,365,387,8 172,66,284,178,3 104,242,216,354,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000775.jpg 106,225,120,239,1 166,140,194,168,8 281,154,309,182,8 283,21,325,63,0 231,192,259,220,7 17,235,59,277,9 5,154,47,196,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000776.jpg 319,153,341,175,6 324,95,352,123,4 157,128,199,170,0 246,338,288,380,7 189,167,217,195,7 216,308,244,336,6 60,283,172,395,3 59,191,143,275,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000777.jpg 306,248,320,262,4 73,141,185,253,9 214,81,326,193,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000778.jpg 361,324,375,338,1 265,380,279,394,2 253,110,295,152,6 122,32,164,74,1 38,30,66,58,2 337,83,393,139,7 267,32,295,60,6 80,301,164,385,3 118,139,202,223,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000779.jpg 368,323,410,365,7 336,41,392,97,3 222,139,278,195,7 213,329,241,357,9 198,223,282,307,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000780.jpg 54,186,68,200,5 138,24,160,46,4 105,21,127,43,3 146,188,188,230,6 236,295,320,379,1 301,54,385,138,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000781.jpg 7,177,63,233,4 64,199,106,241,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000782.jpg 289,123,401,235,3 86,30,170,114,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000783.jpg 205,110,219,124,3 329,235,371,277,2 151,269,207,325,9 118,358,174,414,0 244,293,272,321,4 289,303,317,331,9 144,112,186,154,4 290,60,374,144,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000784.jpg 335,324,357,346,9 262,310,276,324,9 271,271,293,293,3 159,270,243,354,9 56,136,140,220,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000785.jpg 257,378,285,406,8 363,303,405,345,3 282,104,338,160,6 63,218,147,302,0 103,102,215,214,9 254,199,366,311,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000786.jpg 214,185,228,199,4 105,130,161,186,8 338,251,394,307,5 1,321,85,405,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000787.jpg 161,216,183,238,4 212,369,226,383,1 172,71,186,85,6 234,204,290,260,9 242,329,298,385,7 102,159,158,215,3 281,129,309,157,3 246,293,274,321,0 150,94,234,178,9 84,291,196,403,9 5,13,89,97,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000788.jpg 319,363,333,377,9 346,375,360,389,0 100,112,122,134,1 178,159,262,243,2 295,93,379,177,3 225,316,309,400,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000789.jpg 108,180,122,194,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000790.jpg 389,231,411,253,8 108,13,130,35,2 113,174,135,196,3 66,124,94,152,9 292,211,348,267,5 283,118,311,146,2 342,85,370,113,4 91,218,203,330,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000791.jpg 273,343,287,357,3 305,249,333,277,2 271,145,299,173,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000792.jpg 223,124,237,138,1 83,219,97,233,6 324,136,380,192,5 53,82,109,138,3 323,29,407,113,9 203,180,315,292,4 15,295,127,407,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000793.jpg 165,46,193,74,3 127,260,211,344,7 167,73,279,185,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000794.jpg 275,126,297,148,7 182,188,204,210,9 355,218,369,232,9 376,101,404,129,0 317,23,401,107,1 189,241,301,353,8 242,156,326,240,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000795.jpg 393,381,407,395,5 52,47,66,61,6 392,279,414,301,1 339,299,381,341,4 185,147,227,189,4 360,257,388,285,8 79,285,107,313,7 41,59,97,115,4 299,202,355,258,7 208,66,292,150,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000796.jpg 321,345,343,367,6 364,34,392,62,3 229,387,257,415,4 211,300,239,328,3 355,136,397,178,2 170,262,212,304,3 252,268,336,352,2 28,77,112,161,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000797.jpg 91,49,133,91,2 227,293,283,349,0 297,37,325,65,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000798.jpg 151,78,173,100,9 252,268,294,310,4 133,221,189,277,4 345,29,401,85,3 148,135,176,163,8 114,7,156,49,8 39,378,67,406,9 271,167,383,279,4 195,118,279,202,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000799.jpg 106,314,128,336,0 231,118,253,140,3 228,65,242,79,3 19,341,75,397,4 11,33,67,89,6 302,51,358,107,7 62,109,104,151,7 268,184,310,226,9 138,18,250,130,1 195,240,279,324,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000800.jpg 385,39,399,53,1 295,222,317,244,7 271,1,313,43,1 49,204,77,232,5 36,323,64,351,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000801.jpg 77,216,99,238,3 189,18,203,32,9 152,49,166,63,6 340,317,382,359,3 178,51,262,135,2 103,325,187,409,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000802.jpg 233,385,247,399,9 74,206,96,228,2 213,87,235,109,5 215,158,243,186,9 343,116,371,144,3 253,86,337,170,6 35,111,119,195,0 328,185,412,269,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000803.jpg 356,387,370,401,5 355,267,369,281,3 179,50,193,64,5 124,245,166,287,9 192,340,248,396,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000804.jpg 248,335,270,357,8 50,377,78,405,4 79,335,135,391,2 124,238,208,322,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000805.jpg 122,387,144,409,4 389,351,403,365,5 6,240,28,262,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000806.jpg 293,121,315,143,3 166,185,180,199,7 166,47,180,61,8 70,218,112,260,9 215,140,271,196,4 41,117,83,159,8 149,96,191,138,0 93,351,135,393,3 219,272,331,384,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000807.jpg 56,369,98,411,6 63,134,119,190,4 192,233,248,289,5 249,48,291,90,3 193,314,277,398,0 2,48,86,132,2 260,161,344,245,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000808.jpg 264,89,278,103,1 145,255,167,277,1 290,194,332,236,3 63,128,105,170,7 44,185,86,227,6 72,333,128,389,8 328,66,356,94,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000809.jpg 119,181,133,195,3 368,159,396,187,1 153,266,195,308,1 189,52,273,136,6 170,171,254,255,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000810.jpg 397,317,411,331,4 181,357,195,371,7 250,58,264,72,0 343,229,371,257,0 49,248,77,276,7 97,97,181,181,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000811.jpg 246,336,260,350,6 79,237,101,259,9 175,240,217,282,2 311,256,339,284,1 96,331,152,387,3 274,67,330,123,4 310,153,352,195,6 66,140,150,224,6 95,34,179,118,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000812.jpg 87,263,101,277,2 358,190,380,212,3 164,183,192,211,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000813.jpg 196,235,218,257,4 241,353,263,375,0 153,309,181,337,8 123,202,165,244,3 111,75,167,131,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000814.jpg 63,324,85,346,1 212,83,254,125,5 88,186,130,228,3 80,21,136,77,3 236,279,320,363,3 266,65,378,177,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000815.jpg 3,287,17,301,0 82,77,96,91,0 144,72,166,94,4 319,253,347,281,4 220,146,248,174,8 8,309,50,351,0 156,344,198,386,2 287,124,343,180,7 182,207,224,249,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000816.jpg 127,215,141,229,4 305,282,319,296,1 327,310,355,338,2 182,33,238,89,8 13,348,55,390,1 49,127,133,211,6 73,21,185,133,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000817.jpg 43,54,99,110,1 267,236,309,278,5 18,188,60,230,2 14,343,42,371,0 154,119,182,147,6 212,23,268,79,5 43,283,155,395,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000818.jpg 287,177,399,289,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000819.jpg 8,281,36,309,7 135,177,191,233,9 256,208,312,264,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000820.jpg 318,221,332,235,1 16,107,38,129,9 126,19,182,75,4 31,164,73,206,3 263,229,291,257,7 173,76,285,188,7 298,202,410,314,6 92,236,204,348,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000821.jpg 265,162,279,176,5 121,244,135,258,9 174,214,216,256,0 168,65,196,93,2 87,166,171,250,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000822.jpg 45,63,59,77,1 205,318,219,332,3 265,32,321,88,2 167,139,251,223,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000823.jpg 148,132,170,154,0 348,364,362,378,6 86,174,108,196,8 183,40,239,96,9 207,211,263,267,7 119,185,175,241,7 4,77,32,105,0 254,90,338,174,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000824.jpg 44,119,66,141,3 270,305,326,361,1 119,230,161,272,3 190,168,246,224,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000825.jpg 129,190,143,204,3 25,302,47,324,5 60,211,102,253,9 154,107,196,149,7 199,131,227,159,6 267,14,323,70,6 300,126,328,154,9 239,328,323,412,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000826.jpg 2,159,16,173,2 224,101,252,129,9 177,35,219,77,1 328,77,384,133,1 152,12,180,40,2 178,162,290,274,6 121,78,205,162,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000827.jpg 62,16,84,38,3 0,213,22,235,8 212,376,234,398,1 218,219,246,247,1 316,2,400,86,5 0,281,112,393,2 269,96,381,208,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000828.jpg 49,353,71,375,8 296,243,338,285,3 112,311,168,367,4 291,69,333,111,0 143,156,255,268,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000829.jpg 116,284,130,298,2 214,271,256,313,5 9,236,65,292,6 151,289,179,317,6 230,164,286,220,0 253,231,309,287,7 150,123,192,165,5 297,106,409,218,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000830.jpg 334,87,348,101,6 224,299,246,321,8 257,357,271,371,6 136,102,192,158,0 295,39,337,81,6 62,296,146,380,4 193,66,277,150,2 287,234,371,318,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000831.jpg 145,47,159,61,6 298,9,320,31,4 87,133,143,189,9 158,199,270,311,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000832.jpg 396,226,410,240,0 79,54,101,76,7 235,18,277,60,3 260,217,302,259,9 160,250,244,334,0 4,93,116,205,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000833.jpg 56,219,78,241,1 268,80,290,102,8 235,9,277,51,2 237,206,349,318,0 34,270,146,382,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000834.jpg 310,154,324,168,6 170,132,184,146,9 261,207,303,249,2 149,183,233,267,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000835.jpg 348,27,362,41,2 325,180,339,194,9 121,24,163,66,0 107,205,163,261,5 281,213,393,325,8 97,301,181,385,0 71,79,183,191,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000836.jpg 315,106,337,128,6 348,58,362,72,6 171,175,283,287,3 163,65,275,177,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000837.jpg 59,207,73,221,6 204,26,260,82,9 166,194,194,222,4 5,125,117,237,2 259,297,371,409,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000838.jpg 153,217,195,259,6 208,22,292,106,1 223,138,335,250,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000839.jpg 114,158,128,172,2 205,308,219,322,2 189,347,203,361,9 123,40,165,82,9 265,273,307,315,1 122,109,150,137,7 216,19,244,47,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000840.jpg 109,390,123,404,3 338,352,394,408,1 147,267,259,379,5 118,76,230,188,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000841.jpg 108,113,130,135,6 342,377,356,391,3 141,289,169,317,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000842.jpg 145,245,159,259,2 304,9,332,37,6 156,21,212,77,4 240,155,282,197,2 9,139,51,181,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000843.jpg 80,330,108,358,3 45,100,73,128,3 319,117,347,145,7 270,188,326,244,3 220,67,304,151,0 157,147,241,231,5 246,321,330,405,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000844.jpg 290,295,304,309,6 180,252,208,280,1 248,184,276,212,3 287,72,315,100,0 142,337,170,365,9 134,100,218,184,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000845.jpg 75,180,89,194,2 94,53,136,95,2 124,219,152,247,3 276,206,360,290,3 157,124,269,236,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000846.jpg 178,54,192,68,2 284,285,368,369,1 188,114,272,198,8 119,11,231,123,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000847.jpg 194,207,208,221,1 14,88,36,110,7 78,49,106,77,8 205,139,247,181,7 326,248,410,332,5 23,145,135,257,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000848.jpg 373,114,395,136,5 280,288,308,316,7 226,97,338,209,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000849.jpg 157,306,179,328,5 384,133,398,147,6 376,53,398,75,9 15,316,43,344,3 56,100,84,128,5 46,258,74,286,4 229,35,341,147,1 202,245,314,357,8 82,74,166,158,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000850.jpg 250,3,264,17,9 311,37,325,51,9 351,117,393,159,9 284,182,340,238,9 128,210,240,322,9 105,6,217,118,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000851.jpg 324,243,346,265,3 257,254,299,296,0 19,322,61,364,0 321,7,405,91,5 43,235,127,319,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000852.jpg 70,204,84,218,3 378,363,406,391,9 105,62,189,146,0 139,168,251,280,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000853.jpg 136,56,248,168,2 242,319,326,403,3 329,278,413,362,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000854.jpg 110,75,124,89,4 259,256,281,278,9 63,272,91,300,6 294,237,322,265,0 228,304,284,360,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000855.jpg 143,154,185,196,4 180,25,208,53,0 34,266,90,322,9 214,129,256,171,6 330,184,372,226,7 234,244,346,356,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000856.jpg 56,273,84,301,4 90,328,146,384,3 162,132,218,188,1 281,167,323,209,7 61,48,173,160,1 300,241,412,353,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000857.jpg 96,391,118,413,6 376,185,390,199,2 13,297,55,339,4 139,320,195,376,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000858.jpg 360,337,402,379,5 321,117,377,173,2 118,105,160,147,2 350,219,392,261,2 213,306,269,362,3 123,312,207,396,7 233,73,317,157,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000859.jpg 193,152,249,208,6 8,299,50,341,8 269,257,311,299,0 14,214,98,298,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000860.jpg 172,162,194,184,1 33,64,61,92,8 218,220,302,304,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000861.jpg 158,178,200,220,8 83,156,139,212,7 52,363,80,391,7 110,13,166,69,1 272,333,300,361,1 262,184,374,296,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000862.jpg 126,377,148,399,3 301,307,315,321,4 210,20,252,62,1 271,197,299,225,1 133,151,189,207,2 317,311,373,367,0 275,44,387,156,7 34,46,146,158,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000863.jpg 105,369,119,383,4 126,191,148,213,6 230,380,258,408,9 185,64,213,92,3 276,178,388,290,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000864.jpg 179,191,207,219,5 214,363,242,391,5 87,206,129,248,9 171,136,227,192,1 158,222,270,334,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000865.jpg 164,208,206,250,7 315,42,371,98,7 194,169,222,197,5 282,164,324,206,4 39,231,95,287,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000866.jpg 95,371,109,385,2 163,18,185,40,5 384,13,398,27,4 152,54,264,166,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000867.jpg 88,81,110,103,0 371,88,393,110,4 76,255,98,277,9 25,98,67,140,1 368,33,396,61,3 116,383,144,411,9 263,95,375,207,3 191,242,275,326,9 90,102,174,186,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000868.jpg 109,250,131,272,5 248,155,270,177,6 199,68,221,90,2 180,98,208,126,8 145,15,187,57,1 250,223,278,251,6 107,316,163,372,9 369,350,411,392,7 319,121,375,177,8 76,91,160,175,6 279,207,391,319,9 246,12,358,124,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000869.jpg 363,318,385,340,1 82,352,96,366,1 261,325,289,353,9 199,328,241,370,3 145,177,173,205,6 21,94,77,150,1 127,292,183,348,8 13,238,55,280,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000870.jpg 370,366,384,380,8 189,337,211,359,1 3,362,25,384,5 64,360,106,402,8 305,177,347,219,1 48,186,90,228,6 106,159,190,243,4 284,303,368,387,3 206,52,318,164,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000871.jpg 95,384,117,406,9 117,157,131,171,7 286,47,308,69,2 33,252,61,280,8 131,231,159,259,4 313,155,341,183,3 19,217,47,245,3 344,258,400,314,8 226,111,268,153,3 144,272,256,384,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000872.jpg 16,314,38,336,5 335,14,391,70,9 366,386,394,414,1 291,285,347,341,6 125,340,167,382,0 178,317,262,401,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000873.jpg 346,207,360,221,6 258,233,272,247,1 33,20,47,34,3 90,17,118,45,7 159,293,201,335,5 112,270,154,312,8 23,140,51,168,2 13,55,55,97,1 219,293,303,377,0 3,234,87,318,0 93,132,205,244,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000874.jpg 14,122,70,178,1 24,265,80,321,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000875.jpg 0,72,14,86,2 205,195,233,223,1 86,318,128,360,7 98,0,126,28,1 279,155,307,183,1 157,52,213,108,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000876.jpg 158,68,214,124,6 49,311,77,339,3 363,218,405,260,3 283,73,311,101,9 54,44,138,128,4 64,185,148,269,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000877.jpg 102,268,116,282,2 159,115,173,129,4 356,32,412,88,9 219,191,261,233,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000878.jpg 185,239,199,253,8 278,66,334,122,8 140,23,252,135,7 46,55,130,139,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000879.jpg 369,98,391,120,8 30,237,52,259,3 87,44,143,100,1 266,29,322,85,7 370,50,398,78,9 340,155,396,211,6 214,43,256,85,3 331,19,359,47,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000880.jpg 4,16,46,58,3 338,78,366,106,5 83,22,167,106,9 6,195,118,307,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000881.jpg 377,110,399,132,6 177,301,199,323,7 353,241,409,297,2 299,38,341,80,3 171,110,255,194,8 6,97,118,209,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000882.jpg 307,51,329,73,9 247,6,261,20,9 146,8,160,22,8 32,94,88,150,3 147,213,189,255,2 261,4,289,32,8 207,108,249,150,6 25,160,137,272,9 209,233,321,345,3 61,279,173,391,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000883.jpg 82,67,124,109,8 27,125,69,167,0 191,181,233,223,8 235,32,263,60,0 130,207,186,263,2 84,142,140,198,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000884.jpg 29,32,51,54,8 168,56,210,98,2 68,303,110,345,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000885.jpg 352,85,374,107,5 0,368,14,382,0 102,271,116,285,7 117,9,173,65,4 299,116,341,158,1 383,139,411,167,6 64,293,148,377,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000886.jpg 335,122,349,136,3 392,80,414,102,0 224,195,280,251,7 90,235,202,347,1 208,284,292,368,2 54,103,166,215,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000887.jpg 148,240,162,254,3 220,363,234,377,4 377,93,399,115,3 386,119,414,147,8 11,140,67,196,5 204,100,288,184,1 30,44,114,128,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000888.jpg 202,289,216,303,8 311,274,325,288,5 201,391,215,405,3 11,304,39,332,7 215,130,243,158,3 59,76,87,104,5 206,216,234,244,9 142,20,254,132,8 215,288,299,372,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000889.jpg 304,310,360,366,4 77,167,119,209,0 330,157,372,199,6 178,235,220,277,0 235,63,291,119,3 287,270,315,298,9 117,19,201,103,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000890.jpg 149,60,171,82,4 176,77,198,99,7 53,396,67,410,6 2,105,44,147,4 305,270,389,354,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000891.jpg 46,357,68,379,4 125,65,147,87,1 266,273,288,295,2 308,183,364,239,7 251,21,293,63,0 145,122,173,150,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000892.jpg 223,374,251,402,2 161,223,189,251,1 172,149,200,177,9 202,262,258,318,0 32,41,144,153,6 233,107,317,191,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000893.jpg 317,105,339,127,8 62,215,118,271,2 205,24,247,66,3 342,84,370,112,0 129,359,157,387,1 215,235,257,277,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000894.jpg 273,218,295,240,8 367,332,409,374,1 35,30,91,86,5 65,118,93,146,2 192,294,234,336,7 89,149,145,205,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000895.jpg 377,316,391,330,4 194,161,250,217,3 292,248,334,290,2 241,371,283,413,8 353,76,409,132,4 214,63,270,119,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000896.jpg 151,205,193,247,4 8,157,64,213,4 342,314,370,342,9 118,262,146,290,7 47,349,103,405,6 112,139,154,181,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000897.jpg 36,159,92,215,6 59,57,143,141,5 264,41,348,125,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000898.jpg 209,219,237,247,4 248,8,276,36,5 84,126,196,238,1 326,22,410,106,5 19,292,103,376,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000899.jpg 384,117,398,131,3 180,151,222,193,4 259,206,301,248,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000900.jpg 294,51,308,65,8 255,72,277,94,4 359,40,415,96,6 241,104,283,146,6 81,239,123,281,0 293,319,335,361,4 161,158,217,214,9 293,154,405,266,4 113,278,225,390,3 51,55,163,167,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000901.jpg 36,135,58,157,2 345,273,367,295,3 135,328,177,370,7 223,214,279,270,0 48,32,76,60,7 313,57,341,85,8 10,93,52,135,0 103,22,215,134,0 71,131,183,243,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000902.jpg 312,62,396,146,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000903.jpg 254,187,296,229,2 48,48,104,104,0 236,346,278,388,5 358,334,400,376,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000904.jpg 152,103,166,117,5 343,381,371,409,4 27,339,55,367,7 293,290,335,332,4 118,153,146,181,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000905.jpg 48,216,70,238,1 17,152,31,166,4 43,114,99,170,2 142,260,226,344,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000906.jpg 268,338,324,394,7 7,13,63,69,0 86,264,142,320,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000907.jpg 314,8,336,30,1 360,166,374,180,4 301,147,315,161,0 321,346,349,374,1 112,282,140,310,1 159,41,187,69,0 129,88,213,172,7 173,198,257,282,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000908.jpg 143,188,165,210,8 319,0,341,22,4 107,233,191,317,8 245,41,329,125,2 322,192,406,276,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000909.jpg 12,341,26,355,1 295,37,309,51,1 27,75,69,117,0 330,33,358,61,9 158,25,186,53,6 117,176,229,288,7 195,12,279,96,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000910.jpg 156,158,184,186,9 126,44,154,72,4 272,45,328,101,6 167,263,195,291,3 135,302,191,358,3 27,228,139,340,9 207,263,319,375,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000911.jpg 333,320,389,376,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000912.jpg 391,113,405,127,2 132,163,154,185,8 1,324,57,380,2 300,37,412,149,7 47,47,159,159,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000913.jpg 112,330,168,386,4 8,89,50,131,7 146,234,174,262,7 115,142,171,198,6 62,266,104,308,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000914.jpg 385,218,407,240,7 231,242,245,256,5 282,148,338,204,5 351,118,379,146,1 145,328,229,412,2 157,221,269,333,1 241,60,325,144,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000915.jpg 293,96,315,118,7 12,354,34,376,8 335,342,357,364,9 164,223,276,335,8 20,192,104,276,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000916.jpg 216,41,244,69,4 317,236,373,292,9 283,49,325,91,2 293,371,335,413,1 231,271,315,355,9 28,249,140,361,0 97,86,181,170,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000917.jpg 334,270,362,298,8 125,39,237,151,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000918.jpg 335,28,349,42,5 334,359,356,381,4 262,365,276,379,3 193,234,305,346,8 189,77,273,161,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000919.jpg 185,220,199,234,7 27,88,83,144,4 345,115,373,143,9 12,142,124,254,5 227,113,311,197,5 167,1,279,113,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000920.jpg 97,0,111,14,1 64,86,78,100,3 165,99,187,121,3 318,65,346,93,2 252,18,280,46,9 303,249,387,333,9 179,149,291,261,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000921.jpg 140,355,168,383,4 108,382,136,410,9 313,185,355,227,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000922.jpg 16,280,30,294,8 150,31,234,115,4 36,270,120,354,9 74,190,158,274,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000923.jpg 92,49,148,105,8 349,229,377,257,0 185,232,297,344,5 105,108,217,220,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000924.jpg 94,305,136,347,9 139,97,181,139,8 230,234,272,276,1 63,92,119,148,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000925.jpg 142,4,164,26,5 71,37,99,65,9 222,150,250,178,3 325,286,367,328,4 190,37,218,65,2 25,155,109,239,4 31,246,143,358,6 271,19,355,103,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000926.jpg 300,217,322,239,7 39,367,81,409,9 269,78,325,134,1 152,332,208,388,4 355,88,411,144,7 285,353,327,395,2 59,125,143,209,5 294,231,406,343,8 147,222,231,306,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000927.jpg 379,390,401,412,9 279,258,307,286,3 272,56,314,98,6 330,263,386,319,3 337,202,365,230,5 131,113,159,141,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000928.jpg 44,291,72,319,7 370,302,398,330,5 288,360,330,402,9 204,334,246,376,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000929.jpg 265,181,321,237,5 124,121,208,205,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000930.jpg 329,97,351,119,0 24,346,38,360,6 49,217,63,231,7 234,351,290,407,1 219,249,275,305,1 91,265,147,321,4 3,23,59,79,5 294,169,406,281,3 25,131,109,215,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000931.jpg 260,310,274,324,2 400,3,414,17,7 140,395,154,409,9 267,182,323,238,4 57,72,169,184,6 212,42,324,154,4 140,206,224,290,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000932.jpg 54,296,76,318,3 88,209,172,293,5 67,24,151,108,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000933.jpg 281,49,337,105,6 11,153,95,237,9 105,293,217,405,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000934.jpg 179,119,221,161,7 65,208,121,264,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000935.jpg 150,363,172,385,9 249,347,271,369,8 95,271,151,327,4 281,244,309,272,3 309,58,351,100,3 171,194,213,236,5 218,227,246,255,1 357,228,399,270,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000936.jpg 165,134,187,156,5 322,106,350,134,6 252,241,280,269,7 320,345,362,387,3 266,84,294,112,0 220,276,304,360,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000937.jpg 40,300,82,342,7 142,149,226,233,4 45,209,129,293,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000938.jpg 62,166,84,188,6 219,171,261,213,1 172,258,200,286,9 307,174,335,202,8 90,87,118,115,8 274,296,386,408,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000939.jpg 50,324,78,352,2 251,35,293,77,0 228,262,284,318,3 250,329,306,385,0 109,244,221,356,5 183,67,267,151,1 7,26,119,138,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000940.jpg 200,240,214,254,6 365,230,387,252,6 318,319,346,347,5 240,148,282,190,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000941.jpg 196,302,210,316,1 338,228,360,250,1 349,56,405,112,9 78,274,134,330,0 312,263,340,291,8 118,39,160,81,1 11,49,123,161,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000942.jpg 160,10,182,32,6 389,362,411,384,3 163,71,219,127,1 203,214,259,270,7 84,161,140,217,8 272,92,384,204,9 50,302,162,414,7 315,285,399,369,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000943.jpg 314,220,356,262,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000944.jpg 277,78,305,106,9 329,230,357,258,2 217,88,259,130,0 251,305,307,361,2 3,114,31,142,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000945.jpg 75,90,97,112,6 91,302,113,324,1 123,291,151,319,0 20,241,62,283,4 52,176,80,204,9 291,296,375,380,0 207,193,319,305,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000946.jpg 194,65,216,87,7 354,207,368,221,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000947.jpg 155,134,177,156,2 79,367,101,389,1 86,149,114,177,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000948.jpg 161,295,183,317,0 27,50,49,72,8 172,38,186,52,6 191,293,303,405,3 254,122,366,234,8 55,290,139,374,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000949.jpg 16,348,38,370,6 45,220,73,248,4 71,63,183,175,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000950.jpg 94,23,108,37,7 111,216,125,230,6 57,277,169,389,1 185,70,269,154,9 283,75,395,187,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000951.jpg 232,187,260,215,6 11,72,67,128,9 180,292,222,334,7 81,148,137,204,4 176,221,218,263,9 259,66,315,122,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000952.jpg 142,323,170,351,9 351,34,407,90,8 249,300,305,356,3 314,132,370,188,6 83,88,195,200,9 97,208,209,320,1 234,219,318,303,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000953.jpg 235,212,277,254,0 308,149,364,205,7 193,62,235,104,7 203,298,231,326,0 124,194,236,306,9 275,267,387,379,6 71,1,183,113,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000954.jpg 384,41,406,63,7 2,275,16,289,1 260,128,274,142,5 384,65,412,93,3 121,283,163,325,7 6,219,48,261,1 287,47,343,103,6 118,172,174,228,3 191,282,247,338,9 100,19,212,131,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000955.jpg 329,209,351,231,2 87,301,101,315,8 132,221,146,235,4 56,176,98,218,7 159,219,201,261,9 266,270,350,354,1 98,98,182,182,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000956.jpg 176,3,198,25,5 96,257,208,369,5 218,211,302,295,3 299,107,411,219,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000957.jpg 70,342,84,356,5 44,136,58,150,9 277,315,305,343,3 140,176,182,218,0 266,207,294,235,4 211,281,253,323,4 96,54,152,110,5 51,263,135,347,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000958.jpg 263,111,277,125,3 127,375,141,389,9 58,106,72,120,9 253,350,281,378,4 63,210,147,294,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000959.jpg 334,141,356,163,7 140,251,154,265,0 61,47,117,103,7 93,335,121,363,2 323,232,407,316,3 15,106,127,218,2 260,71,344,155,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000960.jpg 358,362,372,376,2 80,189,136,245,3 371,357,413,399,5 197,145,253,201,6 324,135,366,177,2 108,287,150,329,2 139,0,167,28,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000961.jpg 12,61,34,83,1 259,272,315,328,5 175,244,259,328,7 9,110,93,194,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000962.jpg 231,221,315,305,8 297,115,381,199,9 63,37,175,149,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000963.jpg 333,164,347,178,6 278,328,300,350,9 264,161,278,175,6 73,335,101,363,7 73,178,129,234,8 232,19,288,75,9 177,129,261,213,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000964.jpg 137,172,159,194,0 1,241,43,283,7 259,307,301,349,2 32,354,60,382,3 275,200,331,256,6 149,58,261,170,6 62,248,174,360,7 276,34,388,146,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000965.jpg 393,147,407,161,0 72,45,94,67,4 75,324,103,352,3 75,10,103,38,8 2,71,44,113,8 225,135,253,163,2 54,215,166,327,2 325,63,409,147,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000966.jpg 64,156,78,170,3 111,152,153,194,3 7,209,35,237,7 148,248,204,304,6 208,352,250,394,6 267,118,295,146,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000967.jpg 4,190,60,246,1 44,19,156,131,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000968.jpg 187,18,201,32,7 141,205,155,219,7 59,66,73,80,9 78,302,120,344,4 282,288,324,330,4 41,100,83,142,9 253,151,295,193,4 255,194,339,278,8 198,304,282,388,7 2,182,86,266,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000969.jpg 168,43,190,65,2 236,59,258,81,1 157,165,269,277,0 142,329,226,413,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000970.jpg 166,333,180,347,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000971.jpg 338,34,352,48,6 136,129,220,213,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000972.jpg 308,273,336,301,0 81,307,123,349,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000973.jpg 105,272,119,286,3 124,227,152,255,9 203,229,315,341,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000974.jpg 353,257,375,279,6 304,62,332,90,3 336,62,392,118,4 74,342,130,398,1 334,340,376,382,7 59,203,101,245,2 5,57,89,141,1 191,218,275,302,9
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000975.jpg 327,196,341,210,1 152,26,166,40,8 203,37,245,79,8 110,144,152,186,9 92,316,148,372,5
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000976.jpg 379,149,393,163,4 230,166,244,180,2 302,308,324,330,2 121,365,163,407,9 83,245,139,301,3 291,194,375,278,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000977.jpg 144,54,166,76,7 147,167,161,181,5 312,92,326,106,6 373,12,401,40,7 127,226,169,268,3 98,111,126,139,5 300,184,356,240,3 164,95,206,137,1 300,37,356,93,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000978.jpg 183,185,239,241,9 237,364,279,406,2 166,116,208,158,0 152,351,208,407,5 251,155,363,267,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000979.jpg 107,368,135,396,0 250,172,292,214,4 251,228,279,256,3 278,67,306,95,9 71,320,99,348,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000980.jpg 312,262,326,276,5 366,97,380,111,9 24,289,38,303,8 247,241,359,353,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000981.jpg 185,282,207,304,8 75,15,131,71,7 138,54,194,110,8 244,112,286,154,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000982.jpg 159,252,201,294,7 66,108,108,150,7 323,211,379,267,3 186,151,228,193,3 63,64,91,92,2 257,88,341,172,8 73,144,185,256,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000983.jpg 15,288,29,302,8 29,74,57,102,2 331,12,415,96,9 62,272,174,384,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000984.jpg 92,43,114,65,8 76,165,104,193,5 253,70,281,98,6 284,7,326,49,7 149,238,191,280,3 191,173,303,285,8 72,68,156,152,8 72,290,184,402,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000985.jpg 267,55,289,77,6 237,293,293,349,3 168,257,224,313,5 357,305,413,361,9 2,230,58,286,7 307,12,349,54,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000986.jpg 13,314,27,328,0 219,169,233,183,9 365,89,379,103,7 165,18,221,74,0 131,77,187,133,4 296,165,352,221,1 285,47,341,103,1 14,62,42,90,4 244,301,356,413,5 128,248,240,360,6 161,132,273,244,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000987.jpg 129,186,151,208,5 3,338,25,360,4 62,175,84,197,1 144,18,172,46,9 56,76,84,104,5 208,286,250,328,1
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000988.jpg 165,108,187,130,5 96,240,118,262,1 128,256,156,284,3 181,60,237,116,4 131,197,187,253,6 265,338,307,380,6 355,292,411,348,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000989.jpg 276,126,318,168,6 186,201,242,257,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000990.jpg 129,198,185,254,9 296,24,408,136,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000991.jpg 117,101,159,143,7 157,231,199,273,5 80,210,122,252,4 171,344,227,400,1 176,54,218,96,5 207,135,319,247,3 265,243,377,355,3
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000992.jpg 41,83,63,105,2 348,30,376,58,8 115,358,157,400,6 320,210,362,252,4 85,51,113,79,5 161,280,245,364,4 102,122,186,206,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000993.jpg 325,47,347,69,5 175,294,189,308,8 155,266,183,294,5 27,65,111,149,4
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000994.jpg 298,355,320,377,9 240,311,282,353,7
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000995.jpg 387,364,401,378,9 44,198,66,220,4 293,182,335,224,2 83,169,125,211,7 238,350,266,378,6 160,220,188,248,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000996.jpg 261,349,275,363,3 132,190,154,212,5 363,54,391,82,9 104,129,132,157,9 144,139,256,251,8
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000997.jpg 390,325,404,339,8 203,274,217,288,3 206,59,220,73,7 88,132,200,244,3 28,262,140,374,5 82,26,166,110,0
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000998.jpg 323,202,345,224,3 134,11,148,25,1 158,248,200,290,1 248,323,332,407,2
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/000999.jpg 152,26,264,138,2 150,139,262,251,8 304,265,388,349,6
+/home/roboe/git/TensorFlow2.0-Examples/4-Object_Detection/YOLOV3/data/dataset/train/001000.jpg 117,208,145,236,9 50,308,92,350,6 127,380,155,408,7 71,205,99,233,8 290,158,346,214,4
