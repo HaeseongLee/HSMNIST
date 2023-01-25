@@ -9,7 +9,7 @@ from load_data import DataLoader
 from train import Trainer
 
 from utils import decode, draw_bbox, xywh2yxyx
-from constant import (STRIDES, ANCHORS, ANCHORS_PER_GRID
+from constant import (STRIDES, ANCHORS, ANCHORS_PER_GRID,
                       WIDTH, HEIGHT, NUM_CLASS)
 
 SCORE_THRES = 0.3
@@ -41,9 +41,9 @@ class Detector:
         preds_arr = [np.reshape(x,(-1,np.shape(x)[-1])) for x in tmp]
         preds_arr = np.concatenate(preds_arr, axis=0)
 
-        xywh = pred_arr[:, :4]
-        conf = pred_arr[:, 4]
-        prob = pred_arr[:, 5:]
+        xywh = preds_arr[:, :4]
+        conf = preds_arr[:, 4]
+        prob = preds_arr[:, 5:]
 
         # (cx, cy, w, h) -> (x_min, y_min, x_max, y_max)
         coor = np.concatenate([xywh[:,:2]-xywh[:,2:]*0.5, xywh[:,:2]+xywh[:,2:]*0.5], axis=-1)
@@ -72,9 +72,9 @@ class Detector:
 
 if __name__ == "__main__":
     # model_path = "/home/roboe/roboe_ws/src/roboeod/script/RBDN/20230111_ciou/best.h5"
-    model_path = "/home/roboe/roboe_ws/src/roboeod/script/HSMNIST/best.h5"
+    model_path = "/home/roboe/git/HSMNIST/best.h5"
 
-    path = "/home/roboe/roboe_ws/src/roboeod/script/HSMNIST/data_yyminst/dataset"
+    path = "/home/roboe/git/HSMNIST/data_yyminst/dataset"
 
     dl = DataLoader(path)
     im, ld, pd, ns = dl.get_dataset()    
