@@ -9,7 +9,7 @@ from load_data import DataLoader
 from train import Trainer
 
 from utils import decode, draw_bbox, xywh2yxyx
-from constant import (STRIDES, ANCHORS,
+from constant import (STRIDES, ANCHORS, ANCHORS_PER_GRID
                       WIDTH, HEIGHT, NUM_CLASS)
 
 SCORE_THRES = 0.3
@@ -18,10 +18,11 @@ class Detector:
     def __init__(self):
         pass
 
-    def postprocess(self, pred):
+    def postprocess(self, preds):
         '''
-        Arguments            
-            pred: [N, W, H, 3, 5 + n_class], (cx, cy, w, h, p, class)
+        Arguments
+            preds: (3, )
+            - preds[i] = [N, W, H, 3, 5 + n_class], (cx, cy, w, h, p, class)
 
         Return
             pred: [M, 6], (x_min, y_min, x_max, y_max, conf, class_id)
@@ -29,11 +30,16 @@ class Detector:
         '''
         valid_scale = [0, np.inf]
         
-        ori_h = np.shape(pred)[1]
-        ori_w = np.shape(pred)[2]
+        ori_h = HEIGHT
+        ori_w = WIDTH
         
-        pred_arr = np.reshape(pred,(-1,np.shape(pred)[-1]))        
-        # preds_arr = np.concatenate(preds_arr, axis=0)
+        tmp = []
+        for i in range(ANCHORS_PER_GRID):
+            pred = np.array(preds[i])
+            tmp.append(pred)
+
+        preds_arr = [np.reshape(x,(-1,np.shape(x)[-1])) for x in tmp]
+        preds_arr = np.concatenate(preds_arr, axis=0)
 
         xywh = pred_arr[:, :4]
         conf = pred_arr[:, 4]
