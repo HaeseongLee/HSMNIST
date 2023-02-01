@@ -4,28 +4,29 @@ import cv2
 import math
 from tqdm import tqdm
 import time
+import matplotlib.pyplot as plt
 
 from architecture import HSMNIST
 from load_data import DataLoader
 
 from tensorflow.keras.optimizers import SGD
 from tensorflow.keras import Model
+from tensorflow.keras.losses import BinaryCrossentropy, CategoricalCrossentropy
+
 
 from history import LearningHistory
 from scheduler import LearningScheduler
 
 from utils import bbox_ious, decode
 from constant import (STRIDES, ANCHORS,
-                      WIDTH, HEIGHT, NUM_CLASS,
+                      WIDTH, HEIGHT, NUM_CLASS, SCORE_THRES,
                       ANCHORS_PER_GRID)
 
 IOU_LOSS_THRESH = 0.5
 WARMUP_EPOCHS = 1
 LR_INIT =  1e-3
 LR_END = 1e-6
-EPOCHS = 5 #100
-SCORE_THRES = 0.3
-
+EPOCHS = 10 #100
 
 
 class Trainer:
@@ -56,6 +57,8 @@ class Trainer:
 
         self.learning_stop = False 
 
+        self.bce = BinaryCrossentropy()
+        self.cce = CategoricalCrossentropy()
         
     def compute_loss(self, pred, label_map, bboxes):
         ''' 
@@ -86,75 +89,127 @@ class Trainer:
         giou = tf.expand_dims(bbox_ious(pred_xywh, label_xywh, "ciou"), axis=-1)  
         # bbox_loss_scale = 2.0 - 1.0 * label_xywh[:, :, :, :, 2:3] * label_xywh[:, :, :, :, 3:4] / (input_w * input_h)                
         # giou_loss = respond_bbox*bbox_loss_scale*(1-giou)
-        giou_loss = respond_bbox*(1-giou)
-        # giou_loss = (1-giou)
+        # giou_loss = respond_bbox*(1-giou)
+        giou_loss = (1-giou)
 
 
-        # iou = self.bbox_ious(pred_xywh[:, :, :, :, np.newaxis, :], bboxes[:, np.newaxis, np.newaxis, np.newaxis, :, :], "iou")
-        # max_iou = tf.expand_dims(tf.reduce_max(iou, axis=-1), axis=-1)
-        # respond_bgd = (1.0 - respond_bbox) * tf.cast( max_iou < IOU_LOSS_THRESH, tf.float32 )
-        respond_bgd = (1.0 - respond_bbox) # why max_iou is required?...
-
+        iou = bbox_ious(pred_xywh[:, :, :, :, np.newaxis, :], bboxes[:, np.newaxis, np.newaxis, np.newaxis, :, :], "iou")
+        max_iou = tf.expand_dims(tf.reduce_max(iou, axis=-1), axis=-1)
+        respond_bgd = (1.0 - respond_bbox) * tf.cast( max_iou < IOU_LOSS_THRESH, tf.float32 )
+        # respond_bgd = (1.0 - respond_bbox) # why max_iou is required?...
+                
         # conf_focal = 0.25*tf.pow(respond_bbox - pred_conf, 6.0) # weight for focal loss (1-p)^{gamma}
-        conf_focal = 0.5*tf.pow(1.0 - pred_conf, 2.0) # not respond bbox, it is 1 
+        alpha = 0.999
+        alpha_factor = respond_bbox*alpha + (1-respond_bbox)*(1-alpha)        
+        gamma = 1.00
+        gamma_factor = tf.pow((1.0 - pred_conf), gamma)
+        conf_focal = alpha_factor * gamma_factor
         
-
-        conf_loss = conf_focal * (
-                respond_bbox * tf.nn.sigmoid_cross_entropy_with_logits(labels=respond_bbox, logits=pred_conf)
-                +
-                respond_bgd * tf.nn.sigmoid_cross_entropy_with_logits(labels=respond_bbox, logits=pred_conf)
-        )
-
-        prob_loss = respond_bbox * tf.nn.sigmoid_cross_entropy_with_logits(labels=label_prob, logits=pred_prob)
+        # conf_loss = conf_focal * (
+        #         respond_bbox * tf.nn.sigmoid_cross_entropy_with_logits(labels=respond_bbox, logits=pred_conf)
+        #         +
+        #         respond_bgd * tf.nn.sigmoid_cross_entropy_with_logits(labels=respond_bbox, logits=pred_conf)
+        # )
+        
+        # conf_loss = conf_focal * tf.nn.sigmoid_cross_entropy_with_logits(labels=respond_bbox, logits=pred_conf)
+        conf_loss = conf_focal * self.bce(respond_bbox, pred_conf)        
+        # print(pred_conf)
+                
+                
+        # prob_loss = respond_bbox * tf.nn.sigmoid_cross_entropy_with_logits(labels=label_prob, logits=pred_prob)
+        # prob_loss = conf_focal * tf.nn.sigmoid_cross_entropy_with_logits(labels=label_prob, logits=pred_prob)
+        prob_loss = self.cce(label_prob, pred_prob)
+        # print("max conf: ", np.max(pred_prob), "\tmin conf: ", np.min(pred_prob))
         
         giou_loss = tf.reduce_mean(giou_loss)
-        conf_loss = tf.reduce_mean(conf_loss)
-        prob_loss = tf.reduce_mean(prob_loss)
+        conf_loss = tf.reduce_sum(conf_loss)
+        prob_loss = tf.reduce_sum(prob_loss)
 
         giou_loss = 1*giou_loss
         conf_loss = 1*conf_loss
-        prob_loss = 1*prob_loss
+        prob_loss = 100*prob_loss
 
         return giou_loss, conf_loss, prob_loss
     
     def train_step(self, image_data, target, epoch):        
         with tf.GradientTape() as tape:
-            pred = self.model(image_data, training=True)       
+            pred = self.model(image_data)       
             pred = decode(pred)     
             label_map, bboxes_xywh = target[0:3], target[3:6]
+
+            # gt = label_map[0][0,:,:,0,5+3].numpy()
+            # gt = cv2.resize(gt,(WIDTH,HEIGHT))
+            # p = pred[0][0,:,:,0,4].numpy()
+            # p = cv2.resize(p,(WIDTH,HEIGHT))
+            # q = pred[0][0,:,:,0,5].numpy()
+            # q = cv2.resize(q, (WIDTH, HEIGHT))
             
-            # cx = cv2.cvtColor(label_map[0,:,:,:,0].numpy(), cv2.COLOR_RGB2BGR)
-            # cv2.imshow("cx", cx)
-            # cx = cv2.resize(cx, (640, 480))
+            # print(pred[0][0,:,:,0,5:])
+            # print(np.max(q))
+            # cv2.imshow("prob_map", q)
+            # cv2.imshow("obj_map", p)
+            # cv2.waitKey(500)
+            # cv2.destroyAllWindows()
+            
             self.y = image_data[0].numpy()
-            # y = cv2.addWeighted(image_data[0].numpy(), 0.3, cx, 5.0, 0.0)
+            # y = cv2.addWeighted(image_data[0].numpy(), 0.3, respond_bgd, 5.0, 0.0)
             
-            # bb = bboxes_xywh[0].numpy()
-            # valid_index = np.where(bb[:,2] > 0)[0]
-
-            # for i in valid_index:
-            #     x_min = int(bb[i,0] - bb[i,2]/2)
-            #     y_min = int(bb[i,1] - bb[i,3]/2)
-            #     x_max = int(bb[i,0] + bb[i,2]/2)
-            #     y_max = int(bb[i,1] + bb[i,3]/2)
-            #     cv2.rectangle(y, (x_min,y_min), (x_max,y_max), (255,255,255), 1)
-
-            # xx = tf.reshape(label_map[0][:,:,0,0], -1)
-            # yy = tf.reshape(label_map[0][:,:,0,1], -1)
-            # ww = tf.reshape(label_map[0][:,:,0,2], -1)
-            # hh = tf.reshape(label_map[0][:,:,0,3], -1)
+            # cx = tf.reshape(label_map[0][0,:,:,0,0], -1)
+            # cy = tf.reshape(label_map[0][0,:,:,0,1], -1)
+            # ww = tf.reshape(label_map[0][0,:,:,0,2], -1)
+            # hh = tf.reshape(label_map[0][0,:,:,0,3], -1)
             # valid_index = np.where(ww > 0.0)[0]
             
-
             # for i in valid_index:                
-            #     x_min = int(xx[i] - ww[i]/2)
-            #     y_min = int(yy[i] - hh[i]/2)
-            #     x_max = int(xx[i] + ww[i]/2)
-            #     y_max = int(yy[i] + hh[i]/2)
-            #     cv2.rectangle(self.y, (y_min,x_min), (y_max,x_max), (255,255,255), 1)
+            #     x_min = int(cx[i] - ww[i]/2)
+            #     y_min = int(cy[i] - hh[i]/2)
+            #     x_max = int(cx[i] + ww[i]/2)
+            #     y_max = int(cy[i] + hh[i]/2)
+            #     cv2.rectangle(self.y, (x_min,y_min), (x_max,y_max), (0,0,0), 1)
+            #     break
+            
+            
+            # for i in range(ANCHORS_PER_GRID):
+            #     x_target = int(cx[valid_index[0]]/STRIDES[i])
+            #     y_target = int(cy[valid_index[0]]/STRIDES[i])
+                
+            #     xx = tf.reshape(pred[i][0,x_target,y_target,:,0], -1)
+            #     yy = tf.reshape(pred[i][0,x_target,y_target,:,1], -1)
+            #     ww = tf.reshape(pred[i][0,x_target,y_target,:,2], -1)
+            #     hh = tf.reshape(pred[i][0,x_target,y_target,:,3], -1)  
+                
+            #     for j in range(3):
+            #         x_min = int(xx[j] - ww[j]/2)
+            #         y_min = int(yy[j] - hh[j]/2)
+            #         x_max = int(xx[j] + ww[j]/2)
+            #         y_max = int(yy[j] + hh[j]/2)
+            #         if j == 0: color=(0,0,255)
+            #         if j == 1: color=(0,255,0)
+            #         if j == 2: color=(255,0,0)
+            #         cv2.rectangle(self.y, (x_min,y_min), (x_max,y_max), color, 1)
+            
+
+            #     x_target = int(200/STRIDES[i])
+            #     y_target = int(200/STRIDES[i])
+                
+            #     xx = tf.reshape(pred[i][0,x_target,y_target,:,0], -1)
+            #     yy = tf.reshape(pred[i][0,x_target,y_target,:,1], -1)
+            #     ww = tf.reshape(pred[i][0,x_target,y_target,:,2], -1)
+            #     hh = tf.reshape(pred[i][0,x_target,y_target,:,3], -1)  
+                
+            #     for j in range(3):
+            #         x_min = int(xx[j] - ww[j]/2)
+            #         y_min = int(yy[j] - hh[j]/2)
+            #         x_max = int(xx[j] + ww[j]/2)
+            #         y_max = int(yy[j] + hh[j]/2)
+            #         if j == 0: color=(0,0,255)
+            #         if j == 1: color=(0,255,0)
+            #         if j == 2: color=(255,0,0)
+            #         cv2.rectangle(self.y, (x_min,y_min), (x_max,y_max), color, 1)
+
 
             # # cv2.imshow("im", image_data[0].numpy())
-            # cv2.imshow("img", self.y)
+            # cv2.imshow("img", self.y)            
             # cv2.waitKey()
             # cv2.destroyAllWindows()
             
@@ -173,7 +228,7 @@ class Trainer:
             if epoch < WARMUP_EPOCHS:
                 lr = (epoch*self.spe + self.cs) / self.ws * LR_INIT
             else:
-                lr = LR_INIT*0.9**(epoch/10)
+                lr = LR_INIT*0.9**(epoch*self.spe + self.cs/10)
                 # lr = lr*0.9
             # print("lr: ", lr)
             self.optimizer.lr.assign(lr)
@@ -191,9 +246,9 @@ class Trainer:
             best, last, stop = self.ls(epoch, self.ave_losses[3])
             if best:
                 print("\nSave best model at ",epoch)
-                self.save_model("/home/roboe/roboe_ws/src/roboeod/script/HSMNIST/best.h5")
+                self.save_model("/home/roboe/git/HSMNIST/best.h5")
             if last or stop :
-                self.save_model("/home/roboe/roboe_ws/src/roboeod/script/HSMNIST/last.h5")
+                self.save_model("/home/roboe/git/HSMNIST/last.h5")
             if stop:
                 self.lh.update(epoch, self.optimizer.lr.numpy(),
                                self.ave_losses[0], self.ave_losses[1], self.ave_losses[2])
@@ -349,12 +404,12 @@ class Trainer:
                 # print(np.shape(np.shape))
         #     print(x[0].shape[0])  
 
-    def save_model(self, path="/home/roboe/roboe_ws/src/roboeod/script/HSMNIST/model.h5"):
+    def save_model(self, path="/home/roboe/git/HSMNIST/model.h5"):
         self.model.save_weights(path)
 
 if __name__=="__main__":    
-    # path = "/home/roboe/roboe_ws/src/roboeod/script/yolov5/data/rbdn_debug"
-    path = "/home/roboe/roboe_ws/src/roboeod/script/HSMNIST/data_yyminst/dataset"
+    # path = "/home/roboe/git/HSMNIST/data_yyminst_debug/dataset"
+    path = "/home/roboe/git/HSMNIST/data_yyminst/dataset"
 
     dl = DataLoader(path)
     im, ld, pd, ns = dl.get_dataset()    
@@ -366,9 +421,7 @@ if __name__=="__main__":
     learning_info["steps_per_epoch"] = nb
     learning_info['epochs'] = EPOCHS
     
-    model = HSMNIST((WIDTH, HEIGHT, 3), NUM_CLASS).build()    
-    pred = Model(inputs=model.input, outputs=model.output)
-    
+    model = HSMNIST((WIDTH, HEIGHT, 3), NUM_CLASS).build(training=True)
     trainer = Trainer(model, learning_info)
 
     im = im.batch(batch_size)
@@ -402,5 +455,4 @@ if __name__=="__main__":
         if trainer.learning_stop:            
             break
         
-            
     # trainer.save_model()

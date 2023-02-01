@@ -3,6 +3,7 @@ import numpy as np
 import math
 import cv2
 from constant import (STRIDES, ANCHORS, NUM_CLASS)
+from tensorflow.keras.layers import Softmax
 
 def bbox_ious(boxes1, boxes2, mode="iou"):
     '''
@@ -96,14 +97,20 @@ def decode(x_in):
         raw_dwdh = conv[:, :, :, :, 2:4] # Prediction box length and width offset
         raw_conf = conv[:, :, :, :, 4:5] # confidence of the prediction box
         raw_prob = conv[:, :, :, :, 5: ] # category probability of the prediction box 
-
+        
         # next need Draw the grid. Where output_size is equal to 160*120, 80*60 or 40*30  
         y = tf.range(h, dtype=tf.int32)
         x = tf.range(w, dtype=tf.int32)
-        xy = tf.meshgrid(x, y)
-        xy = tf.transpose(xy, perm=[2,1,0]) # [width, height,2]
-        xy = tf.tile(xy[:, :, tf.newaxis, :], [1, 1, 3, 1])
+        x, y = tf.meshgrid(x, y)
+        x_offset = tf.reshape(x, (-1,1))
+        y_offset = tf.reshape(y, (-1,1))
+        xy = tf.concat([x_offset, y_offset], axis=-1)
+        xy = tf.reshape(xy, [h, w, 1, 2])
         xy_grid = tf.cast(xy, tf.float32)
+        # xy = tf.meshgrid(x,y)
+        # xy = tf.transpose(xy, perm=[2,1,0]) # [width, height,2]
+        # xy = tf.tile(xy[:, :, tf.newaxis, :], [1, 1, 3, 1])
+        # xy_grid = tf.cast(xy, tf.float32)
 
         # Calculate the center position of the prediction box:
         pred_xy = (tf.sigmoid(raw_dxdy) + xy_grid) * STRIDES[i]
@@ -111,9 +118,12 @@ def decode(x_in):
         # Calculate the length and width of the prediction box:
         pred_wh = (tf.exp(raw_dwdh) * ANCHORS[i]) * STRIDES[i]
 
-        pred_conf = tf.sigmoid(raw_conf) # object box calculates the predicted confidence
-        pred_prob = tf.sigmoid(raw_prob) # calculating the predicted probability category box object
-
+        pred_conf = tf.sigmoid(raw_conf) # object box calculates the predicted confidence        
+        # pred_conf = Softmax()(raw_conf)
+        
+        # pred_prob = tf.sigmoid(raw_prob) # calculating the predicted probability category box object
+        pred_prob = Softmax()(raw_prob)
+                
         pred_tensor = tf.concat([pred_xy, pred_wh, pred_conf, pred_prob], axis=-1)
         pred_tensors.append(pred_tensor)
 

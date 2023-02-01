@@ -86,6 +86,13 @@ class DataLoader:
             bbox_xywh = copy.deepcopy(bbox[1:])
             bbox_xywh[[0,2]] *= WIDTH
             bbox_xywh[[1,3]] *= HEIGHT
+            
+            bbox_class_index = int(bbox[0])
+            onehot = np.zeros(NUM_CLASS, dtype=np.float)
+            onehot[bbox_class_index] = 1.0
+            uniform_distribution = np.full(NUM_CLASS, 1.0 / NUM_CLASS)
+            delta = 0.001
+            onehot = onehot * (1 - delta) + delta * uniform_distribution
 
             bbox_xywh_scaled = bbox_xywh / STRIDES[:, np.newaxis]
             iou = []
@@ -113,7 +120,7 @@ class DataLoader:
                     label_map[i][yidx, xidx, iou_mask, 0:4] = bbox_xywh
                     label_map[i][yidx, xidx, iou_mask, 4:5] = 1.0
                     #TODO: change "1.0" to one-hot for multiple labels
-                    label_map[i][yidx, xidx, iou_mask, 5:] = 1.0                    
+                    label_map[i][yidx, xidx, iou_mask, 5:] = onehot                 
                     bbox_ind = int(bbox_count[i] % MAX_BBOXES)
                     bboxes_xywh[i][bbox_ind, :4] = bbox_xywh
                     bbox_count[i] += 1
@@ -130,7 +137,7 @@ class DataLoader:
                 label_map[best_detect][yind, xidx, best_anchor, :] = 0
                 label_map[best_detect][yind, xidx, best_anchor, 0:4] = bbox_xywh
                 label_map[best_detect][yind, xidx, best_anchor, 4:5] = 1.0
-                label_map[best_detect][yind, xidx, best_anchor, 5:] = 1.0
+                label_map[best_detect][yind, xidx, best_anchor, 5:] = onehot
 
                 bbox_ind = int(bbox_count[best_detect] % MAX_BBOXES)
                 bboxes_xywh[best_detect][bbox_ind, :4] = bbox_xywh
@@ -167,7 +174,7 @@ class DataLoader:
 
 
 if __name__=="__main__":
-    path = "/home/roboe/roboe_ws/src/roboeod/script/HSMNIST/data_yyminst/dataset"
+    path = "/home/roboe/git/HSMNIST/data_yyminst/dataset"
 
     dl = DataLoader(path)
     im, ld, pd, ns = dl.get_dataset()    

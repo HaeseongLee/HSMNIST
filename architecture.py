@@ -21,7 +21,7 @@ class HSMNIST():
                 l.kernel_regularizer = tf.keras.regularizers.l2(),
 
 
-    def build(self):
+    def build(self, training=True):
         p3 = self.backbone.get_layer("block3_conv3").output # (104x104x256)
         p4 = self.backbone.get_layer("block4_conv3").output # (52x52x512)
         p5 = self.backbone.get_layer("block5_conv3").output # (26x26x512)
@@ -29,38 +29,38 @@ class HSMNIST():
         #################################### NECK ####################################
                      #k, s, in , out
         p5 = SPP(p5)
-        p5 = CBR(p5, (3, 1, 512, 512))
+        p5 = CBR(p5, (3, 1, 512, 512),training=training)
         conv = UpSampling2D(size=(2,2), interpolation="bilinear")(p5)
         
-        p4 = CBR(p4, (3, 1, 512, 512))        
+        p4 = CBR(p4, (3, 1, 512, 512),training=training)        
         p4 = Add()([p4, conv])
 
         conv = UpSampling2D(size=(2,2), interpolation="bilinear")(p4)
-        p3 = CBR(p3, (3, 1, 256, 512))
+        p3 = CBR(p3, (3, 1, 256, 512),training=training)
         p3 = Add()([p3, conv])
 
-        p5 = CBR(p5, (3, 3, 512, 512))
-        p4 = CBR(p4, (3, 3, 512, 512))
-        p3 = CBR(p3, (3, 3, 512, 512))
+        p5 = CBR(p5, (3, 3, 512, 512),training=training)
+        p4 = CBR(p4, (3, 3, 512, 512),training=training)
+        p3 = CBR(p3, (3, 3, 512, 512),training=training)
 
-        conv = CBR(p3, (3, 3, 512, 512), downsample=True)
+        conv = CBR(p3, (3, 3, 512, 512), downsample=True,training=training)
         p4 = Add()([p4, conv])
 
-        conv = CBR(p4, (3, 3, 512, 512), downsample=True)
+        conv = CBR(p4, (3, 3, 512, 512), downsample=True,training=training)
         p5 = Add()([p5, conv])
         
 
         #################################### HEAD ####################################
-        p5 = CBR(p5, (3, 1, 512, 256))
-        p5 = CBR(p5, (3, 1, 256, 128))
+        p5 = CBR(p5, (3, 1, 512, 256),training=training)
+        p5 = CBR(p5, (3, 1, 256, 128),training=training)
         p5 = CBR(p5, (3, 1, 128, 3*(5 + self.n_class)), activate=False, bn=False)
 
-        p4 = CBR(p4, (3, 1, 512, 256))
-        p4 = CBR(p4, (3, 1, 256, 128))
+        p4 = CBR(p4, (3, 1, 512, 256),training=training)
+        p4 = CBR(p4, (3, 1, 256, 128),training=training)
         p4 = CBR(p4, (3, 1, 128, 3*(5 + self.n_class)), activate=False, bn=False)
 
-        p3 = CBR(p3, (3, 1, 512, 256))
-        p3 = CBR(p3, (3, 1, 256, 128))
+        p3 = CBR(p3, (3, 1, 512, 256),training=training)
+        p3 = CBR(p3, (3, 1, 256, 128),training=training)
         p3 = CBR(p3, (3, 1, 128, 3*(5 + self.n_class)), activate=False, bn=False)
 
 

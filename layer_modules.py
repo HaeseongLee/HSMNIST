@@ -8,7 +8,7 @@ from tensorflow.keras.layers import (
 )
 
 
-def CBR(input_layer, filters_shape, downsample=False, activate=True, bn=True):
+def CBR(input_layer, filters_shape, downsample=False, activate=True, bn=True, training=True):
     '''
         filters_shape = (k, s, c_in, c_out)
     '''
@@ -29,7 +29,8 @@ def CBR(input_layer, filters_shape, downsample=False, activate=True, bn=True):
                     bias_initializer=tf.constant_initializer(0.))(input_layer)
 
     if bn: 
-        conv = BatchNormalization()(conv)
+        #TODO SET TRAINING=TRUE/FALSE FOR BATCHNORMALIZATION!!
+        conv = BatchNormalization()(conv, training=training)        
     if activate:
         conv = ReLU()(conv)
 
