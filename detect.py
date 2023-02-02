@@ -42,7 +42,7 @@ class Detector:
         xywh = preds_arr[:, :4]
         conf = preds_arr[:, 4]
         prob = preds_arr[:, 5:]
-        
+                
         # print("prob:\n",prob)
         # print(np.argmax(prob, axis=-1))
         # print(np.max(prob))
@@ -61,8 +61,10 @@ class Detector:
         scale_mask = np.logical_and((valid_scale[0] < area), (area < valid_scale[1]))
 
         # discard boxes with low scores
-        classes = np.argmax(prob, axis=-1)
-        scores = conf * prob[np.arange(len(coor)), classes]
+        classes = np.argmax(prob, axis=-1)        
+        #TODO : fix prob values
+        # scores = conf * prob[np.arange(len(coor)), classes]
+        scores = conf
         score_mask = scores > SCORE_THRES
         mask = np.logical_and(scale_mask, score_mask)
         
@@ -93,7 +95,8 @@ if __name__ == "__main__":
     learning_info["steps_per_epoch"] = nb
     learning_info['epochs'] = 1
 
-    model = HSMNIST((WIDTH, HEIGHT, 3), NUM_CLASS).build(training=False)        
+    model = HSMNIST((WIDTH, HEIGHT, 3), NUM_CLASS).build(training=True)        
+    # model.trainable = False
     model.load_weights(model_path)
     
     # print(model.layers[-1].weights)
@@ -101,8 +104,7 @@ if __name__ == "__main__":
     detector = Detector()
     for c, l, p in zip(im, ld, pd):    
         preds = model(c)
-        preds = decode(preds)
-        print(preds[0][0,:,:,0,5])
+        preds = decode(preds)        
         cx = tf.range(0,400,10)
         cy = tf.range(0,400,10)
         
@@ -140,33 +142,63 @@ if __name__ == "__main__":
         #             cv2.imshow("img", im)            
         #             cv2.waitKey(100)
         #             cv2.destroyAllWindows()
-                
+        
+        y = tf.reduce_max(preds[0][0,:,:,:,4])
+        print("max: ", y)
+        ii = tf.where(preds[0][0,:,:,:,4] == y)
+        print(np.shape(ii))
+        print(preds[0][0,ii[0,0],ii[0,1],ii[0,2],4])
+        
+        cx = int(preds[0][0,ii[0,0],ii[0,1],ii[0,2],0])
+        cy = int(preds[0][0,ii[0,0],ii[0,1],ii[0,2],1])
+        w = int(preds[0][0,ii[0,0],ii[0,1],ii[0,2],2])
+        h = int(preds[0][0,ii[0,0],ii[0,1],ii[0,2],3])
+        c1 = (int(cx-w/2), int(cy-h/2))
+        c2 = (int(cx+w/2), int(cy+h/2))
         
         result = detector.postprocess(preds)
         # print(result[0][0,0,0,0,:])
         bboxes = result[:,:4]
         scores = result[:,4]
         
-        obj = preds[0][0,:,:,0,4].numpy()
-        obj = cv2.resize(obj,(WIDTH, HEIGHT))
-        cv2.imshow("obj", obj)
+        # for i in range(3):
+        #     for j in range(3):
+        #         obj = preds[i][0,:,:,j,4].numpy()        
+        #         tf.print("min: ", tf.reduce_min(obj), " max: ", tf.reduce_max(obj))                
+        #         obj = cv2.resize(obj,(WIDTH, HEIGHT))                
+                
+        #         if i == 0:
+        #             cv2.circle(obj, (cx, cy), 10, color=(0,0,255))
+                
+                
+        #         cv2.imshow("obj", obj)
+        #         cv2.waitKey()
+        #         cv2.destroyAllWindows()
+        
+        
+        ii = cv2.rectangle(c[0,...].numpy(), c1, c2, (0,0,255), 1)
+        
+        cv2.imshow("im", ii)
         cv2.waitKey()
         cv2.destroyAllWindows()
         
-        prob = preds[0][0,:,:,0,5].numpy()
-        print(np.max(preds[0][0,:,:,0,5]))
-        prob = cv2.resize(prob, (WIDTH, HEIGHT))
-        cv2.imshow("prob", prob)
-        cv2.waitKey()
-        cv2.destroyAllWindows()
+        
+        # prob = preds[0][0,:,:,0,5:].numpy()
+        # prob = cv2.resize(prob, (WIDTH, HEIGHT))
+        # cv2.imshow("prob", prob)
+        # cv2.waitKey()
+        # cv2.destroyAllWindows()
+        
+        
         yxyx = xywh2yxyx(bboxes)
 
         best_bbox_indices = tf.image.non_max_suppression(yxyx, scores, 
                                                         max_output_size = 20,
                                                         iou_threshold = 0.5,
                                                         score_threshold = 0.5)
-        best_bbox = result[best_bbox_indices,:]    
+        best_bbox = result[best_bbox_indices,:]            
         # print(best_bbox)    
+        print(scores)
         img = draw_bbox(c, best_bbox)   
         # img = np.transpose(img, (1,0,2))
         im = cv2.cvtColor(img.astype('float32'), cv2.COLOR_BGR2RGB)
@@ -174,3 +206,7 @@ if __name__ == "__main__":
         cv2.waitKey()
         cv2.destroyAllWindows()
         break
+    
+    
+        
+        

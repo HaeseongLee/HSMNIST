@@ -3,6 +3,10 @@ import numpy as np
 ANCHORS_PER_GRID = 3
 TOTAL_ANCHORS = 9
 
+# YOLO_ANCHORS = [[[116, 90], [156, 198], [373, 326]],
+#                 [[30,  61], [62,  45], [59,  119]],
+#                 [[10,  13], [16,  30], [33, 23]]]
+
 YOLO_ANCHORS = [[[10,  13], [16,   30], [33,   23]],
                 [[30,  61], [62,   45], [59,  119]],
                 [[116, 90], [156, 198], [373, 326]]]
@@ -22,4 +26,6 @@ HEIGHT = 416
 NUM_CLASS = 10
 MAX_BBOXES  = 100
 
-SCORE_THRES = 0.3
+SCORE_THRES = 0.5
+
+OBJ_LOSS_WEIGHT = [4.0, 2.0, 1.0]

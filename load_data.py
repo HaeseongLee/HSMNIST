@@ -116,9 +116,12 @@ class DataLoader:
                 # generate ground truth map
                 if np.any(iou_mask):
                     xidx, yidx = np.floor(bbox_xywh_scaled[i, 0:2]).astype(np.int32)
+                    y_min, x_min, y_max, x_max = np.round(a).astype(np.int32)
+                    
                     label_map[i][yidx, xidx, iou_mask, :] = 0
                     label_map[i][yidx, xidx, iou_mask, 0:4] = bbox_xywh
-                    label_map[i][yidx, xidx, iou_mask, 4:5] = 1.0
+                    label_map[i][y_min:y_max+1, x_min:x_max+1, iou_mask, 4:5] = 1.0
+                    # label_map[i][yidx, xidx, iou_mask, 4:5] = score[iou_mask].reshape(-1,1)
                     #TODO: change "1.0" to one-hot for multiple labels
                     label_map[i][yidx, xidx, iou_mask, 5:] = onehot                 
                     bbox_ind = int(bbox_count[i] % MAX_BBOXES)
@@ -134,10 +137,12 @@ class DataLoader:
                 best_anchor = int(best_anchor_ind % ANCHORS_PER_GRID)
                 xind, yind = np.floor(bbox_xywh_scaled[best_detect, 0:2]).astype(np.int32)
 
-                label_map[best_detect][yind, xidx, best_anchor, :] = 0
-                label_map[best_detect][yind, xidx, best_anchor, 0:4] = bbox_xywh
-                label_map[best_detect][yind, xidx, best_anchor, 4:5] = 1.0
-                label_map[best_detect][yind, xidx, best_anchor, 5:] = onehot
+                label_map[best_detect][yind, xind, best_anchor, :] = 0
+                label_map[best_detect][yind, xind, best_anchor, 0:4] = bbox_xywh
+                # label_map[best_detect][yind, xidx, best_anchor, 4:5] = 1.0
+                label_map[best_detect][y_min:y_max+1, x_min:x_max+1, best_anchor, 4:5] = 1.0
+                # label_map[best_detect][yind, xind, best_anchor, 4:5] = iou[best_anchor_ind]
+                label_map[best_detect][yind, xind, best_anchor, 5:] = onehot
 
                 bbox_ind = int(bbox_count[best_detect] % MAX_BBOXES)
                 bboxes_xywh[best_detect][bbox_ind, :4] = bbox_xywh

@@ -24,13 +24,15 @@ def CBR(input_layer, filters_shape, downsample=False, activate=True, bn=True, tr
     k = filters_shape[0]
 
     conv = Conv2D(filters=c_out, kernel_size=k, strides=s, padding=p,
-                    use_bias=False, kernel_regularizer=tf.keras.regularizers.l2(0.01),
+                    use_bias=False, kernel_regularizer=tf.keras.regularizers.l2(0.001),
                     kernel_initializer=tf.random_normal_initializer(stddev=0.01),
                     bias_initializer=tf.constant_initializer(0.))(input_layer)
 
     if bn: 
         #TODO SET TRAINING=TRUE/FALSE FOR BATCHNORMALIZATION!!
-        conv = BatchNormalization()(conv, training=training)        
+        bn = BatchNormalization()
+        bn.trainable = training              
+        conv = bn(conv, training=training)
     if activate:
         conv = ReLU()(conv)
 

@@ -18,7 +18,7 @@ class HSMNIST():
             layer_type = l.name.split("_")[1]
             # fine convolusion layers, then apply l2 regularization
             if layer_type[:-1] == "conv":
-                l.kernel_regularizer = tf.keras.regularizers.l2(),
+                l.kernel_regularizer = tf.keras.regularizers.l2(0.001),
 
 
     def build(self, training=True):

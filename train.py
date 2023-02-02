@@ -20,13 +20,13 @@ from scheduler import LearningScheduler
 from utils import bbox_ious, decode
 from constant import (STRIDES, ANCHORS,
                       WIDTH, HEIGHT, NUM_CLASS, SCORE_THRES,
-                      ANCHORS_PER_GRID)
+                      ANCHORS_PER_GRID, OBJ_LOSS_WEIGHT)
 
 IOU_LOSS_THRESH = 0.5
 WARMUP_EPOCHS = 1
 LR_INIT =  1e-3
 LR_END = 1e-6
-EPOCHS = 10 #100
+EPOCHS = 20 #100
 
 
 class Trainer:
@@ -57,10 +57,10 @@ class Trainer:
 
         self.learning_stop = False 
 
-        self.bce = BinaryCrossentropy()
+        self.bce = BinaryCrossentropy(reduction=tf.keras.losses.Reduction.NONE)
         self.cce = CategoricalCrossentropy()
         
-    def compute_loss(self, pred, label_map, bboxes):
+    def compute_loss(self, pred, label_map, bboxes, w=1.0):
         ''' 
         Arguments
             pred: [N, W, H, ANCHORS_PER_GRID, 5 + n_class]
@@ -99,11 +99,11 @@ class Trainer:
         # respond_bgd = (1.0 - respond_bbox) # why max_iou is required?...
                 
         # conf_focal = 0.25*tf.pow(respond_bbox - pred_conf, 6.0) # weight for focal loss (1-p)^{gamma}
-        alpha = 0.999
-        alpha_factor = respond_bbox*alpha + (1-respond_bbox)*(1-alpha)        
-        gamma = 1.00
-        gamma_factor = tf.pow((1.0 - pred_conf), gamma)
-        conf_focal = alpha_factor * gamma_factor
+        alpha = 1.0
+        # alpha_factor = respond_bbox*alpha + (1-respond_bbox)*(1-alpha)        
+        gamma = 0.9
+        gamma_factor = tf.pow((1.0 - pred_conf), gamma)        
+        conf_focal = alpha * gamma_factor
         
         # conf_loss = conf_focal * (
         #         respond_bbox * tf.nn.sigmoid_cross_entropy_with_logits(labels=respond_bbox, logits=pred_conf)
@@ -111,8 +111,10 @@ class Trainer:
         #         respond_bgd * tf.nn.sigmoid_cross_entropy_with_logits(labels=respond_bbox, logits=pred_conf)
         # )
         
-        # conf_loss = conf_focal * tf.nn.sigmoid_cross_entropy_with_logits(labels=respond_bbox, logits=pred_conf)
-        conf_loss = conf_focal * self.bce(respond_bbox, pred_conf)        
+        conf_loss = conf_focal * self.bce(respond_bbox, pred_conf)[:,:,:,:,np.newaxis] 
+        
+        # conf_loss = self.bce(respond_bbox, pred_conf)     
+        
         # print(pred_conf)
                 
                 
@@ -120,14 +122,13 @@ class Trainer:
         # prob_loss = conf_focal * tf.nn.sigmoid_cross_entropy_with_logits(labels=label_prob, logits=pred_prob)
         prob_loss = self.cce(label_prob, pred_prob)
         # print("max conf: ", np.max(pred_prob), "\tmin conf: ", np.min(pred_prob))
-        
         giou_loss = tf.reduce_mean(giou_loss)
-        conf_loss = tf.reduce_sum(conf_loss)
+        conf_loss = tf.reduce_mean(conf_loss)
         prob_loss = tf.reduce_sum(prob_loss)
 
-        giou_loss = 1*giou_loss
-        conf_loss = 1*conf_loss
-        prob_loss = 100*prob_loss
+        giou_loss = 1.0*giou_loss
+        conf_loss = w*conf_loss
+        prob_loss = 0.00*prob_loss
 
         return giou_loss, conf_loss, prob_loss
     
@@ -137,16 +138,17 @@ class Trainer:
             pred = decode(pred)     
             label_map, bboxes_xywh = target[0:3], target[3:6]
 
-            # gt = label_map[0][0,:,:,0,5+3].numpy()
-            # gt = cv2.resize(gt,(WIDTH,HEIGHT))
-            # p = pred[0][0,:,:,0,4].numpy()
-            # p = cv2.resize(p,(WIDTH,HEIGHT))
+            gt = label_map[2][0,:,:,0,4].numpy()
+            gt = cv2.resize(gt,(WIDTH,HEIGHT))
+            p = pred[2][0,:,:,0,4].numpy()
+            # tf.print("min: ", tf.reduce_min(p), "py max: ", tf.reduce_max(p))
+            p = cv2.resize(p,(WIDTH,HEIGHT))
             # q = pred[0][0,:,:,0,5].numpy()
             # q = cv2.resize(q, (WIDTH, HEIGHT))
             
             # print(pred[0][0,:,:,0,5:])
             # print(np.max(q))
-            # cv2.imshow("prob_map", q)
+            # cv2.imshow("gt", gt)
             # cv2.imshow("obj_map", p)
             # cv2.waitKey(500)
             # cv2.destroyAllWindows()
@@ -218,7 +220,7 @@ class Trainer:
             # optimizing process
             conf_loss_weight = [1.0, 1.0, 1.0]
             for i in range(ANCHORS_PER_GRID ):
-                loss_items = self.compute_loss(pred[i], label_map[i], bboxes_xywh[i])
+                loss_items = self.compute_loss(pred[i], label_map[i], bboxes_xywh[i], OBJ_LOSS_WEIGHT[i])
                 giou_loss += loss_items[0]
                 conf_loss += loss_items[1]                
                 prob_loss += loss_items[2]
@@ -245,7 +247,7 @@ class Trainer:
 
             best, last, stop = self.ls(epoch, self.ave_losses[3])
             if best:
-                print("\nSave best model at ",epoch)
+                print("Save best model at ",epoch)
                 self.save_model("/home/roboe/git/HSMNIST/best.h5")
             if last or stop :
                 self.save_model("/home/roboe/git/HSMNIST/last.h5")
@@ -408,8 +410,8 @@ class Trainer:
         self.model.save_weights(path)
 
 if __name__=="__main__":    
-    # path = "/home/roboe/git/HSMNIST/data_yyminst_debug/dataset"
-    path = "/home/roboe/git/HSMNIST/data_yyminst/dataset"
+    path = "/home/roboe/git/HSMNIST/data_yyminst_debug/dataset"
+    # path = "/home/roboe/git/HSMNIST/data_yyminst/dataset"
 
     dl = DataLoader(path)
     im, ld, pd, ns = dl.get_dataset()    
