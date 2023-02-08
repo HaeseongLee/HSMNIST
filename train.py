@@ -24,7 +24,7 @@ IOU_LOSS_THRESH = 0.5
 WARMUP_EPOCHS = 1
 LR_INIT =  1e-3
 LR_END = 1e-6
-EPOCHS = 5 #100
+EPOCHS = 1 #100
 
 
 class Trainer:
@@ -50,7 +50,7 @@ class Trainer:
         # self.optimizer = Adam(learning_rate=LR_INIT)
         self.optimizer = SGD(learning_rate=LR_INIT, momentum=0.9)
 
-        self.lh = LearningHistory(self.epochs)
+        self.lh = LearningHistory(self.ts)
         self.ls = LearningScheduler(patience=10, save_setp=10)
 
         self.learning_stop = False 
@@ -230,9 +230,10 @@ class Trainer:
             if epoch < WARMUP_EPOCHS:
                 lr = (epoch*self.spe + self.cs) / self.ws * LR_INIT
             else:
-                lr = LR_INIT*0.9**(epoch*self.spe + self.cs/10)
-                # lr = lr*0.9
-            # print("lr: ", lr)
+                lr = LR_INIT*0.9**((epoch-1)*self.spe + self.cs/200)
+                if lr <= LR_END:
+                    lr = LR_END
+                
             self.optimizer.lr.assign(lr)
             
 
@@ -257,27 +258,27 @@ class Trainer:
             if last or stop :
                 self.save_model(LAST_MODEL)
             if stop:
-                self.lh.update(epoch, self.optimizer.lr.numpy(),
+                self.lh.update(self.cs, self.optimizer.lr.numpy(),
                                self.ave_losses[0], self.ave_losses[1], self.ave_losses[2])
                 self.lh.save()
                 self.learning_stop = stop
                 return 0
 
-            if self.cs == self.spe:                             
+
+            self.lh.update(self.cs, self.optimizer.lr.numpy(),
+                            self.ave_losses[0], self.ave_losses[1], self.ave_losses[2])
+            self.lh.save()
+                    
+            if self.cs + 1 == (epoch + 1) * self.spe:                             
                 self.ave_losses /= self.spe
                 tf.print("\n=> EPOCHS %4d   lr: %.6f   giou_loss: %4.2f   conf_loss: %4.2f   "
                 "prob_loss: %4.2f   total_loss: %4.2f" %(epoch+1, self.optimizer.lr.numpy(),
                                                         self.ave_losses[0], self.ave_losses[1],
                                                         self.ave_losses[2], self.ave_losses[3]))
-                
-                self.lh.update(epoch, self.optimizer.lr.numpy(),
-                                self.ave_losses[0], self.ave_losses[1], self.ave_losses[2])
-
-                if epoch+1 == self.epochs:
-                    self.lh.save()
-
+ 
                 self.ave_losses = np.zeros_like(self.ave_losses)
-                self.cs = 0      
+                # self.cs = 0      
+
 
             # print(self.ave_losses)
             self.cs += 1

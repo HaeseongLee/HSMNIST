@@ -4,29 +4,29 @@ import matplotlib.pyplot as plt
 # Record parameters through learning process per one epoch
 
 class LearningHistory():
-    def __init__(self, epochs):
-        self.lr = np.zeros((epochs,1))
-        self.gloss = np.zeros((epochs,1)) # giou loss
-        self.closs = np.zeros((epochs,1)) # confidenc, or objectness loss
-        self.ploss = np.zeros((epochs,1)) # probability loss
-        self.tloss = np.zeros((epochs,1)) # total loss
+    def __init__(self, size):
+        self.lr = np.zeros((size,1))
+        self.gloss = np.zeros((size,1)) # giou loss
+        self.closs = np.zeros((size,1)) # confidenc, or objectness loss
+        self.ploss = np.zeros((size,1)) # probability loss
+        self.tloss = np.zeros((size,1)) # total loss
 
         # TODO: add p,r,mAP etc.
 
-    def update(self, e, lr, g, c, p):
+    def update(self, i, lr, g, c, p):
         '''
             e: current epoch
         '''
-        self.lr[e] = lr
-        self.gloss[e] = g
-        self.closs[e] = c
-        self.ploss[e] = p
-        self.tloss[e] = g + c + p
+        self.lr[i] = lr
+        self.gloss[i] = g
+        self.closs[i] = c
+        self.ploss[i] = p
+        self.tloss[i] = g + c + p
 
     def save(self, path="./learning_history.npy"):
         result = np.hstack((self.lr, self.gloss, self.closs, self.ploss, self.tloss))
         np.save(path, result)
-        print("Save learning result...")
+        # print("Save learning result...")
 
         
 if __name__ == "__main__":
@@ -59,9 +59,15 @@ if __name__ == "__main__":
     plt.plot(closs)
     plt.title("objectness")
 
+    # plt.subplot(1,4,3)    
+    # plt.plot(ploss)
+    # plt.title("probability")
+
+
     plt.subplot(1,4,3)    
-    plt.plot(ploss)
-    plt.title("probability")
+    plt.plot(lr[0:12])
+    plt.title("learning rate")
+
 
     plt.subplot(1,4,4)    
     plt.plot(tloss)
