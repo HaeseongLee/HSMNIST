@@ -9,7 +9,7 @@ import cv2
 import copy
 
 from constant import (STRIDES, ANCHORS, ANCHORS_PER_GRID,
-                      WIDTH, HEIGHT, MAX_BBOXES, NUM_CLASS)
+                      WIDTH, HEIGHT, MAX_BBOXES, NUM_CLASS, DATA_PATH)
 
 class DataLoader:
     def __init__(self, path):
@@ -179,7 +179,7 @@ class DataLoader:
 
 
 if __name__=="__main__":
-    path = "/home/roboe/git/HSMNIST/data_yyminst/dataset"
+    path = DATA_PATH
 
     dl = DataLoader(path)
     im, ld, pd, ns = dl.get_dataset()    

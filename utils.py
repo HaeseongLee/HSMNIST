@@ -10,8 +10,7 @@ def bbox_ious(boxes1, boxes2, mode="iou"):
         Input format: (cx, cy, w, h)
             boxes1 : prediction
             boxes2 : label
-    '''
-
+    '''   
     # convert (cx, cy, w, h) to (x_min, y_min, x_max, y_max)
     b1 = tf.concat([boxes1[..., :2] - boxes1[..., 2:] * 0.5,
                         boxes1[..., :2] + boxes1[..., 2:] * 0.5], axis=-1)
@@ -47,6 +46,9 @@ def bbox_ious(boxes1, boxes2, mode="iou"):
 
     # Calculate the area of the smallest closed convex surface C
     enclose_area = enclose[..., 0] * enclose[..., 1]
+
+    if np.max(enclose_area) == math.inf: # for computation stability 
+        print("giou is divergent")            
     
     if mode == "giou":
         # Calculate the GIoU value according to the GioU formula                   
@@ -71,12 +73,11 @@ def bbox_ious(boxes1, boxes2, mode="iou"):
 
     if mode == "ciou":
         x = tf.math.atan(boxes2[...,2]/(boxes2[...,3]+esp)) - tf.math.atan(boxes1[...,2]/(boxes1[...,3]+esp))
-        v = (4/math.pi)**2*tf.math.pow(x, 2)
+        v = 4/(math.pi**2)*tf.math.pow(x, 2)
         a = v / (1 - iou + v + esp)            
-        ciou = iou - rho2/(c2 + esp) - a*v
-
+        ciou = iou - rho2/(c2 + esp) - a*v        
         # print("ciou: ", tf.reduce_mean(ciou))
-
+        
         m_ciou = tf.reduce_mean(ciou)
         if tf.math.is_nan(m_ciou):
             print("Nan!!")
@@ -143,8 +144,7 @@ def draw_bbox(image, bboxes):
         coor = np.array(bbox[:4], dtype=np.int32)
         score = bbox[4]
         id = int(bbox[5])
-        # c1, c2 = (coor[0], coor[1]), (coor[2], coor[3])
-        c1, c2 = (coor[1], coor[0]), (coor[3], coor[2])
+        c1, c2 = (coor[0], coor[1]), (coor[2], coor[3])        
         cv2.rectangle(im, c1, c2, bbox_color, 2)
 
     return im

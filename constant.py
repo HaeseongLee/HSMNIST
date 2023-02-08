@@ -26,6 +26,11 @@ HEIGHT = 416
 NUM_CLASS = 10
 MAX_BBOXES  = 100
 
-SCORE_THRES = 0.5
+SCORE_THRES = 0.4
 
 OBJ_LOSS_WEIGHT = [4.0, 2.0, 1.0]
+
+DATA_PATH = "/home/roboe/git/HSMNIST/data_yyminst_debug/dataset"
+# DATA_PATH = "/home/roboe/git/HSMNIST/data_yyminst/dataset"
+BEST_MODEL = "/home/roboe/git/HSMNIST/best.h5"
+LAST_MODEL = "/home/roboe/git/HSMNIST/last.h5"

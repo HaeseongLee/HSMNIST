@@ -18,15 +18,13 @@ from history import LearningHistory
 from scheduler import LearningScheduler
 
 from utils import bbox_ious, decode
-from constant import (STRIDES, ANCHORS,
-                      WIDTH, HEIGHT, NUM_CLASS, SCORE_THRES,
-                      ANCHORS_PER_GRID, OBJ_LOSS_WEIGHT)
+from constant import *
 
 IOU_LOSS_THRESH = 0.5
 WARMUP_EPOCHS = 1
 LR_INIT =  1e-3
 LR_END = 1e-6
-EPOCHS = 20 #100
+EPOCHS = 5 #100
 
 
 class Trainer:
@@ -82,26 +80,28 @@ class Trainer:
         pred_prob = pred[:,:,:,:,5:]
 
         label_xywh = label_map[:,:,:,:,0:4]
-        respond_bbox = label_map[:,:,:,:,4:5] # confidence for objectness
+        label_conf = label_map[:,:,:,:,4:5] # confidence for objectness
         label_prob = label_map[:,:,:,:,5:]
-
+    
+        
         # compute giou loss        
         giou = tf.expand_dims(bbox_ious(pred_xywh, label_xywh, "ciou"), axis=-1)  
+        
         # bbox_loss_scale = 2.0 - 1.0 * label_xywh[:, :, :, :, 2:3] * label_xywh[:, :, :, :, 3:4] / (input_w * input_h)                
         # giou_loss = respond_bbox*bbox_loss_scale*(1-giou)
-        # giou_loss = respond_bbox*(1-giou)
+        # giou_loss = label_conf*(1-giou)
         giou_loss = (1-giou)
 
 
         iou = bbox_ious(pred_xywh[:, :, :, :, np.newaxis, :], bboxes[:, np.newaxis, np.newaxis, np.newaxis, :, :], "iou")
         max_iou = tf.expand_dims(tf.reduce_max(iou, axis=-1), axis=-1)
-        respond_bgd = (1.0 - respond_bbox) * tf.cast( max_iou < IOU_LOSS_THRESH, tf.float32 )
+        respond_bgd = (1.0 - label_conf) * tf.cast( max_iou < IOU_LOSS_THRESH, tf.float32 )
         # respond_bgd = (1.0 - respond_bbox) # why max_iou is required?...
                 
         # conf_focal = 0.25*tf.pow(respond_bbox - pred_conf, 6.0) # weight for focal loss (1-p)^{gamma}
         alpha = 1.0
         # alpha_factor = respond_bbox*alpha + (1-respond_bbox)*(1-alpha)        
-        gamma = 0.9
+        gamma = 2.0
         gamma_factor = tf.pow((1.0 - pred_conf), gamma)        
         conf_focal = alpha * gamma_factor
         
@@ -111,7 +111,7 @@ class Trainer:
         #         respond_bgd * tf.nn.sigmoid_cross_entropy_with_logits(labels=respond_bbox, logits=pred_conf)
         # )
         
-        conf_loss = conf_focal * self.bce(respond_bbox, pred_conf)[:,:,:,:,np.newaxis] 
+        conf_loss = conf_focal * self.bce(label_conf, pred_conf)[:,:,:,:,np.newaxis] 
         
         # conf_loss = self.bce(respond_bbox, pred_conf)     
         
@@ -126,7 +126,7 @@ class Trainer:
         conf_loss = tf.reduce_mean(conf_loss)
         prob_loss = tf.reduce_sum(prob_loss)
 
-        giou_loss = 1.0*giou_loss
+        giou_loss = 2.0*giou_loss
         conf_loss = w*conf_loss
         prob_loss = 0.00*prob_loss
 
@@ -140,7 +140,7 @@ class Trainer:
 
             gt = label_map[2][0,:,:,0,4].numpy()
             gt = cv2.resize(gt,(WIDTH,HEIGHT))
-            p = pred[2][0,:,:,0,4].numpy()
+            p = pred[0][0,:,:,0,4].numpy()
             # tf.print("min: ", tf.reduce_min(p), "py max: ", tf.reduce_max(p))
             p = cv2.resize(p,(WIDTH,HEIGHT))
             # q = pred[0][0,:,:,0,5].numpy()
@@ -237,6 +237,11 @@ class Trainer:
             
 
             gradients = tape.gradient(total_loss, self.model.trainable_variables)
+            for i in range(len(gradients)):
+                max_g = tf.reduce_max(tf.abs(gradients[i]))
+                if max_g > 1.0:
+                    print("NEED GRADIENT CLIP!!")
+            
             self.optimizer.apply_gradients(zip(gradients, self.model.trainable_variables))
             
             self.ave_losses[0] += giou_loss
@@ -248,9 +253,9 @@ class Trainer:
             best, last, stop = self.ls(epoch, self.ave_losses[3])
             if best:
                 print("Save best model at ",epoch)
-                self.save_model("/home/roboe/git/HSMNIST/best.h5")
+                self.save_model(BEST_MODEL)
             if last or stop :
-                self.save_model("/home/roboe/git/HSMNIST/last.h5")
+                self.save_model(LAST_MODEL)
             if stop:
                 self.lh.update(epoch, self.optimizer.lr.numpy(),
                                self.ave_losses[0], self.ave_losses[1], self.ave_losses[2])
@@ -406,12 +411,11 @@ class Trainer:
                 # print(np.shape(np.shape))
         #     print(x[0].shape[0])  
 
-    def save_model(self, path="/home/roboe/git/HSMNIST/model.h5"):
+    def save_model(self, path):
         self.model.save_weights(path)
 
 if __name__=="__main__":    
-    path = "/home/roboe/git/HSMNIST/data_yyminst_debug/dataset"
-    # path = "/home/roboe/git/HSMNIST/data_yyminst/dataset"
+    path = DATA_PATH
 
     dl = DataLoader(path)
     im, ld, pd, ns = dl.get_dataset()    
