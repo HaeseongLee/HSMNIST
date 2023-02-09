@@ -24,7 +24,7 @@ IOU_LOSS_THRESH = 0.5
 WARMUP_EPOCHS = 1
 LR_INIT =  1e-3
 LR_END = 1e-6
-EPOCHS = 1 #100
+EPOCHS = 4 #100
 
 
 class Trainer:
@@ -34,7 +34,7 @@ class Trainer:
         self.epochs = info["epochs"]
 
         # self.cs = tf.Variable(1, trainable=False, dtype=tf.int64) # cs : current steps
-        self.cs = 1
+        self.cs = 0
         self.ws = WARMUP_EPOCHS * self.spe # ws : warmup_steps
         self.ts = self.epochs * self.spe  # ts : total_steps
 
@@ -51,7 +51,7 @@ class Trainer:
         self.optimizer = SGD(learning_rate=LR_INIT, momentum=0.9)
 
         self.lh = LearningHistory(self.ts)
-        self.ls = LearningScheduler(patience=10, save_setp=10)
+        self.ls = LearningScheduler(patience=30, save_setp=10)
 
         self.learning_stop = False 
 
@@ -134,15 +134,15 @@ class Trainer:
     
     def train_step(self, image_data, target, epoch):        
         with tf.GradientTape() as tape:
-            pred = self.model(image_data)       
-            pred = decode(pred)     
-            label_map, bboxes_xywh = target[0:3], target[3:6]
+            # pred = self.model(image_data)       
+            # pred = decode(pred)     
+            # label_map, bboxes_xywh = target[0:3], target[3:6]
 
-            gt = label_map[2][0,:,:,0,4].numpy()
-            gt = cv2.resize(gt,(WIDTH,HEIGHT))
-            p = pred[0][0,:,:,0,4].numpy()
+            # gt = label_map[2][0,:,:,0,4].numpy()
+            # gt = cv2.resize(gt,(WIDTH,HEIGHT))
+            # p = pred[0][0,:,:,0,4].numpy()
             # tf.print("min: ", tf.reduce_min(p), "py max: ", tf.reduce_max(p))
-            p = cv2.resize(p,(WIDTH,HEIGHT))
+            # p = cv2.resize(p,(WIDTH,HEIGHT))
             # q = pred[0][0,:,:,0,5].numpy()
             # q = cv2.resize(q, (WIDTH, HEIGHT))
             
@@ -153,7 +153,7 @@ class Trainer:
             # cv2.waitKey(500)
             # cv2.destroyAllWindows()
             
-            self.y = image_data[0].numpy()
+            # self.y = image_data[0].numpy()
             # y = cv2.addWeighted(image_data[0].numpy(), 0.3, respond_bgd, 5.0, 0.0)
             
             # cx = tf.reshape(label_map[0][0,:,:,0,0], -1)
@@ -218,69 +218,61 @@ class Trainer:
             giou_loss=conf_loss=prob_loss=0
 
             # optimizing process
-            conf_loss_weight = [1.0, 1.0, 1.0]
-            for i in range(ANCHORS_PER_GRID ):
-                loss_items = self.compute_loss(pred[i], label_map[i], bboxes_xywh[i], OBJ_LOSS_WEIGHT[i])
-                giou_loss += loss_items[0]
-                conf_loss += loss_items[1]                
-                prob_loss += loss_items[2]
+            # conf_loss_weight = [1.0, 1.0, 1.0]
+            # for i in range(ANCHORS_PER_GRID ):
+            #     loss_items = self.compute_loss(pred[i], label_map[i], bboxes_xywh[i], OBJ_LOSS_WEIGHT[i])
+            #     giou_loss += loss_items[0]
+            #     conf_loss += loss_items[1]                
+            #     prob_loss += loss_items[2]
             total_loss = giou_loss + conf_loss + prob_loss
             
-            # lr = self._update_lr(epoch)
             if epoch < WARMUP_EPOCHS:
                 lr = (epoch*self.spe + self.cs) / self.ws * LR_INIT
             else:
-                lr = LR_INIT*0.9**((epoch-1)*self.spe + self.cs/200)
+                lr = LR_INIT*0.9**((self.cs-self.spe)/200)
                 if lr <= LR_END:
                     lr = LR_END
                 
             self.optimizer.lr.assign(lr)
             
 
-            gradients = tape.gradient(total_loss, self.model.trainable_variables)
-            for i in range(len(gradients)):
-                max_g = tf.reduce_max(tf.abs(gradients[i]))
-                if max_g > 1.0:
-                    print("NEED GRADIENT CLIP!!")
+            # gradients = tape.gradient(total_loss, self.model.trainable_variables)
+            # for i in range(len(gradients)):
+            #     max_g = tf.reduce_max(tf.abs(gradients[i]))
+            #     if max_g > 1.0:
+            #         print("NEED GRADIENT CLIP!!")
             
-            self.optimizer.apply_gradients(zip(gradients, self.model.trainable_variables))
+            # self.optimizer.apply_gradients(zip(gradients, self.model.trainable_variables))
             
             self.ave_losses[0] += giou_loss
             self.ave_losses[1] += conf_loss
             self.ave_losses[2] += prob_loss
             self.ave_losses[3] += total_loss
 
-
-            best, last, stop = self.ls(epoch, self.ave_losses[3])
-            if best:
-                print("Save best model at ",epoch)
-                self.save_model(BEST_MODEL)
-            if last or stop :
-                self.save_model(LAST_MODEL)
-            if stop:
-                self.lh.update(self.cs, self.optimizer.lr.numpy(),
-                               self.ave_losses[0], self.ave_losses[1], self.ave_losses[2])
-                self.lh.save()
-                self.learning_stop = stop
-                return 0
-
-
             self.lh.update(self.cs, self.optimizer.lr.numpy(),
-                            self.ave_losses[0], self.ave_losses[1], self.ave_losses[2])
+                            giou_loss, conf_loss, prob_loss)
             self.lh.save()
                     
             if self.cs + 1 == (epoch + 1) * self.spe:                             
                 self.ave_losses /= self.spe
-                tf.print("\n=> EPOCHS %4d   lr: %.6f   giou_loss: %4.2f   conf_loss: %4.2f   "
+                
+                tf.print("=> EPOCHS %4d   lr: %.6f   giou_loss: %4.2f   conf_loss: %4.2f   "
                 "prob_loss: %4.2f   total_loss: %4.2f" %(epoch+1, self.optimizer.lr.numpy(),
                                                         self.ave_losses[0], self.ave_losses[1],
                                                         self.ave_losses[2], self.ave_losses[3]))
- 
+
+                best, last, stop = self.ls(epoch, self.ave_losses[3])
+                if best:
+                    print("Save best model at ",epoch)
+                    self.save_model(BEST_MODEL)
+                if last or stop :
+                    self.save_model(LAST_MODEL)
+                if stop:
+                    self.save_model(LAST_MODEL)
+                    self.set_learning_stop()
+                    return 0
+                 
                 self.ave_losses = np.zeros_like(self.ave_losses)
-                # self.cs = 0      
-
-
-            # print(self.ave_losses)
             self.cs += 1
 
     def _postprocess_label(self, label_paths):
@@ -415,6 +407,9 @@ class Trainer:
     def save_model(self, path):
         self.model.save_weights(path)
 
+    def set_learning_stop(self):
+        self.learning_stop = True
+        
 if __name__=="__main__":    
     path = DATA_PATH
 
