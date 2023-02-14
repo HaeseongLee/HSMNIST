@@ -22,9 +22,9 @@ from constant import *
 
 IOU_LOSS_THRESH = 0.5
 WARMUP_EPOCHS = 1
-LR_INIT =  1e-3
+LR_INIT =  1e-4
 LR_END = 1e-6
-EPOCHS = 4 #100
+EPOCHS = 10 #100
 
 
 class Trainer:
@@ -98,24 +98,17 @@ class Trainer:
         respond_bgd = (1.0 - label_conf) * tf.cast( max_iou < IOU_LOSS_THRESH, tf.float32 )
         # respond_bgd = (1.0 - respond_bbox) # why max_iou is required?...
                 
-        # conf_focal = 0.25*tf.pow(respond_bbox - pred_conf, 6.0) # weight for focal loss (1-p)^{gamma}
-        alpha = 1.0
-        # alpha_factor = respond_bbox*alpha + (1-respond_bbox)*(1-alpha)        
+        
+        alpha = 0.25  
         gamma = 2.0
-        gamma_factor = tf.pow((1.0 - pred_conf), gamma)        
-        conf_focal = alpha * gamma_factor
         
-        # conf_loss = conf_focal * (
-        #         respond_bbox * tf.nn.sigmoid_cross_entropy_with_logits(labels=respond_bbox, logits=pred_conf)
-        #         +
-        #         respond_bgd * tf.nn.sigmoid_cross_entropy_with_logits(labels=respond_bbox, logits=pred_conf)
-        # )
+        ce = self.bce(label_conf, pred_conf)[:,:,:,:,np.newaxis]
+        p_t = (label_conf*pred_conf) + ((1 - label_conf) * (1 - pred_conf))
         
-        conf_loss = conf_focal * self.bce(label_conf, pred_conf)[:,:,:,:,np.newaxis] 
+        alpha_factor = label_conf*alpha + (1-label_conf)*(1-alpha)
+        modulating_factor = tf.pow((1.0 - p_t), gamma)
         
-        # conf_loss = self.bce(respond_bbox, pred_conf)     
-        
-        # print(pred_conf)
+        conf_loss = alpha_factor*modulating_factor*ce
                 
                 
         # prob_loss = respond_bbox * tf.nn.sigmoid_cross_entropy_with_logits(labels=label_prob, logits=pred_prob)
@@ -123,10 +116,11 @@ class Trainer:
         prob_loss = self.cce(label_prob, pred_prob)
         # print("max conf: ", np.max(pred_prob), "\tmin conf: ", np.min(pred_prob))
         giou_loss = tf.reduce_mean(giou_loss)
-        conf_loss = tf.reduce_mean(conf_loss)
+        # conf_loss = tf.reduce_mean(conf_loss)
+        conf_loss = tf.reduce_sum(conf_loss)
         prob_loss = tf.reduce_sum(prob_loss)
 
-        giou_loss = 2.0*giou_loss
+        giou_loss = 0.01*giou_loss
         conf_loss = w*conf_loss
         prob_loss = 0.00*prob_loss
 
@@ -134,24 +128,24 @@ class Trainer:
     
     def train_step(self, image_data, target, epoch):        
         with tf.GradientTape() as tape:
-            # pred = self.model(image_data)       
-            # pred = decode(pred)     
-            # label_map, bboxes_xywh = target[0:3], target[3:6]
+            pred = self.model(image_data)       
+            pred = decode(pred)     
+            label_map, bboxes_xywh = target[0:3], target[3:6]
 
             # gt = label_map[2][0,:,:,0,4].numpy()
             # gt = cv2.resize(gt,(WIDTH,HEIGHT))
-            # p = pred[0][0,:,:,0,4].numpy()
+            p = pred[0][0,:,:,0,4].numpy()
             # tf.print("min: ", tf.reduce_min(p), "py max: ", tf.reduce_max(p))
-            # p = cv2.resize(p,(WIDTH,HEIGHT))
+            p = cv2.resize(p,(WIDTH,HEIGHT))
             # q = pred[0][0,:,:,0,5].numpy()
             # q = cv2.resize(q, (WIDTH, HEIGHT))
             
             # print(pred[0][0,:,:,0,5:])
             # print(np.max(q))
             # cv2.imshow("gt", gt)
-            # cv2.imshow("obj_map", p)
-            # cv2.waitKey(500)
-            # cv2.destroyAllWindows()
+            cv2.imshow("obj_map", p)
+            cv2.waitKey(500)
+            cv2.destroyAllWindows()
             
             # self.y = image_data[0].numpy()
             # y = cv2.addWeighted(image_data[0].numpy(), 0.3, respond_bgd, 5.0, 0.0)
@@ -218,12 +212,12 @@ class Trainer:
             giou_loss=conf_loss=prob_loss=0
 
             # optimizing process
-            # conf_loss_weight = [1.0, 1.0, 1.0]
-            # for i in range(ANCHORS_PER_GRID ):
-            #     loss_items = self.compute_loss(pred[i], label_map[i], bboxes_xywh[i], OBJ_LOSS_WEIGHT[i])
-            #     giou_loss += loss_items[0]
-            #     conf_loss += loss_items[1]                
-            #     prob_loss += loss_items[2]
+            conf_loss_weight = [1.0, 1.0, 1.0]
+            for i in range(ANCHORS_PER_GRID ):
+                loss_items = self.compute_loss(pred[i], label_map[i], bboxes_xywh[i], OBJ_LOSS_WEIGHT[i])
+                giou_loss += loss_items[0]
+                conf_loss += loss_items[1]                
+                prob_loss += loss_items[2]
             total_loss = giou_loss + conf_loss + prob_loss
             
             if epoch < WARMUP_EPOCHS:
@@ -236,13 +230,13 @@ class Trainer:
             self.optimizer.lr.assign(lr)
             
 
-            # gradients = tape.gradient(total_loss, self.model.trainable_variables)
-            # for i in range(len(gradients)):
-            #     max_g = tf.reduce_max(tf.abs(gradients[i]))
-            #     if max_g > 1.0:
-            #         print("NEED GRADIENT CLIP!!")
+            gradients = tape.gradient(total_loss, self.model.trainable_variables)
+            for i in range(len(gradients)):
+                max_g = tf.reduce_max(tf.abs(gradients[i]))
+                if max_g > 1.0:
+                    print("NEED GRADIENT CLIP!!")
             
-            # self.optimizer.apply_gradients(zip(gradients, self.model.trainable_variables))
+            self.optimizer.apply_gradients(zip(gradients, self.model.trainable_variables))
             
             self.ave_losses[0] += giou_loss
             self.ave_losses[1] += conf_loss
@@ -251,7 +245,6 @@ class Trainer:
 
             self.lh.update(self.cs, self.optimizer.lr.numpy(),
                             giou_loss, conf_loss, prob_loss)
-            self.lh.save()
                     
             if self.cs + 1 == (epoch + 1) * self.spe:                             
                 self.ave_losses /= self.spe
@@ -273,6 +266,8 @@ class Trainer:
                     return 0
                  
                 self.ave_losses = np.zeros_like(self.ave_losses)
+                self.lh.save()
+                
             self.cs += 1
 
     def _postprocess_label(self, label_paths):
